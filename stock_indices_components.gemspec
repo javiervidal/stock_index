@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = StockIndicesComponents::VERSION
   spec.authors       = ["Javier Vidal"]
   spec.email         = ["javier@javiervidal.net"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = 'Stock Indices Components'
+  spec.description   = 'Stock Indices Components'
   spec.homepage      = ""
   spec.license       = "MIT"
 
