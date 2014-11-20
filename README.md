@@ -21,19 +21,28 @@ Or install it yourself as:
 
 There is no a standard for indices symbols, so this gem uses Yahoo Finance symbols.
 
-| Symbol | Index Name |
-| ------ | ---------- |
-| ^DJI | Dow Jones Industrial Average |
-| ^GSPC | S&P 500 |
-| ^NDX | NASDAQ 100 |
-| ^N225 | Nikkei 225 |
-| ^STOXX50E | EURO STOXX 50 |
-| ^FTSE | FTSE 100 |
+| Symbol | Index Name | Reference page |
+| ------ | ---------- | -------------- |
+| ^DJI | Dow Jones Industrial Average | http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average |
+| ^GSPC | S&P 500 | http://en.wikipedia.org/wiki/List_of_S%26P_500_companies |
+| ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX |
+| ^N225 | Nikkei 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225 |
+| ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
+| ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX |
 
 ## Usage
 
 ```ruby
 components = StockIndicesComponents.new('^DJI').get
+```
+This method returns an array of components. Each component is a Hash with this format:
+
+```ruby
+{
+  :market => 'XNYS',
+  :symbol => 'MMM',
+  :name => '3M CO'
+}
 ```
 
 ## Contributing
