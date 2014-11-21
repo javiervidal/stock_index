@@ -1,4 +1,4 @@
-# StockIndices
+# StockIndex
 
 This gem provides the components of major stock indices in the world. The components are scraped from reference
 pages, such as Wikipedia.
@@ -7,7 +7,7 @@ pages, such as Wikipedia.
 
 Add this line to your application's Gemfile:
 
-    gem 'stock_indices'
+    gem 'stock_index'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install stock_indices
+    $ gem install stock_index
 
 ## Supported indices
 
@@ -33,7 +33,7 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 ## Usage
 
 ```ruby
-components = StockIndices.new('^DJI').components
+components = StockIndex.new('^DJI').components
 ```
 This method returns an array of components. Each component is a Hash with this format:
 
@@ -47,7 +47,7 @@ This method returns an array of components. Each component is a Hash with this f
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/stock_indices_components/fork )
+1. Fork it ( http://github.com/<my-github-username>/stock_index/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
