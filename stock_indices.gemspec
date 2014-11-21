@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'stock_indices_components/version'
+require 'stock_indices/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "stock_indices_components"
-  spec.version       = StockIndicesComponents::VERSION
+  spec.name          = "stock_indices"
+  spec.version       = StockIndices::VERSION
   spec.authors       = ["Javier Vidal"]
   spec.email         = ["javier@javiervidal.net"]
-  spec.summary       = 'Stock Indices Components'
-  spec.description   = 'Stock Indices Components'
+  spec.summary       = 'Stock Indices'
+  spec.description   = 'Stock Indices'
   spec.homepage      = ""
   spec.license       = "MIT"
 
