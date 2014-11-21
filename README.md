@@ -1,4 +1,4 @@
-# StockIndicesComponents
+# StockIndices
 
 This gem provides the components of major stock indices in the world. The components are scraped from reference
 pages, such as Wikipedia.
@@ -7,7 +7,7 @@ pages, such as Wikipedia.
 
 Add this line to your application's Gemfile:
 
-    gem 'stock_indices_components'
+    gem 'stock_indices'
 
 And then execute:
 
@@ -15,7 +15,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install stock_indices_components
+    $ gem install stock_indices
 
 ## Supported indices
 
@@ -33,7 +33,7 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 ## Usage
 
 ```ruby
-components = StockIndicesComponents.new('^DJI').get
+components = StockIndices.new('^DJI').components
 ```
 This method returns an array of components. Each component is a Hash with this format:
 
