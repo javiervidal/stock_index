@@ -1,3 +1,3 @@
-module StockIndex
+class StockIndex
   VERSION = "0.0.1"
 end

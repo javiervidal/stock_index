@@ -1,5 +1,2 @@
-require "stock_index/version"
-
-module StockIndex
-  # Your code goes here...
-end
+require 'stock_index/version'
+require 'stock_index/stock_index'
