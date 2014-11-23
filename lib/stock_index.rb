@@ -1,3 +1,5 @@
 require 'stock_index/version'
 require 'stock_index/stock_index'
 require 'stock_index/attributes'
+require 'stock_index/market'
+require 'stock_index/scrapers/dji_scraper'
