@@ -13,12 +13,12 @@ class DjiScraper
 
   def symbol(tr)
     symbol_td = tr.css('td')[2]
-    symbol_td ? symbol_td.css('a').text : nil
+    symbol_td ? symbol_td.css('a').first.text : nil
   end
 
   def market(tr)
     market_td = tr.css('td')[1]
-    market = market_td ? market_td.css('a').text : nil
+    market = market_td ? market_td.css('a').first.text : nil
     StockIndex::Market.new(market).to_iso10383
   end
 

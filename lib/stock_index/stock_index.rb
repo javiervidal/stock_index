@@ -10,6 +10,8 @@ class StockIndex
     case @symbol
       when '^DJI'
         DjiScraper.new.scrape
+      when '^GSPC'
+        SP500Scraper.new.scrape
       else
         []
     end

@@ -8,9 +8,9 @@ class StockIndex
 
     def to_iso10383
       case @market
-        when 'NYSE'
+        when 'NYSE', 'www.nyse.com'
           'XNYS'
-        when 'NASDAQ'
+        when 'NASDAQ', 'www.nasdaq.com'
           'XNAS'
       end
     end
