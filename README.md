@@ -41,7 +41,10 @@ This method returns an array of components. Each component is a Hash with this f
 {
   :market => 'XNYS',
   :symbol => 'MMM',
-  :name => '3M CO'
+  :name => '3M CO',
+  :wikipedia => 'http://en.wikipedia.org/wiki/3M',
+  :cik => '66740',
+  :bbgid => 'BBG000BP52R2'
 }
 ```
 
