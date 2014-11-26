@@ -1,5 +1,5 @@
 class StockIndex
-  ATTRIBUTES = {
+  INDICES = {
     '^DJI' => {
       name: 'DOW JONES INDUSTRIAL AVERAGE',
       url: 'http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average'
