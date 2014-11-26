@@ -48,9 +48,18 @@ This method returns an array of components. Each component is a Hash with this f
 }
 ```
 
+| Attribute | Description |
+| ----------| ----------- |
+| market    | Market symbol according to [ISO 10383](https://github.com/javiervidal/mic) |
+| symbol    | Component symbol |
+| name      | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
+| wikipedia | Link to the wikipedia page of the component |
+| cik       | Component CIK (Central Index Key) assigned to the company by the SEC |
+| bbgid     | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
+
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/stock_index/fork )
+1. Fork it ( http://github.com/javiervidal/stock_index/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
