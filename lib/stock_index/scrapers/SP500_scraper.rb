@@ -3,8 +3,13 @@ class SP500Scraper < StockIndex::BaseScraper
   def scrape
     doc = Nokogiri::HTML(open(StockIndex::INDICES['^GSPC'][:url]))
     doc.css('table.wikitable.sortable')[0].css('tr').inject([]) do |array, tr|
-      component = StockIndex::Component.new(market(tr), symbol(tr), nil, wikipedia(tr, 1))
-      array << component.to_hash if component.valid?
+      symbol = symbol(tr)
+      market = market(tr)
+      if symbol && market
+        bsym = StockIndex::BsymSearch.find(symbol)
+        component = StockIndex::Component.new(market, symbol, bsym[:name], wikipedia(tr, 1), nil, bsym[:bbgid])
+        array << component.to_hash if component.valid?
+      end
       array
     end
   end
@@ -13,7 +18,8 @@ class SP500Scraper < StockIndex::BaseScraper
 
   def symbol(tr)
     symbol_td = td(tr, 0)
-    symbol_td ? symbol_td.css('a').first.text : nil
+    s = symbol_td ? symbol_td.css('a').first.text : nil
+    parse_symbol(s)
   end
 
   def market(tr)
