@@ -1,7 +1,5 @@
 class StockIndex
 
-  require 'nokogiri'
-
   def initialize(symbol)
     @symbol = symbol
   end

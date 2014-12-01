@@ -48,14 +48,20 @@ This method returns an array of components. Each component is a Hash with this f
 }
 ```
 
-| Attribute | Description |
+| Key       | Description |
 | ----------| ----------- |
 | market    | Market symbol according to [ISO 10383](https://github.com/javiervidal/mic) |
 | symbol    | Component symbol |
-| name      | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
+| name      | Component name assigned to the company by the SEC |
 | wikipedia | Link to the wikipedia page of the component |
 | cik       | Component CIK (Central Index Key) assigned to the company by the SEC |
 | bbgid     | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
+
+The name and cik are obtained querying the [EDGAR database](http://www.sec.gov/edgar/searchedgar/companysearch.html).
+
+The bbgid is obtained from [Bloomberg Open Symbology predefined files](http://bsym.bloomberg.com/sym/).
+
+The name, cik, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.9.2/libdoc/pstore/rdoc/PStore.html).
 
 ## Contributing
 

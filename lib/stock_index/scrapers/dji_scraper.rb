@@ -2,16 +2,7 @@ class DjiScraper < StockIndex::BaseScraper
 
   def scrape
     doc = Nokogiri::HTML(open(StockIndex::INDICES['^DJI'][:url]))
-    doc.css('table.wikitable.sortable tr').inject([]) do |array, tr|
-      symbol = symbol(tr)
-      market = market(tr)
-      if symbol && market
-        bsym = StockIndex::BsymSearch.find(symbol)
-        component = StockIndex::Component.new(market, symbol, bsym[:name], wikipedia(tr, 0), nil, bsym[:bbgid])
-        array << component.to_hash if component.valid?
-      end
-      array
-    end
+    parse_rows doc.css('table.wikitable.sortable tr')
   end
 
   private
@@ -25,6 +16,10 @@ class DjiScraper < StockIndex::BaseScraper
     market_td = td(tr, 1)
     market = market_td ? market_td.css('a').first.text : nil
     StockIndex::Market.new(market).to_iso10383
+  end
+
+  def wikipedia(tr)
+    wikipedia_position(tr, 0)
   end
 
 end
