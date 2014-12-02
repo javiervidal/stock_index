@@ -32,4 +32,15 @@ class SP500Scraper < StockIndex::BaseScraper
     end
   end
 
+  def parse_symbol(symbol)
+    case symbol
+      # BRK.B => BRK/B Berkshire Hathaway Inc
+      # BF.B => BF/B Brown-Forman Corp
+      when /(\w+)\.B/
+        "#{$1}/B"
+      else
+        symbol
+    end
+  end
+
 end

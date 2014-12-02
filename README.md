@@ -52,7 +52,7 @@ This method returns an array of components. Each component is a Hash with this f
 | ----------| ----------- |
 | market    | Market symbol according to [ISO 10383](https://github.com/javiervidal/mic) |
 | symbol    | Component symbol |
-| name      | Component name assigned to the company by the SEC |
+| name      | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
 | wikipedia | Link to the wikipedia page of the component |
 | cik       | Component CIK (Central Index Key) assigned to the company by the SEC |
 | bbgid     | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
