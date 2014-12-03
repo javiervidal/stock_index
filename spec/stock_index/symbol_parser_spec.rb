@@ -32,7 +32,6 @@ describe SymbolParser do
       expect(SymbolParser.new('CSCO').bsym_to_cik).to eq('CSCO')
     end
 
-
   end
 
 end
