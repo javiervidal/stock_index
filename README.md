@@ -26,7 +26,7 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 | ^DJI | DOW JONES INDUSTRIAL AVERAGE | http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average |
 | ^GSPC | S&P 500 | http://en.wikipedia.org/wiki/List_of_S%26P_500_companies |
 | ^NDX | NASDAQ 100 | http://en.wikipedia.org/wiki/NASDAQ-100 |
-| ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225 |
+| ^N225 | NIKKEI 225 | http://en.wikipedia.org/wiki/Nikkei_225 http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225 |
 | ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
 | ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX |
 
@@ -43,7 +43,7 @@ This method returns an array of components. Each component is a Hash with this f
   :symbol => 'MMM',
   :name => '3M CO',
   :wikipedia => 'http://en.wikipedia.org/wiki/3M',
-  :cik => '66740',
+  :cik => '0000066740',
   :bbgid => 'BBG000BP52R2'
 }
 ```
