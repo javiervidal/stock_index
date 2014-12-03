@@ -18,7 +18,7 @@ class DjiScraper < StockIndex::BaseScraper
     StockIndex::Market.new(market).to_iso10383
   end
 
-  def wikipedia(tr)
+  def wikipedia_link(tr)
     wikipedia_position(tr, 0)
   end
 

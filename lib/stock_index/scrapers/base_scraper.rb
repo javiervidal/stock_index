@@ -9,7 +9,7 @@ class StockIndex
         symbol = symbol(tr)
         market = market(tr)
         if symbol && market
-          component = StockIndex::Component.new(symbol, market, wikipedia(tr))
+          component = StockIndex::Component.new(symbol, market, wikipedia_link(tr))
           array << component.attributes if component.valid?
         end
         array
@@ -23,6 +23,10 @@ class StockIndex
     def wikipedia_position(tr, position)
       wikipedia_td = tr.css('td')[position]
       wikipedia_path = wikipedia_td ? wikipedia_td.css('a').first.attributes['href'].value : nil
+      build_wikipedia_link(wikipedia_path)
+    end
+
+    def build_wikipedia_link(wikipedia_path)
       URI::HTTP.build({:host => 'en.wikipedia.org', :path => wikipedia_path}).to_s rescue nil
     end
 

@@ -32,23 +32,18 @@ class StockIndex
     end
 
     def attributes_lookup
-      puts "--> #{@symbol}"
       bsym = StockIndex::BsymSearch.find(@symbol)
-      edgar = Cik.lookup(parse_symbol(@symbol))
-      a = {market: @market, symbol: @symbol, name: bsym[:name], wikipedia: @wikipedia, cik: edgar[:cik], bbgid: bsym[:bbgid]}
-      cache_write(a)
-    end
-
-    def parse_symbol(symbol)
-      case symbol
-        # BRK/B => 0001067983 Berkshire Hathaway Inc
-        # BF/B => 0000014693 Brown-Forman Corp
-        when 'BRK/B'
-          '0001067983'
-        when 'BF/B'
-          '0000014693'
+      if bsym.nil?
+        puts "bsym --> #{@symbol}"
+        return
+      else
+        edgar = Cik.lookup(SymbolParser.new(@symbol).bsym_to_cik)
+        if edgar.nil?
+          puts "cik --> #{@symbol}"
         else
-          symbol
+          a = {market: @market, symbol: @symbol, name: bsym[:name], wikipedia: @wikipedia, cik: edgar[:cik], bbgid: bsym[:bbgid]}
+          cache_write(a)
+        end
       end
     end
 

@@ -10,6 +10,8 @@ class StockIndex
         DjiScraper.new.scrape
       when '^GSPC'
         SP500Scraper.new.scrape
+      when '^NDX'
+        NasdaqScraper.new.scrape
       else
         []
     end

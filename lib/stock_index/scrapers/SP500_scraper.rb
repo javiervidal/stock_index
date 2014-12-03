@@ -10,7 +10,7 @@ class SP500Scraper < StockIndex::BaseScraper
   def symbol(tr)
     symbol_td = td(tr, 0)
     s = symbol_td ? symbol_td.css('a').first.text : nil
-    parse_symbol(s)
+    SymbolParser.new(s).sp500_to_bsym
   end
 
   def market(tr)
@@ -19,7 +19,7 @@ class SP500Scraper < StockIndex::BaseScraper
     StockIndex::Market.new(parse_market_link(market_link)).to_iso10383
   end
 
-  def wikipedia(tr)
+  def wikipedia_link(tr)
     wikipedia_position(tr, 1)
   end
 
@@ -29,17 +29,6 @@ class SP500Scraper < StockIndex::BaseScraper
       uri.host
     else
       nil
-    end
-  end
-
-  def parse_symbol(symbol)
-    case symbol
-      # BRK.B => BRK/B Berkshire Hathaway Inc
-      # BF.B => BF/B Brown-Forman Corp
-      when /(\w+)\.B/
-        "#{$1}/B"
-      else
-        symbol
     end
   end
 

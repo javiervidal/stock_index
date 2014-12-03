@@ -10,7 +10,7 @@ class StockIndex
     },
     '^NDX' => {
       name: 'NASDAQ 100',
-      url: 'https://indexes.nasdaqomx.com/Index/Weighting/NDX'
+      url: 'http://en.wikipedia.org/wiki/NASDAQ-100'
     },
     '^N225' => {
       name: 'NIKKEI 225',
