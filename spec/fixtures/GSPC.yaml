@@ -1,3013 +1,503 @@
 ---
-- :market: XNYS
-  :symbol: ABT
-  :name: ABBOTT LABORATORIES
-  :wikipedia: http://en.wikipedia.org/wiki/Abbott_Laboratories
-  :cik: 0000001800
-  :bbgid: BBG000B9ZXB4
-- :market: XNYS
-  :symbol: ABBV
-  :name: ABBVIE INC
-  :wikipedia: http://en.wikipedia.org/wiki/AbbVie
-  :cik: '0001551152'
-  :bbgid: BBG0025Y4RY4
-- :market: XNYS
-  :symbol: ACE
-  :name: ACE LTD
-  :wikipedia: http://en.wikipedia.org/wiki/ACE_Limited
-  :cik: 0000896159
-  :bbgid: BBG000BR14K5
-- :market: XNYS
-  :symbol: ACN
-  :name: ACCENTURE PLC-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Accenture_plc
-  :cik: '0001467373'
-  :bbgid: BBG000D9D830
-- :market: XNYS
-  :symbol: ACT
-  :name: ACTAVIS PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Actavis
-  :cik: 0000884629
-  :bbgid: BBG000FH8PX5
-- :market: XNAS
-  :symbol: ADBE
-  :name: ADOBE SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Adobe_Systems_Inc
-  :cik: 0000796343
-  :bbgid: BBG000BB5006
-- :market: XNYS
-  :symbol: ADT
-  :name: ADT CORP/THE
-  :wikipedia: http://en.wikipedia.org/wiki/ADT_Corp
-  :cik: '0001546640'
-  :bbgid: BBG003641015
-- :market: XNYS
-  :symbol: AES
-  :name: AES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/AES_Corp
-  :cik: 0000874761
-  :bbgid: BBG000C23KJ3
-- :market: XNYS
-  :symbol: AET
-  :name: AETNA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Aetna_Inc
-  :cik: '0001122304'
-  :bbgid: BBG000FJLFX8
-- :market: XNYS
-  :symbol: AFL
-  :name: AFLAC INC
-  :wikipedia: http://en.wikipedia.org/wiki/AFLAC_Inc
-  :cik: 0000004977
-  :bbgid: BBG000BBBNC6
-- :market: XNYS
-  :symbol: AMG
-  :name: AFFILIATED MANAGERS GROUP
-  :wikipedia: http://en.wikipedia.org/wiki/Affiliated_Managers_Group_Inc
-  :cik: '0001004434'
-  :bbgid: BBG000C060M4
-- :market: XNYS
-  :symbol: A
-  :name: AGILENT TECHNOLOGIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Agilent_Technologies_Inc
-  :cik: 0001090872
-  :bbgid: BBG000C2V3D6
-- :market: XNYS
-  :symbol: GAS
-  :name: AGL RESOURCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/AGL_Resources_Inc.
-  :cik: '0001004155'
-  :bbgid: BBG000BCKC47
-- :market: XNYS
-  :symbol: APD
-  :name: AIR PRODUCTS & CHEMICALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Air_Products_%26_Chemicals_Inc
-  :cik: 0000002969
-  :bbgid: BBG000BC4JJ4
-- :market: XNYS
-  :symbol: ARG
-  :name: AIRGAS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Airgas_Inc
-  :cik: 0000804212
-  :bbgid: BBG000BC8G88
-- :market: XNAS
-  :symbol: AKAM
-  :name: AKAMAI TECHNOLOGIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Akamai_Technologies_Inc
-  :cik: 0001086222
-  :bbgid: BBG000BJQWD2
-- :market: XNYS
-  :symbol: AA
-  :name: ALCOA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Alcoa_Inc
-  :cik: 0000004281
-  :bbgid: BBG000B9WH86
-- :market: XNAS
-  :symbol: ALXN
-  :name: ALEXION PHARMACEUTICALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Alexion_Pharmaceuticals
-  :cik: 0000899866
-  :bbgid: BBG000G30YX4
-- :market: XNYS
-  :symbol: ATI
-  :name: ALLEGHENY TECHNOLOGIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Allegheny_Technologies_Inc
-  :cik: 0001018963
-  :bbgid: BBG000LC1FS4
-- :market: XNYS
-  :symbol: ALLE
-  :name: ALLEGION PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Allegion
-  :cik: 0001579241
-  :bbgid: BBG003PS7JV1
-- :market: XNYS
-  :symbol: AGN
-  :name: ALLERGAN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Allergan_Inc
-  :cik: 0000850693
-  :bbgid: BBG000BHQ1H0
-- :market: XNYS
-  :symbol: ADS
-  :name: ALLIANCE DATA SYSTEMS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Alliance_Data_Systems
-  :cik: '0001101215'
-  :bbgid: BBG000BFNR17
-- :market: XNYS
-  :symbol: ALL
-  :name: ALLSTATE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Allstate_Corp
-  :cik: 0000899051
-  :bbgid: BBG000BVMGF2
-- :market: XNAS
-  :symbol: ALTR
-  :name: ALTERA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Altera_Corp
-  :cik: 0000768251
-  :bbgid: BBG000BBMSJ6
-- :market: XNYS
-  :symbol: MO
-  :name: ALTRIA GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Altria_Group_Inc
-  :cik: 0000764180
-  :bbgid: BBG000BP6LJ8
-- :market: XNAS
-  :symbol: AMZN
-  :name: AMAZON.COM INC
-  :wikipedia: http://en.wikipedia.org/wiki/Amazon.com_Inc
-  :cik: 0001018724
-  :bbgid: BBG000BVPV84
-- :market: XNYS
-  :symbol: AEE
-  :name: AMEREN CORPORATION
-  :wikipedia: http://en.wikipedia.org/wiki/Ameren_Corp
-  :cik: 0001002910
-  :bbgid: BBG000B9X8C0
-- :market: XNYS
-  :symbol: AEP
-  :name: AMERICAN ELECTRIC POWER
-  :wikipedia: http://en.wikipedia.org/wiki/American_Electric_Power
-  :cik: 0000004904
-  :bbgid: BBG000BB9KF2
-- :market: XNYS
-  :symbol: AXP
-  :name: AMERICAN EXPRESS CO
-  :wikipedia: http://en.wikipedia.org/wiki/American_Express_Co
-  :cik: 0000004962
-  :bbgid: BBG000BCQZS4
-- :market: XNYS
-  :symbol: AIG
-  :name: AMERICAN INTERNATIONAL GROUP
-  :wikipedia: http://en.wikipedia.org/wiki/American_International_Group
-  :cik: '0000005272'
-  :bbgid: BBG000BBDZG3
-- :market: XNYS
-  :symbol: AMT
-  :name: AMERICAN TOWER CORP
-  :wikipedia: http://en.wikipedia.org/wiki/American_Tower_Corp_A
-  :cik: '0001053507'
-  :bbgid: BBG000B9XYV2
-- :market: XNYS
-  :symbol: AMP
-  :name: AMERIPRISE FINANCIAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Ameriprise_Financial
-  :cik: 0000820027
-  :bbgid: BBG000G3QLY3
-- :market: XNYS
-  :symbol: ABC
-  :name: AMERISOURCEBERGEN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/AmerisourceBergen_Corp
-  :cik: 0001140859
-  :bbgid: BBG000MDCQC2
-- :market: XNYS
-  :symbol: AME
-  :name: AMETEK INC
-  :wikipedia: http://en.wikipedia.org/wiki/Ametek
-  :cik: 0001037868
-  :bbgid: BBG000B9XG87
-- :market: XNAS
-  :symbol: AMGN
-  :name: AMGEN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Amgen_Inc
-  :cik: 0000318154
-  :bbgid: BBG000BBS2Y0
-- :market: XNYS
-  :symbol: APH
-  :name: AMPHENOL CORP-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Amphenol_Corp_A
-  :cik: 0000820313
-  :bbgid: BBG000B9YJ35
-- :market: XNYS
-  :symbol: APC
-  :name: ANADARKO PETROLEUM CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Anadarko_Petroleum_Corp
-  :cik: 0000773910
-  :bbgid: BBG000BC40Y8
-- :market: XNAS
-  :symbol: ADI
-  :name: ANALOG DEVICES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Analog_Devices
-  :cik: 0000006281
-  :bbgid: BBG000BB6G37
-- :market: XNYS
-  :symbol: AON
-  :name: AON PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Aon_plc
-  :cik: 0000315293
-  :bbgid: BBG000BC15S7
-- :market: XNYS
-  :symbol: APA
-  :name: APACHE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Apache_Corporation
-  :cik: 0000006769
-  :bbgid: BBG000BC2C10
-- :market: XNYS
-  :symbol: AIV
-  :name: APARTMENT INVT & MGMT CO -A
-  :wikipedia: http://en.wikipedia.org/wiki/Apartment_Investment_%26_Mgmt
-  :cik: 0000922864
-  :bbgid: BBG000DD3510
-- :market: XNAS
-  :symbol: AAPL
-  :name: APPLE INC
-  :wikipedia: http://en.wikipedia.org/wiki/Apple_Inc.
-  :cik: 0000320193
-  :bbgid: BBG000B9XRY4
-- :market: XNAS
-  :symbol: AMAT
-  :name: APPLIED MATERIALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Applied_Materials_Inc
-  :cik: 0000006951
-  :bbgid: BBG000BBPFB9
-- :market: XNYS
-  :symbol: ADM
-  :name: ARCHER-DANIELS-MIDLAND CO
-  :wikipedia: http://en.wikipedia.org/wiki/Archer-Daniels-Midland_Co
-  :cik: 0000007084
-  :bbgid: BBG000BB6WG8
-- :market: XNYS
-  :symbol: AIZ
-  :name: ASSURANT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Assurant_Inc
-  :cik: 0001267238
-  :bbgid: BBG000BZX1N5
-- :market: XNYS
-  :symbol: T
-  :name: AT&T INC
-  :wikipedia: http://en.wikipedia.org/wiki/AT%26T_Inc
-  :cik: '0000732717'
-  :bbgid: BBG000BSJK37
-- :market: XNAS
-  :symbol: ADSK
-  :name: AUTODESK INC
-  :wikipedia: http://en.wikipedia.org/wiki/Autodesk_Inc
-  :cik: 0000769397
-  :bbgid: BBG000BM7HL0
-- :market: XNAS
-  :symbol: ADP
-  :name: AUTOMATIC DATA PROCESSING
-  :wikipedia: http://en.wikipedia.org/wiki/Automatic_Data_Processing
-  :cik: 0000008670
-  :bbgid: BBG000JG0547
-- :market: XNYS
-  :symbol: AN
-  :name: AUTONATION INC
-  :wikipedia: http://en.wikipedia.org/wiki/AutoNation_Inc
-  :cik: 0000350698
-  :bbgid: BBG000BBXLW4
-- :market: XNYS
-  :symbol: AZO
-  :name: AUTOZONE INC
-  :wikipedia: http://en.wikipedia.org/wiki/AutoZone_Inc
-  :cik: 0000866787
-  :bbgid: BBG000C7LMS8
-- :market: XNAS
-  :symbol: AVGO
-  :name: AVAGO TECHNOLOGIES LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Avago_Technologies
-  :cik: '0001441634'
-  :bbgid: BBG000C4DPX1
-- :market: XNYS
-  :symbol: AVB
-  :name: AVALONBAY COMMUNITIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/AvalonBay_Communities,_Inc.
-  :cik: 0000915912
-  :bbgid: BBG000BLPBL5
-- :market: XNYS
-  :symbol: AVY
-  :name: AVERY DENNISON CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Avery_Dennison_Corp
-  :cik: 0000008818
-  :bbgid: BBG000BCQ4P6
-- :market: XNYS
-  :symbol: AVP
-  :name: AVON PRODUCTS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Avon_Products
-  :cik: 0000008868
-  :bbgid: BBG000BCNYT9
-- :market: XNYS
-  :symbol: BHI
-  :name: BAKER HUGHES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Baker_Hughes_Inc
-  :cik: 0000808362
-  :bbgid: BBG000BD4VG8
-- :market: XNYS
-  :symbol: BLL
-  :name: BALL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Ball_Corp
-  :cik: 0000009389
-  :bbgid: BBG000BDDNH5
-- :market: XNYS
-  :symbol: BAC
-  :name: BANK OF AMERICA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Bank_of_America_Corp
-  :cik: 0000070858
-  :bbgid: BBG000BCTLF6
-- :market: XNYS
-  :symbol: BK
-  :name: BANK OF NEW YORK MELLON CORP
-  :wikipedia: http://en.wikipedia.org/wiki/The_Bank_of_New_York_Mellon_Corp.
-  :cik: 0001390777
-  :bbgid: BBG000BD8PN9
-- :market: XNYS
-  :symbol: BCR
-  :name: CR BARD INC
-  :wikipedia: http://en.wikipedia.org/wiki/Bard_(C.R.)_Inc.
-  :cik: 0000009892
-  :bbgid: BBG000BCYP43
-- :market: XNYS
-  :symbol: BAX
-  :name: BAXTER INTERNATIONAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Baxter_International_Inc.
-  :cik: '0000010456'
-  :bbgid: BBG000BCVJ77
-- :market: XNYS
-  :symbol: BBT
-  :name: BB&T CORP
-  :wikipedia: http://en.wikipedia.org/wiki/BB%26T_Corporation
-  :cik: 0000092230
-  :bbgid: BBG000BYYLS8
-- :market: XNYS
-  :symbol: BDX
-  :name: BECTON DICKINSON AND CO
-  :wikipedia: http://en.wikipedia.org/wiki/Becton_Dickinson
-  :cik: 0000010795
-  :bbgid: BBG000BCZYD3
-- :market: XNAS
-  :symbol: BBBY
-  :name: BED BATH & BEYOND INC
-  :wikipedia: http://en.wikipedia.org/wiki/Bed_Bath_%26_Beyond
-  :cik: 0000886158
-  :bbgid: BBG000CSY9H9
-- :market: XNYS
-  :symbol: BMS
-  :name: BEMIS COMPANY
-  :wikipedia: http://en.wikipedia.org/wiki/Bemis_Company
-  :cik: 0000011199
-  :bbgid: BBG000BDHNB7
-- :market: XNYS
-  :symbol: BRK/B
-  :name: BERKSHIRE HATHAWAY INC-CL B
-  :wikipedia: http://en.wikipedia.org/wiki/Berkshire_Hathaway
-  :cik: 0001067983
-  :bbgid: BBG000DWG505
-- :market: XNYS
-  :symbol: BBY
-  :name: BEST BUY CO INC
-  :wikipedia: http://en.wikipedia.org/wiki/Best_Buy_Co._Inc.
-  :cik: 0000764478
-  :bbgid: BBG000BCWCG1
-- :market: XNAS
-  :symbol: BIIB
-  :name: BIOGEN IDEC INC
-  :wikipedia: http://en.wikipedia.org/wiki/BIOGEN_IDEC_Inc.
-  :cik: 0000875045
-  :bbgid: BBG000C17X76
-- :market: XNYS
-  :symbol: BLK
-  :name: BLACKROCK INC
-  :wikipedia: http://en.wikipedia.org/wiki/BlackRock
-  :cik: '0001364742'
-  :bbgid: BBG000C2PW58
-- :market: XNYS
-  :symbol: HRB
-  :name: H&R BLOCK INC
-  :wikipedia: http://en.wikipedia.org/wiki/Block_H%26R
-  :cik: 0000012659
-  :bbgid: BBG000BLDV98
-- :market: XNYS
-  :symbol: BA
-  :name: BOEING CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Boeing_Company
-  :cik: 0000012927
-  :bbgid: BBG000BCSST7
-- :market: XNYS
-  :symbol: BWA
-  :name: BORGWARNER INC
-  :wikipedia: http://en.wikipedia.org/wiki/BorgWarner
-  :cik: 0000908255
-  :bbgid: BBG000BJ49H3
-- :market: XNYS
-  :symbol: BXP
-  :name: BOSTON PROPERTIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Boston_Properties
-  :cik: '0001037540'
-  :bbgid: BBG000BS5CM9
-- :market: XNYS
-  :symbol: BSX
-  :name: BOSTON SCIENTIFIC CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Boston_Scientific
-  :cik: 0000885725
-  :bbgid: BBG000C0LW92
-- :market: XNYS
-  :symbol: BMY
-  :name: BRISTOL-MYERS SQUIBB CO
-  :wikipedia: http://en.wikipedia.org/wiki/Bristol-Myers_Squibb
-  :cik: '0000014272'
-  :bbgid: BBG000DQLV23
-- :market: XNAS
-  :symbol: BRCM
-  :name: BROADCOM CORP-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Broadcom_Corporation
-  :cik: '0001054374'
-  :bbgid: BBG000BFDXW1
-- :market: XNYS
-  :symbol: BF/B
-  :name: BROWN-FORMAN CORP-CLASS B
-  :wikipedia: http://en.wikipedia.org/wiki/Brown-Forman_Corporation
-  :cik: 0000014693
-  :bbgid: BBG000BD2NY8
-- :market: XNAS
-  :symbol: CHRW
-  :name: C.H. ROBINSON WORLDWIDE INC
-  :wikipedia: http://en.wikipedia.org/wiki/C._H._Robinson_Worldwide
-  :cik: '0001043277'
-  :bbgid: BBG000BTCH57
-- :market: XNAS
-  :symbol: CA
-  :name: CA INC
-  :wikipedia: http://en.wikipedia.org/wiki/CA,_Inc.
-  :cik: 0000356028
-  :bbgid: BBG000BDWKC5
-- :market: XNYS
-  :symbol: CVC
-  :name: CABLEVISION SYSTEMS-NY GRP-A
-  :wikipedia: http://en.wikipedia.org/wiki/Cablevision
-  :cik: '0001053112'
-  :bbgid: BBG000BGR5J0
-- :market: XNYS
-  :symbol: COG
-  :name: CABOT OIL & GAS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Cabot_Oil_%26_Gas
-  :cik: 0000858470
-  :bbgid: BBG000C3GN47
-- :market: XNYS
-  :symbol: CAM
-  :name: CAMERON INTERNATIONAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Cameron_International_Corp.
-  :cik: 0000941548
-  :bbgid: BBG000BZ2GG4
-- :market: XNYS
-  :symbol: CPB
-  :name: CAMPBELL SOUP CO
-  :wikipedia: http://en.wikipedia.org/wiki/Campbell_Soup
-  :cik: '0000016732'
-  :bbgid: BBG000BG4202
-- :market: XNYS
-  :symbol: COF
-  :name: CAPITAL ONE FINANCIAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Capital_One_Financial
-  :cik: 0000927628
-  :bbgid: BBG000BGKTF9
-- :market: XNYS
-  :symbol: CAH
-  :name: CARDINAL HEALTH INC
-  :wikipedia: http://en.wikipedia.org/wiki/Cardinal_Health_Inc.
-  :cik: '0000721371'
-  :bbgid: BBG000D898T9
-- :market: XNYS
-  :symbol: CFN
-  :name: CAREFUSION CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Carefusion
-  :cik: '0001457543'
-  :bbgid: BBG000JB27Y9
-- :market: XNYS
-  :symbol: KMX
-  :name: CARMAX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Carmax_Inc
-  :cik: '0001170010'
-  :bbgid: BBG000BLMZK6
-- :market: XNYS
-  :symbol: CCL
-  :name: CARNIVAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Carnival_Corp.
-  :cik: 0000815097
-  :bbgid: BBG000BF6LY3
-- :market: XNYS
-  :symbol: CAT
-  :name: CATERPILLAR INC
-  :wikipedia: http://en.wikipedia.org/wiki/Caterpillar_Inc.
-  :cik: 0000018230
-  :bbgid: BBG000BF0K17
-- :market: XNYS
-  :symbol: CBG
-  :name: CBRE GROUP INC - A
-  :wikipedia: http://en.wikipedia.org/wiki/CBRE_Group
-  :cik: 0001138118
-  :bbgid: BBG000C04224
-- :market: XNYS
-  :symbol: CBS
-  :name: CBS CORP-CLASS B NON VOTING
-  :wikipedia: http://en.wikipedia.org/wiki/CBS_Corp.
-  :cik: 0000813828
-  :bbgid: BBG000C496P7
-- :market: XNAS
-  :symbol: CELG
-  :name: CELGENE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Celgene_Corp.
-  :cik: 0000816284
-  :bbgid: BBG000BFC8J2
-- :market: XNYS
-  :symbol: CNP
-  :name: CENTERPOINT ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/CenterPoint_Energy
-  :cik: '0001130310'
-  :bbgid: BBG000FDBX90
-- :market: XNYS
-  :symbol: CTL
-  :name: CENTURYLINK INC
-  :wikipedia: http://en.wikipedia.org/wiki/CenturyLink_Inc
-  :cik: 0000018926
-  :bbgid: BBG000BGLRN3
-- :market: XNAS
-  :symbol: CERN
-  :name: CERNER CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Cerner
-  :cik: 0000804753
-  :bbgid: BBG000BFDLV8
-- :market: XNYS
-  :symbol: CF
-  :name: CF INDUSTRIES HOLDINGS INC
-  :wikipedia: http://en.wikipedia.org/wiki/CF_Industries_Holdings_Inc
-  :cik: '0001324404'
-  :bbgid: BBG000BWJFZ4
-- :market: XNYS
-  :symbol: SCHW
-  :name: SCHWAB (CHARLES) CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Charles_Schwab_Corporation
-  :cik: 0000316709
-  :bbgid: BBG000BSLZY7
-- :market: XNYS
-  :symbol: CHK
-  :name: CHESAPEAKE ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Chesapeake_Energy
-  :cik: 0000895126
-  :bbgid: BBG000BL4504
-- :market: XNYS
-  :symbol: CVX
-  :name: CHEVRON CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Chevron_Corp.
-  :cik: 0000093410
-  :bbgid: BBG000K4ND22
-- :market: XNYS
-  :symbol: CMG
-  :name: CHIPOTLE MEXICAN GRILL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Chipotle_Mexican_Grill
-  :cik: 0001058090
-  :bbgid: BBG000QX74T1
-- :market: XNYS
-  :symbol: CB
-  :name: CHUBB CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Chubb_Corp.
-  :cik: '0000020171'
-  :bbgid: BBG000BF1R66
-- :market: XNYS
-  :symbol: CI
-  :name: CIGNA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/CIGNA_Corp.
-  :cik: '0000701221'
-  :bbgid: BBG000BFMBQ6
-- :market: XNYS
-  :symbol: XEC
-  :name: CIMAREX ENERGY CO
-  :wikipedia: http://en.wikipedia.org/wiki/Cimarex_Energy
-  :cik: 0001168054
-  :bbgid: BBG000D6L294
-- :market: XNAS
-  :symbol: CINF
-  :name: CINCINNATI FINANCIAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Cincinnati_Financial
-  :cik: 0000020286
-  :bbgid: BBG000BFPK65
-- :market: XNAS
-  :symbol: CTAS
-  :name: CINTAS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Cintas_Corporation
-  :cik: '0000723254'
-  :bbgid: BBG000H3YXF8
-- :market: XNAS
-  :symbol: CSCO
-  :name: CISCO SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Cisco_Systems
-  :cik: 0000858877
-  :bbgid: BBG000C3J3C9
-- :market: XNYS
-  :symbol: C
-  :name: CITIGROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Citigroup_Inc.
-  :cik: 0000831001
-  :bbgid: BBG000FY4S11
-- :market: XNAS
-  :symbol: CTXS
-  :name: CITRIX SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Citrix_Systems
-  :cik: 0000877890
-  :bbgid: BBG000FQ6PY6
-- :market: XNYS
-  :symbol: CLX
-  :name: CLOROX COMPANY
-  :wikipedia: http://en.wikipedia.org/wiki/The_Clorox_Company
-  :cik: '0000021076'
-  :bbgid: BBG000BFS7D3
-- :market: XNAS
-  :symbol: CME
-  :name: CME GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/CME_Group_Inc.
-  :cik: '0001156375'
-  :bbgid: BBG000BHLYP4
-- :market: XNYS
-  :symbol: CMS
-  :name: CMS ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/CMS_Energy
-  :cik: 0000811156
-  :bbgid: BBG000BFVXX0
-- :market: XNYS
-  :symbol: COH
-  :name: COACH INC
-  :wikipedia: http://en.wikipedia.org/wiki/Coach_Inc.
-  :cik: '0001116132'
-  :bbgid: BBG000BY29C7
-- :market: XNYS
-  :symbol: KO
-  :name: COCA-COLA CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Coca_Cola_Company
-  :cik: '0000021344'
-  :bbgid: BBG000BMX289
-- :market: XNYS
-  :symbol: CCE
-  :name: COCA-COLA ENTERPRISES
-  :wikipedia: http://en.wikipedia.org/wiki/Coca-Cola_Enterprises
-  :cik: 0001491675
-  :bbgid: BBG000BF5RY1
-- :market: XNAS
-  :symbol: CTSH
-  :name: COGNIZANT TECH SOLUTIONS-A
-  :wikipedia: http://en.wikipedia.org/wiki/Cognizant_Technology_Solutions
-  :cik: 0001058290
-  :bbgid: BBG000BBDV81
-- :market: XNYS
-  :symbol: CL
-  :name: COLGATE-PALMOLIVE CO
-  :wikipedia: http://en.wikipedia.org/wiki/Colgate-Palmolive
-  :cik: '0000021665'
-  :bbgid: BBG000BFQYY3
-- :market: XNAS
-  :symbol: CMCSA
-  :name: COMCAST CORP-CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/Comcast_Corp.
-  :cik: 0001166691
-  :bbgid: BBG000BFT2L4
-- :market: XNYS
-  :symbol: CMA
-  :name: COMERICA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Comerica_Inc.
-  :cik: 0000028412
-  :bbgid: BBG000C75N77
-- :market: XNYS
-  :symbol: CSC
-  :name: COMPUTER SCIENCES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Computer_Sciences_Corp.
-  :cik: 0000023082
-  :bbgid: BBG000BGFZR8
-- :market: XNYS
-  :symbol: CAG
-  :name: CONAGRA FOODS INC
-  :wikipedia: http://en.wikipedia.org/wiki/ConAgra_Foods_Inc.
-  :cik: '0000023217'
-  :bbgid: BBG000BDXGP9
-- :market: XNYS
-  :symbol: COP
-  :name: CONOCOPHILLIPS
-  :wikipedia: http://en.wikipedia.org/wiki/ConocoPhillips
-  :cik: '0001163165'
-  :bbgid: BBG000BQQH30
-- :market: XNYS
-  :symbol: CNX
-  :name: CONSOL ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/CONSOL_Energy_Inc.
-  :cik: '0001070412'
-  :bbgid: BBG000CKVSG8
-- :market: XNYS
-  :symbol: ED
-  :name: CONSOLIDATED EDISON INC
-  :wikipedia: http://en.wikipedia.org/wiki/Consolidated_Edison
-  :cik: 0001047862
-  :bbgid: BBG000BHLYS1
-- :market: XNYS
-  :symbol: STZ
-  :name: CONSTELLATION BRANDS INC-A
-  :wikipedia: http://en.wikipedia.org/wiki/Constellation_Brands
-  :cik: 0000016918
-  :bbgid: BBG000J1QLT0
-- :market: XNYS
-  :symbol: GLW
-  :name: CORNING INC
-  :wikipedia: http://en.wikipedia.org/wiki/Corning_Inc.
-  :cik: '0000024741'
-  :bbgid: BBG000BKFZM4
-- :market: XNAS
-  :symbol: COST
-  :name: COSTCO WHOLESALE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Costco_Co.
-  :cik: 0000909832
-  :bbgid: BBG000F6H8W8
-- :market: XNYS
-  :symbol: COV
-  :name: COVIDIEN PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Covidien_plc
-  :cik: 0001385187
-  :bbgid: BBG000GC80B4
-- :market: XNYS
-  :symbol: CCI
-  :name: CROWN CASTLE INTL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Crown_Castle_International_Corp.
-  :cik: '0001051470'
-  :bbgid: BBG000FV1Z23
-- :market: XNYS
-  :symbol: CSX
-  :name: CSX CORP
-  :wikipedia: http://en.wikipedia.org/wiki/CSX_Corp.
-  :cik: 0000277948
-  :bbgid: BBG000BGJRC8
-- :market: XNYS
-  :symbol: CMI
-  :name: CUMMINS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Cummins_Inc.
-  :cik: '0000026172'
-  :bbgid: BBG000BGPTV6
-- :market: XNYS
-  :symbol: CVS
-  :name: CVS HEALTH CORP
-  :wikipedia: http://en.wikipedia.org/wiki/CVS_Caremark_Corp.
-  :cik: 0000064803
-  :bbgid: BBG000BGRY34
-- :market: XNYS
-  :symbol: DHI
-  :name: DR HORTON INC
-  :wikipedia: http://en.wikipedia.org/wiki/D._R._Horton
-  :cik: 0000882184
-  :bbgid: BBG000DQTXY6
-- :market: XNYS
-  :symbol: DHR
-  :name: DANAHER CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Danaher_Corp.
-  :cik: '0000313616'
-  :bbgid: BBG000BH3JF8
-- :market: XNYS
-  :symbol: DRI
-  :name: DARDEN RESTAURANTS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Darden_Restaurants
-  :cik: 0000940944
-  :bbgid: BBG000BBNYF6
-- :market: XNYS
-  :symbol: DVA
-  :name: DAVITA HEALTHCARE PARTNERS I
-  :wikipedia: http://en.wikipedia.org/wiki/DaVita_Inc.
-  :cik: 0000927066
-  :bbgid: BBG000MQ1SN9
-- :market: XNYS
-  :symbol: DE
-  :name: DEERE & CO
-  :wikipedia: http://en.wikipedia.org/wiki/Deere_%26_Co.
-  :cik: 0000315189
-  :bbgid: BBG000BH1NH9
-- :market: XNYS
-  :symbol: DLPH
-  :name: DELPHI AUTOMOTIVE PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Delphi_Automotive
-  :cik: '0001521332'
-  :bbgid: BBG001QD41M9
-- :market: XNYS
-  :symbol: DAL
-  :name: DELTA AIR LINES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Delta_Airlines
-  :cik: 0000027904
-  :bbgid: BBG000R7Z112
-- :market: XNYS
-  :symbol: DNR
-  :name: DENBURY RESOURCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Denbury_Resources
-  :cik: 0000945764
-  :bbgid: BBG000FBK808
-- :market: XNAS
-  :symbol: XRAY
-  :name: DENTSPLY INTERNATIONAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Dentsply_International
-  :cik: 0000818479
-  :bbgid: BBG000BX57K1
-- :market: XNYS
-  :symbol: DVN
-  :name: DEVON ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Devon_Energy_Corp.
-  :cik: 0001090012
-  :bbgid: BBG000BBVJZ8
-- :market: XNYS
-  :symbol: DO
-  :name: DIAMOND OFFSHORE DRILLING
-  :wikipedia: http://en.wikipedia.org/wiki/Diamond_Offshore_Drilling
-  :cik: 0000949039
-  :bbgid: BBG000FJRZ68
-- :market: XNAS
-  :symbol: DTV
-  :name: DIRECTV
-  :wikipedia: http://en.wikipedia.org/wiki/DirecTV
-  :cik: '0001465112'
-  :bbgid: BBG000FL1TC8
-- :market: XNYS
-  :symbol: DFS
-  :name: DISCOVER FINANCIAL SERVICES
-  :wikipedia: http://en.wikipedia.org/wiki/Discover_Financial
-  :cik: 0001393612
-  :bbgid: BBG000QBR5J5
-- :market: XNAS
-  :symbol: DISCA
-  :name: DISCOVERY COMMUNICATIONS-A
-  :wikipedia: http://en.wikipedia.org/wiki/Discovery_Communications-A
-  :cik: '0001437107'
-  :bbgid: BBG000CHWP52
-- :market: XNAS
-  :symbol: DISCK
-  :name: DISCOVERY COMMUNICATIONS-C
-  :wikipedia: http://en.wikipedia.org/wiki/Discovery_Communications-C
-  :cik: '0001437107'
-  :bbgid: BBG000VMWHH5
-- :market: XNYS
-  :symbol: DG
-  :name: DOLLAR GENERAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Dollar_General
-  :cik: 0000029534
-  :bbgid: BBG000NV1KK7
-- :market: XNAS
-  :symbol: DLTR
-  :name: DOLLAR TREE INC
-  :wikipedia: http://en.wikipedia.org/wiki/Dollar_Tree
-  :cik: 0000935703
-  :bbgid: BBG000BSC0K9
-- :market: XNYS
-  :symbol: D
-  :name: DOMINION RESOURCES INC/VA
-  :wikipedia: http://en.wikipedia.org/wiki/Dominion_Resources
-  :cik: 0000715957
-  :bbgid: BBG000BGVW60
-- :market: XNYS
-  :symbol: DOV
-  :name: DOVER CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Dover_Corp.
-  :cik: 0000029905
-  :bbgid: BBG000BHB3M6
-- :market: XNYS
-  :symbol: DOW
-  :name: DOW CHEMICAL CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Dow_Chemical
-  :cik: 0000029915
-  :bbgid: BBG000BHBK84
-- :market: XNYS
-  :symbol: DPS
-  :name: DR PEPPER SNAPPLE GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Dr_Pepper_Snapple_Group
-  :cik: 0001418135
-  :bbgid: BBG000TJM7F0
-- :market: XNYS
-  :symbol: DTE
-  :name: DTE ENERGY COMPANY
-  :wikipedia: http://en.wikipedia.org/wiki/DTE_Energy_Co.
-  :cik: 0000936340
-  :bbgid: BBG000BB29X4
-- :market: XNYS
-  :symbol: DD
-  :name: DU PONT (E.I.) DE NEMOURS
-  :wikipedia: http://en.wikipedia.org/wiki/Du_Pont_(E.I.)
-  :cik: '0000030554'
-  :bbgid: BBG000BH13K9
-- :market: XNYS
-  :symbol: DUK
-  :name: DUKE ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Duke_Energy
-  :cik: '0001326160'
-  :bbgid: BBG000BHGDH5
-- :market: XNYS
-  :symbol: DNB
-  :name: DUN & BRADSTREET CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Dun_%26_Bradstreet
-  :cik: '0001115222'
-  :bbgid: BBG000BB2PW9
-- :market: XNAS
-  :symbol: ETFC
-  :name: E*TRADE FINANCIAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/E-Trade
-  :cik: 0001015780
-  :bbgid: BBG000N746D6
-- :market: XNYS
-  :symbol: EMN
-  :name: EASTMAN CHEMICAL CO
-  :wikipedia: http://en.wikipedia.org/wiki/Eastman_Chemical
-  :cik: 0000915389
-  :bbgid: BBG000BLW530
-- :market: XNYS
-  :symbol: ETN
-  :name: EATON CORP PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Eaton_Corporation
-  :cik: 0001551182
-  :bbgid: BBG000BJ3PD2
-- :market: XNAS
-  :symbol: EBAY
-  :name: EBAY INC
-  :wikipedia: http://en.wikipedia.org/wiki/EBay_Inc.
-  :cik: 0001065088
-  :bbgid: BBG000C43RR5
-- :market: XNYS
-  :symbol: ECL
-  :name: ECOLAB INC
-  :wikipedia: http://en.wikipedia.org/wiki/Ecolab_Inc.
-  :cik: '0000031462'
-  :bbgid: BBG000BHKYH4
-- :market: XNYS
-  :symbol: EIX
-  :name: EDISON INTERNATIONAL
-  :wikipedia: http://en.wikipedia.org/wiki/Edison_Int%27l
-  :cik: 0000827052
-  :bbgid: BBG000D7RKJ5
-- :market: XNYS
-  :symbol: EW
-  :name: EDWARDS LIFESCIENCES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Edwards_Lifesciences
-  :cik: 0001099800
-  :bbgid: BBG000BRXP69
-- :market: XNAS
-  :symbol: EA
-  :name: ELECTRONIC ARTS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Electronic_Arts
-  :cik: '0000712515'
-  :bbgid: BBG000BP0KQ8
-- :market: XNYS
-  :symbol: EMC
-  :name: EMC CORP/MA
-  :wikipedia: http://en.wikipedia.org/wiki/EMC_Corp.
-  :cik: 0000790070
-  :bbgid: BBG000BHVJJ3
-- :market: XNYS
-  :symbol: EMR
-  :name: EMERSON ELECTRIC CO
-  :wikipedia: http://en.wikipedia.org/wiki/Emerson_Electric_Company
-  :cik: '0000032604'
-  :bbgid: BBG000BHX7N2
-- :market: XNYS
-  :symbol: ESV
-  :name: ENSCO PLC-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Ensco_plc
-  :cik: 0000314808
-  :bbgid: BBG000BJ2VQ6
-- :market: XNYS
-  :symbol: ETR
-  :name: ENTERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Entergy_Corp.
-  :cik: 0000065984
-  :bbgid: BBG000C1FQS9
-- :market: XNYS
-  :symbol: EOG
-  :name: EOG RESOURCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/EOG_Resources
-  :cik: 0000821189
-  :bbgid: BBG000BZ9223
-- :market: XNYS
-  :symbol: EQT
-  :name: EQT CORP
-  :wikipedia: http://en.wikipedia.org/wiki/EQT_Corporation
-  :cik: '0000033213'
-  :bbgid: BBG000BHZ5J9
-- :market: XNYS
-  :symbol: EFX
-  :name: EQUIFAX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Equifax_Inc.
-  :cik: 0000033185
-  :bbgid: BBG000BHPL78
-- :market: XNYS
-  :symbol: EQR
-  :name: EQUITY RESIDENTIAL
-  :wikipedia: http://en.wikipedia.org/wiki/Equity_Residential
-  :cik: 0000906107
-  :bbgid: BBG000BG8M31
-- :market: XNYS
-  :symbol: ESS
-  :name: ESSEX PROPERTY TRUST INC
-  :wikipedia: 
-  :cik: 0000920522
-  :bbgid: BBG000CGJMB9
-- :market: XNYS
-  :symbol: EL
-  :name: ESTEE LAUDER COMPANIES-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Estee_Lauder_Cos.
-  :cik: '0001001250'
-  :bbgid: BBG000FKJRC5
-- :market: XNYS
-  :symbol: EXC
-  :name: EXELON CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Exelon_Corp.
-  :cik: 0001109357
-  :bbgid: BBG000J6XT05
-- :market: XNAS
-  :symbol: EXPE
-  :name: EXPEDIA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Expedia_Inc.
-  :cik: '0001324424'
-  :bbgid: BBG000QY3XZ2
-- :market: XNAS
-  :symbol: EXPD
-  :name: EXPEDITORS INTL WASH INC
-  :wikipedia: http://en.wikipedia.org/wiki/Expeditors_Int%27l
-  :cik: '0000746515'
-  :bbgid: BBG000BJ5GK2
-- :market: XNAS
-  :symbol: ESRX
-  :name: EXPRESS SCRIPTS HOLDING CO
-  :wikipedia: http://en.wikipedia.org/wiki/Express_Scripts
-  :cik: '0001532063'
-  :bbgid: BBG000C15T95
-- :market: XNYS
-  :symbol: XOM
-  :name: EXXON MOBIL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Exxon_Mobil_Corp.
-  :cik: 0000034088
-  :bbgid: BBG000GZQ728
-- :market: XNAS
-  :symbol: FFIV
-  :name: F5 NETWORKS INC
-  :wikipedia: http://en.wikipedia.org/wiki/F5_Networks
-  :cik: 0001048695
-  :bbgid: BBG000CXYSZ6
-- :market: XNAS
-  :symbol: FB
-  :name: FACEBOOK INC-A
-  :wikipedia: http://en.wikipedia.org/wiki/Facebook
-  :cik: 0001326801
-  :bbgid: BBG000MM2P62
-- :market: XNYS
-  :symbol: FDO
-  :name: FAMILY DOLLAR STORES
-  :wikipedia: http://en.wikipedia.org/wiki/Family_Dollar_Stores
-  :cik: 0000034408
-  :bbgid: BBG000BJDPC2
-- :market: XNAS
-  :symbol: FAST
-  :name: FASTENAL CO
-  :wikipedia: http://en.wikipedia.org/wiki/Fastenal_Co
-  :cik: 0000815556
-  :bbgid: BBG000BJ8YN7
-- :market: XNYS
-  :symbol: FDX
-  :name: FEDEX CORP
-  :wikipedia: http://en.wikipedia.org/wiki/FedEx_Corporation
-  :cik: 0001048911
-  :bbgid: BBG000BJF1Z8
-- :market: XNYS
-  :symbol: FIS
-  :name: FIDELITY NATIONAL INFORMATIO
-  :wikipedia: http://en.wikipedia.org/wiki/Fidelity_National_Information_Services
-  :cik: 0001136893
-  :bbgid: BBG000BK2F42
-- :market: XNAS
-  :symbol: FITB
-  :name: FIFTH THIRD BANCORP
-  :wikipedia: http://en.wikipedia.org/wiki/Fifth_Third_Bancorp
-  :cik: '0000035527'
-  :bbgid: BBG000BJL3N0
-- :market: XNAS
-  :symbol: FSLR
-  :name: FIRST SOLAR INC
-  :wikipedia: http://en.wikipedia.org/wiki/First_Solar_Inc
-  :cik: 0001274494
-  :bbgid: BBG000BFL116
-- :market: XNYS
-  :symbol: FE
-  :name: FIRSTENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/FirstEnergy_Corp
-  :cik: 0001031296
-  :bbgid: BBG000BB6M98
-- :market: XNAS
-  :symbol: FISV
-  :name: FISERV INC
-  :wikipedia: http://en.wikipedia.org/wiki/Fiserv_Inc
-  :cik: 0000798354
-  :bbgid: BBG000BJKPG0
-- :market: XNAS
-  :symbol: FLIR
-  :name: FLIR SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/FLIR_Systems
-  :cik: 0000354908
-  :bbgid: BBG000BHK836
-- :market: XNYS
-  :symbol: FLS
-  :name: FLOWSERVE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Flowserve_Corporation
-  :cik: '0000030625'
-  :bbgid: BBG000FFH4P5
-- :market: XNYS
-  :symbol: FLR
-  :name: FLUOR CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Fluor_Corp.
-  :cik: 0001124198
-  :bbgid: BBG000BB1TH9
-- :market: XNYS
-  :symbol: FMC
-  :name: FMC CORP
-  :wikipedia: http://en.wikipedia.org/wiki/FMC_Corporation
-  :cik: 0000037785
-  :bbgid: BBG000BJP882
-- :market: XNYS
-  :symbol: FTI
-  :name: FMC TECHNOLOGIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/FMC_Technologies_Inc.
-  :cik: '0001135152'
-  :bbgid: BBG000D1QCF1
-- :market: XNYS
-  :symbol: F
-  :name: FORD MOTOR CO
-  :wikipedia: http://en.wikipedia.org/wiki/Ford_Motor
-  :cik: 0000037996
-  :bbgid: BBG000BQPC32
-- :market: XNAS
-  :symbol: FOSL
-  :name: FOSSIL GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Fossil,_Inc.
-  :cik: 0000883569
-  :bbgid: BBG000C37332
-- :market: XNYS
-  :symbol: BEN
-  :name: FRANKLIN RESOURCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Franklin_Resources
-  :cik: 0000038777
-  :bbgid: BBG000BD0TF8
-- :market: XNYS
-  :symbol: FCX
-  :name: FREEPORT-MCMORAN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Freeport-McMoran_Cp_%26_Gld
-  :cik: 0000831259
-  :bbgid: BBG000BJDB15
-- :market: XNAS
-  :symbol: FTR
-  :name: FRONTIER COMMUNICATIONS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Frontier_Communications
-  :cik: '0000020520'
-  :bbgid: BBG000FH5YM1
-- :market: XNYS
-  :symbol: GME
-  :name: GAMESTOP CORP-CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/GameStop_Corp.
-  :cik: 0001326380
-  :bbgid: BBG000BB5BF6
-- :market: XNYS
-  :symbol: GCI
-  :name: GANNETT CO
-  :wikipedia: http://en.wikipedia.org/wiki/Gannett_Co.
-  :cik: 0000039899
-  :bbgid: BBG000BK5DP1
-- :market: XNYS
-  :symbol: GPS
-  :name: GAP INC/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Gap_(The)
-  :cik: 0000039911
-  :bbgid: BBG000BKLH74
-- :market: XNAS
-  :symbol: GRMN
-  :name: GARMIN LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Garmin_Ltd.
-  :cik: 0001121788
-  :bbgid: BBG000C4LN67
-- :market: XNYS
-  :symbol: GD
-  :name: GENERAL DYNAMICS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/General_Dynamics
-  :cik: '0000040533'
-  :bbgid: BBG000BK67C7
-- :market: XNYS
-  :symbol: GE
-  :name: GENERAL ELECTRIC CO
-  :wikipedia: http://en.wikipedia.org/wiki/General_Electric
-  :cik: '0000040545'
-  :bbgid: BBG000BK6MB5
-- :market: XNYS
-  :symbol: GGP
-  :name: GENERAL GROWTH PROPERTIES
-  :wikipedia: http://en.wikipedia.org/wiki/General_Growth_Properties_Inc.
-  :cik: 0000895648
-  :bbgid: BBG000BG3HG3
-- :market: XNYS
-  :symbol: GIS
-  :name: GENERAL MILLS INC
-  :wikipedia: http://en.wikipedia.org/wiki/General_Mills
-  :cik: '0000040704'
-  :bbgid: BBG000BKCFC2
-- :market: XNYS
-  :symbol: GM
-  :name: GENERAL MOTORS CO
-  :wikipedia: http://en.wikipedia.org/wiki/General_Motors
-  :cik: 0001467858
-  :bbgid: BBG000NDYB67
-- :market: XNYS
-  :symbol: GPC
-  :name: GENUINE PARTS CO
-  :wikipedia: http://en.wikipedia.org/wiki/Genuine_Parts
-  :cik: 0000040987
-  :bbgid: BBG000BKL348
-- :market: XNYS
-  :symbol: GNW
-  :name: GENWORTH FINANCIAL INC-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Genworth_Financial_Inc.
-  :cik: '0001276520'
-  :bbgid: BBG000J5Q6L2
-- :market: XNAS
-  :symbol: GILD
-  :name: GILEAD SCIENCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Gilead_Sciences
-  :cik: 0000882095
-  :bbgid: BBG000CKGBP2
-- :market: XNYS
-  :symbol: GS
-  :name: GOLDMAN SACHS GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Goldman_Sachs_Group
-  :cik: 0000886982
-  :bbgid: BBG000C6CFJ5
-- :market: XNAS
-  :symbol: GT
-  :name: GOODYEAR TIRE & RUBBER CO
-  :wikipedia: http://en.wikipedia.org/wiki/Goodyear_Tire_%26_Rubber
-  :cik: 0000042582
-  :bbgid: BBG000BKNX95
-- :market: XNAS
-  :symbol: GOOGL
-  :name: GOOGLE INC-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Google_Inc_Class_A
-  :cik: 0001288776
-  :bbgid: BBG000BHSKN9
-- :market: XNAS
-  :symbol: GOOG
-  :name: GOOGLE INC-CL C
-  :wikipedia: http://en.wikipedia.org/wiki/Google_Inc_Class_C
-  :cik: 0001288776
-  :bbgid: BBG002W96FT9
-- :market: XNYS
-  :symbol: GWW
-  :name: WW GRAINGER INC
-  :wikipedia: http://en.wikipedia.org/wiki/Grainger_(W.W.)_Inc.
-  :cik: '0000277135'
-  :bbgid: BBG000BKR1D6
-- :market: XNYS
-  :symbol: HAL
-  :name: HALLIBURTON CO
-  :wikipedia: http://en.wikipedia.org/wiki/Halliburton_Co.
-  :cik: '0000045012'
-  :bbgid: BBG000BKTFN2
-- :market: XNYS
-  :symbol: HOG
-  :name: HARLEY-DAVIDSON INC
-  :wikipedia: http://en.wikipedia.org/wiki/Harley-Davidson
-  :cik: 0000793952
-  :bbgid: BBG000BKZTP3
-- :market: XNYS
-  :symbol: HAR
-  :name: HARMAN INTERNATIONAL
-  :wikipedia: http://en.wikipedia.org/wiki/Harman_Int%27l_Industries
-  :cik: 0000800459
-  :bbgid: BBG000BKTT89
-- :market: XNYS
-  :symbol: HRS
-  :name: HARRIS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Harris_Corporation
-  :cik: 0000202058
-  :bbgid: BBG000BLGFJ9
-- :market: XNYS
-  :symbol: HIG
-  :name: HARTFORD FINANCIAL SVCS GRP
-  :wikipedia: http://en.wikipedia.org/wiki/Hartford_Financial_Svc.Gp.
-  :cik: 0000874766
-  :bbgid: BBG000G0Z878
-- :market: XNAS
-  :symbol: HAS
-  :name: HASBRO INC
-  :wikipedia: http://en.wikipedia.org/wiki/Hasbro_Inc.
-  :cik: 0000046080
-  :bbgid: BBG000BKVJK4
-- :market: XNYS
-  :symbol: HCP
-  :name: HCP INC
-  :wikipedia: http://en.wikipedia.org/wiki/HCP_Inc.
-  :cik: 0000765880
-  :bbgid: BBG000BKYDP9
-- :market: XNYS
-  :symbol: HCN
-  :name: HEALTH CARE REIT INC
-  :wikipedia: 
-  :cik: '0000766704'
-  :bbgid: BBG000BKY1G5
-- :market: XNYS
-  :symbol: HP
-  :name: HELMERICH & PAYNE
-  :wikipedia: 
-  :cik: '0000046765'
-  :bbgid: BBG000BLCPY4
-- :market: XNYS
-  :symbol: HES
-  :name: HESS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Hess_Corporation
-  :cik: '0000004447'
-  :bbgid: BBG000BBD070
-- :market: XNYS
-  :symbol: HPQ
-  :name: HEWLETT-PACKARD CO
-  :wikipedia: http://en.wikipedia.org/wiki/Hewlett-Packard
-  :cik: '0000047217'
-  :bbgid: BBG000KHWT55
-- :market: XNYS
-  :symbol: HD
-  :name: HOME DEPOT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Home_Depot
-  :cik: 0000354950
-  :bbgid: BBG000BKZB36
-- :market: XNYS
-  :symbol: HON
-  :name: HONEYWELL INTERNATIONAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Honeywell_Int%27l_Inc.
-  :cik: 0000773840
-  :bbgid: BBG000H556T9
-- :market: XNYS
-  :symbol: HRL
-  :name: HORMEL FOODS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Hormel_Foods_Corp.
-  :cik: 0000048465
-  :bbgid: BBG000BLF8D2
-- :market: XNYS
-  :symbol: HSP
-  :name: HOSPIRA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Hospira_Inc.
-  :cik: '0001274057'
-  :bbgid: BBG000P1F8Q7
-- :market: XNYS
-  :symbol: HST
-  :name: HOST HOTELS & RESORTS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Host_Hotels_%26_Resorts
-  :cik: '0001070750'
-  :bbgid: BBG000BL8804
-- :market: XNAS
-  :symbol: HCBK
-  :name: HUDSON CITY BANCORP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Hudson_City_Bancorp
-  :cik: 0000921847
-  :bbgid: BBG000BKSL41
-- :market: XNYS
-  :symbol: HUM
-  :name: HUMANA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Humana_Inc.
-  :cik: 0000049071
-  :bbgid: BBG000BLKK03
-- :market: XNAS
-  :symbol: HBAN
-  :name: HUNTINGTON BANCSHARES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Huntington_Bancshares
-  :cik: 0000049196
-  :bbgid: BBG000BKWSR6
-- :market: XNYS
-  :symbol: ITW
-  :name: ILLINOIS TOOL WORKS
-  :wikipedia: http://en.wikipedia.org/wiki/Illinois_Tool_Works
-  :cik: 0000049826
-  :bbgid: BBG000BMBL90
-- :market: XNYS
-  :symbol: IR
-  :name: INGERSOLL-RAND PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Ingersoll-Rand_PLC
-  :cik: 0001466258
-  :bbgid: BBG000BM6788
-- :market: XNYS
-  :symbol: TEG
-  :name: INTEGRYS ENERGY GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Integrys_Energy_Group_Inc.
-  :cik: 0000916863
-  :bbgid: BBG000BWYFX9
-- :market: XNAS
-  :symbol: INTC
-  :name: INTEL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Intel_Corp.
-  :cik: 0000050863
-  :bbgid: BBG000C0G1D1
-- :market: XNYS
-  :symbol: ICE
-  :name: INTERCONTINENTAL EXCHANGE IN
-  :wikipedia: http://en.wikipedia.org/wiki/Intercontinental_Exchange
-  :cik: 0001571949
-  :bbgid: BBG000C1FB75
-- :market: XNYS
-  :symbol: IBM
-  :name: INTL BUSINESS MACHINES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/International_Bus._Machines
-  :cik: '0000051143'
-  :bbgid: BBG000BLNNH6
-- :market: XNYS
-  :symbol: IP
-  :name: INTERNATIONAL PAPER CO
-  :wikipedia: http://en.wikipedia.org/wiki/International_Paper
-  :cik: '0000051434'
-  :bbgid: BBG000BM5SR2
-- :market: XNYS
-  :symbol: IPG
-  :name: INTERPUBLIC GROUP OF COS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Interpublic_Group
-  :cik: '0000051644'
-  :bbgid: BBG000C90DH9
-- :market: XNYS
-  :symbol: IFF
-  :name: INTL FLAVORS & FRAGRANCES
-  :wikipedia: http://en.wikipedia.org/wiki/Intl_Flavors_%26_Fragrances
-  :cik: '0000051253'
-  :bbgid: BBG000BLSL58
-- :market: XNAS
-  :symbol: INTU
-  :name: INTUIT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Intuit_Inc.
-  :cik: 0000896878
-  :bbgid: BBG000BH5DV1
-- :market: XNAS
-  :symbol: ISRG
-  :name: INTUITIVE SURGICAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Intuitive_Surgical_Inc.
-  :cik: '0001035267'
-  :bbgid: BBG000BJPDZ1
-- :market: XNYS
-  :symbol: IVZ
-  :name: INVESCO LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Invesco_Ltd.
-  :cik: 0000914208
-  :bbgid: BBG000BY2Y78
-- :market: XNYS
-  :symbol: IRM
-  :name: IRON MOUNTAIN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Iron_Mountain_Incorporated
-  :cik: 0001020569
-  :bbgid: BBG000KCZPC3
-- :market: XNYS
-  :symbol: JEC
-  :name: JACOBS ENGINEERING GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Jacobs_Engineering_Group
-  :cik: 0000052988
-  :bbgid: BBG000BMFFQ0
-- :market: XNYS
-  :symbol: JNJ
-  :name: JOHNSON & JOHNSON
-  :wikipedia: http://en.wikipedia.org/wiki/Johnson_%26_Johnson
-  :cik: '0000200406'
-  :bbgid: BBG000BMHYD1
-- :market: XNYS
-  :symbol: JCI
-  :name: JOHNSON CONTROLS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Johnson_Controls
-  :cik: 0000053669
-  :bbgid: BBG000BMDV41
-- :market: XNYS
-  :symbol: JOY
-  :name: JOY GLOBAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Joy_Global_Inc.
-  :cik: 0000801898
-  :bbgid: BBG000K14Q84
-- :market: XNYS
-  :symbol: JPM
-  :name: JPMORGAN CHASE & CO
-  :wikipedia: http://en.wikipedia.org/wiki/JPMorgan_Chase_%26_Co.
-  :cik: 0000019617
-  :bbgid: BBG000DMBXR2
-- :market: XNYS
-  :symbol: JNPR
-  :name: JUNIPER NETWORKS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Juniper_Networks
-  :cik: '0001043604'
-  :bbgid: BBG000BY33P5
-- :market: XNYS
-  :symbol: KSU
-  :name: KANSAS CITY SOUTHERN
-  :wikipedia: http://en.wikipedia.org/wiki/Kansas_City_Southern
-  :cik: 0000054480
-  :bbgid: BBG000BMZ7P7
-- :market: XNYS
-  :symbol: K
-  :name: KELLOGG CO
-  :wikipedia: http://en.wikipedia.org/wiki/Kellogg_Co.
-  :cik: '0000055067'
-  :bbgid: BBG000BMKDM3
-- :market: XNYS
-  :symbol: KEY
-  :name: KEYCORP
-  :wikipedia: http://en.wikipedia.org/wiki/KeyCorp
-  :cik: 0000091576
-  :bbgid: BBG000BMQPL1
-- :market: XNAS
-  :symbol: GMCR
-  :name: KEURIG GREEN MOUNTAIN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Keurig_Green_Mountain
-  :cik: 0000909954
-  :bbgid: BBG000BJ98Z0
-- :market: XNYS
-  :symbol: KMB
-  :name: KIMBERLY-CLARK CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Kimberly-Clark
-  :cik: 0000055785
-  :bbgid: BBG000BMW2Z0
-- :market: XNYS
-  :symbol: KIM
-  :name: KIMCO REALTY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Kimco_Realty
-  :cik: 0000879101
-  :bbgid: BBG000CN3S73
-- :market: XNYS
-  :symbol: KMI
-  :name: KINDER MORGAN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Kinder_Morgan
-  :cik: '0001506307'
-  :bbgid: BBG0019JZ882
-- :market: XNAS
-  :symbol: KLAC
-  :name: KLA-TENCOR CORP
-  :wikipedia: http://en.wikipedia.org/wiki/KLA-Tencor_Corp.
-  :cik: 0000319201
-  :bbgid: BBG000BMTFR4
-- :market: XNYS
-  :symbol: KSS
-  :name: KOHLS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Kohl%27s_Corp.
-  :cik: 0000885639
-  :bbgid: BBG000CS7CT9
-- :market: XNAS
-  :symbol: KRFT
-  :name: KRAFT FOODS GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Kraft_Foods
-  :cik: 0001545158
-  :bbgid: BBG001YMS0B8
-- :market: XNYS
-  :symbol: KR
-  :name: KROGER CO
-  :wikipedia: http://en.wikipedia.org/wiki/Kroger_Co.
-  :cik: 0000056873
-  :bbgid: BBG000BMY992
-- :market: XNYS
-  :symbol: LB
-  :name: L BRANDS INC
-  :wikipedia: http://en.wikipedia.org/wiki/L_Brands_Inc.
-  :cik: 0000057139
-  :bbgid: BBG000BNGTQ7
-- :market: XNYS
-  :symbol: LLL
-  :name: L-3 COMMUNICATIONS HOLDINGS
-  :wikipedia: http://en.wikipedia.org/wiki/L-3_Communications_Holdings
-  :cik: 0001056239
-  :bbgid: BBG000BGRKT6
-- :market: XNYS
-  :symbol: LH
-  :name: LABORATORY CRP OF AMER HLDGS
-  :wikipedia: http://en.wikipedia.org/wiki/Laboratory_Corp._of_America_Holding
-  :cik: 0000920148
-  :bbgid: BBG000D9DMK0
-- :market: XNAS
-  :symbol: LRCX
-  :name: LAM RESEARCH CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Lam_Research
-  :cik: 0000707549
-  :bbgid: BBG000BNFLM9
-- :market: XNYS
-  :symbol: LM
-  :name: LEGG MASON INC
-  :wikipedia: http://en.wikipedia.org/wiki/Legg_Mason
-  :cik: '0000704051'
-  :bbgid: BBG000BNBPQ0
-- :market: XNYS
-  :symbol: LEG
-  :name: LEGGETT & PLATT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Leggett_%26_Platt
-  :cik: 0000058492
-  :bbgid: BBG000BN53G7
-- :market: XNYS
-  :symbol: LEN
-  :name: LENNAR CORP-A
-  :wikipedia: http://en.wikipedia.org/wiki/Lennar_Corp.
-  :cik: 0000920760
-  :bbgid: BBG000BN5HF7
-- :market: XNYS
-  :symbol: LVLT
-  :name: LEVEL 3 COMMUNICATIONS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Level_3_Communications
-  :cik: 0000794323
-  :bbgid: BBG000HZFZX3
-- :market: XNYS
-  :symbol: LUK
-  :name: LEUCADIA NATIONAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Leucadia_National_Corp.
-  :cik: 0000096223
-  :bbgid: BBG000BNHSP9
-- :market: XNYS
-  :symbol: LLY
-  :name: ELI LILLY & CO
-  :wikipedia: http://en.wikipedia.org/wiki/Lilly_(Eli)_%26_Co.
-  :cik: 0000059478
-  :bbgid: BBG000BNBDC2
-- :market: XNYS
-  :symbol: LNC
-  :name: LINCOLN NATIONAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Lincoln_National
-  :cik: 0000059558
-  :bbgid: BBG000BNC3Y9
-- :market: XNAS
-  :symbol: LLTC
-  :name: LINEAR TECHNOLOGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Linear_Technology_Corp.
-  :cik: 0000791907
-  :bbgid: BBG000BN9WT5
-- :market: XNYS
-  :symbol: LMT
-  :name: LOCKHEED MARTIN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Lockheed_Martin_Corp.
-  :cik: 0000936468
-  :bbgid: BBG000C1BW00
-- :market: XNYS
-  :symbol: L
-  :name: LOEWS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Loews_Corp.
-  :cik: 0000060086
-  :bbgid: BBG000C45984
-- :market: XNYS
-  :symbol: LO
-  :name: LORILLARD INC
-  :wikipedia: http://en.wikipedia.org/wiki/Lorillard_Inc.
-  :cik: 0001424847
-  :bbgid: BBG000BCGY17
-- :market: XNYS
-  :symbol: LOW
-  :name: LOWE'S COS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Lowe%27s_Cos.
-  :cik: '0000060667'
-  :bbgid: BBG000BNDN65
-- :market: XNYS
-  :symbol: LYB
-  :name: LYONDELLBASELL INDU-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/LyondellBasell
-  :cik: 0001489393
-  :bbgid: BBG000WCFV84
-- :market: XNYS
-  :symbol: MTB
-  :name: M & T BANK CORP
-  :wikipedia: http://en.wikipedia.org/wiki/M%26T_Bank_Corp.
-  :cik: '0000036270'
-  :bbgid: BBG000D9KWL9
-- :market: XNYS
-  :symbol: MAC
-  :name: MACERICH CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Macerich
-  :cik: 0000912242
-  :bbgid: BBG000BL9C59
-- :market: XNYS
-  :symbol: M
-  :name: MACY'S INC
-  :wikipedia: http://en.wikipedia.org/wiki/Macy%27s_Inc.
-  :cik: 0000794367
-  :bbgid: BBG000C46HM9
-- :market: XNYS
-  :symbol: MMM
-  :name: 3M CO
-  :wikipedia: http://en.wikipedia.org/wiki/3M
-  :cik: '0000066740'
-  :bbgid: BBG000BP52R2
-- :market: XNYS
-  :symbol: MNK
-  :name: MALLINCKRODT PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Mallinckrodt
-  :cik: 0001567892
-  :bbgid: BBG002BHBHM1
-- :market: XNYS
-  :symbol: MRO
-  :name: MARATHON OIL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Marathon_Oil_Corp.
-  :cik: 0000101778
-  :bbgid: BBG000C8H633
-- :market: XNYS
-  :symbol: MPC
-  :name: MARATHON PETROLEUM CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Marathon_Petroleum
-  :cik: 0001510295
-  :bbgid: BBG001DCCGR8
-- :market: XNAS
-  :symbol: MAR
-  :name: MARRIOTT INTERNATIONAL -CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Marriott_Int%27l.
-  :cik: 0001048286
-  :bbgid: BBG000BGD7W6
-- :market: XNYS
-  :symbol: MMC
-  :name: MARSH & MCLENNAN COS
-  :wikipedia: http://en.wikipedia.org/wiki/Marsh_%26_McLennan
-  :cik: 0000062709
-  :bbgid: BBG000BP4MH0
-- :market: XNYS
-  :symbol: MAS
-  :name: MASCO CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Masco_Corp.
-  :cik: 0000062996
-  :bbgid: BBG000BNNKG9
-- :market: XNYS
-  :symbol: MA
-  :name: MASTERCARD INC-CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/Mastercard_Inc.
-  :cik: 0001141391
-  :bbgid: BBG000F1ZSQ2
-- :market: XNAS
-  :symbol: MAT
-  :name: MATTEL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Mattel_Inc.
-  :cik: '0000063276'
-  :bbgid: BBG000BNNYW1
-- :market: XNYS
-  :symbol: MKC
-  :name: MCCORMICK & CO-NON VTG SHRS
-  :wikipedia: http://en.wikipedia.org/wiki/McCormick_%26_Co.
-  :cik: '0000063754'
-  :bbgid: BBG000G6Y5W4
-- :market: XNYS
-  :symbol: MCD
-  :name: MCDONALD'S CORP
-  :wikipedia: http://en.wikipedia.org/wiki/McDonald%27s_Corp.
-  :cik: 0000063908
-  :bbgid: BBG000BNSZP1
-- :market: XNYS
-  :symbol: MHFI
-  :name: MCGRAW HILL FINANCIAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/McGraw_Hill_Financial
-  :cik: '0000064040'
-  :bbgid: BBG000BP1Q11
-- :market: XNYS
-  :symbol: MCK
-  :name: MCKESSON CORP
-  :wikipedia: http://en.wikipedia.org/wiki/McKesson_Corp.
-  :cik: 0000927653
-  :bbgid: BBG000DYGNW7
-- :market: XNYS
-  :symbol: MJN
-  :name: MEAD JOHNSON NUTRITION CO
-  :wikipedia: http://en.wikipedia.org/wiki/Mead_Johnson
-  :cik: '0001452575'
-  :bbgid: BBG000TWC2V5
-- :market: XNYS
-  :symbol: MWV
-  :name: MEADWESTVACO CORP
-  :wikipedia: http://en.wikipedia.org/wiki/MeadWestvaco_Corporation
-  :cik: 0001159297
-  :bbgid: BBG000C4ZFV1
-- :market: XNYS
-  :symbol: MDT
-  :name: MEDTRONIC INC
-  :wikipedia: http://en.wikipedia.org/wiki/Medtronic_Inc.
-  :cik: '0000064670'
-  :bbgid: BBG000BNWG87
-- :market: XNYS
-  :symbol: MRK
-  :name: MERCK & CO. INC.
-  :wikipedia: http://en.wikipedia.org/wiki/Merck_%26_Co.
-  :cik: 0000310158
-  :bbgid: BBG000BPD168
-- :market: XNYS
-  :symbol: MET
-  :name: METLIFE INC
-  :wikipedia: http://en.wikipedia.org/wiki/MetLife_Inc.
-  :cik: 0001099219
-  :bbgid: BBG000BB6KF5
-- :market: XNAS
-  :symbol: MCHP
-  :name: MICROCHIP TECHNOLOGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/Microchip_Technology
-  :cik: 0000827054
-  :bbgid: BBG000BHCP19
-- :market: XNAS
-  :symbol: MU
-  :name: MICRON TECHNOLOGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/Micron_Technology
-  :cik: '0000723125'
-  :bbgid: BBG000C5Z1S3
-- :market: XNAS
-  :symbol: MSFT
-  :name: MICROSOFT CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Microsoft_Corp.
-  :cik: 0000789019
-  :bbgid: BBG000BPH459
-- :market: XNYS
-  :symbol: MHK
-  :name: MOHAWK INDUSTRIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Mohawk_Industries
-  :cik: 0000851968
-  :bbgid: BBG000FLZN98
-- :market: XNYS
-  :symbol: TAP
-  :name: MOLSON COORS BREWING CO -B
-  :wikipedia: http://en.wikipedia.org/wiki/Molson_Coors_Brewing_Company
-  :cik: '0000024545'
-  :bbgid: BBG000BS7KS3
-- :market: XNAS
-  :symbol: MDLZ
-  :name: MONDELEZ INTERNATIONAL INC-A
-  :wikipedia: http://en.wikipedia.org/wiki/Mondelez
-  :cik: 0001103982
-  :bbgid: BBG000D4LWF6
-- :market: XNYS
-  :symbol: MON
-  :name: MONSANTO CO
-  :wikipedia: http://en.wikipedia.org/wiki/Monsanto_Co.
-  :cik: 0001110783
-  :bbgid: BBG000BFWKC0
-- :market: XNAS
-  :symbol: MNST
-  :name: MONSTER BEVERAGE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Monster_Beverage
-  :cik: 0000865752
-  :bbgid: BBG000CXD6X9
-- :market: XNYS
-  :symbol: MCO
-  :name: MOODY'S CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Moody%27s_Corp
-  :cik: 0001059556
-  :bbgid: BBG000F86GP6
-- :market: XNYS
-  :symbol: MS
-  :name: MORGAN STANLEY
-  :wikipedia: http://en.wikipedia.org/wiki/Morgan_Stanley
-  :cik: 0000895421
-  :bbgid: BBG000BLZRJ2
-- :market: XNYS
-  :symbol: MOS
-  :name: MOSAIC CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Mosaic_Company
-  :cik: 0001285785
-  :bbgid: BBG000BFXHL6
-- :market: XNYS
-  :symbol: MSI
-  :name: MOTOROLA SOLUTIONS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Motorola_Solutions_Inc.
-  :cik: 0000068505
-  :bbgid: BBG000BP8Z50
-- :market: XNYS
-  :symbol: MUR
-  :name: MURPHY OIL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Murphy_Oil
-  :cik: '0000717423'
-  :bbgid: BBG000BPMH90
-- :market: XNAS
-  :symbol: MYL
-  :name: MYLAN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Mylan_Inc.
-  :cik: 0000069499
-  :bbgid: BBG000BPQD31
-- :market: XNYS
-  :symbol: NBR
-  :name: NABORS INDUSTRIES LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Nabors_Industries_Ltd.
-  :cik: 0001163739
-  :bbgid: BBG000BZTW70
-- :market: XNAS
-  :symbol: NDAQ
-  :name: NASDAQ OMX GROUP/THE
-  :wikipedia: http://en.wikipedia.org/wiki/NASDAQ_OMX_Group
-  :cik: 0001120193
-  :bbgid: BBG000F5VVB6
-- :market: XNYS
-  :symbol: NOV
-  :name: NATIONAL OILWELL VARCO INC
-  :wikipedia: http://en.wikipedia.org/wiki/National_Oilwell_Varco_Inc.
-  :cik: 0001021860
-  :bbgid: BBG000BJX8C8
-- :market: XNAS
-  :symbol: NAVI
-  :name: NAVIENT CORP
-  :wikipedia: 
-  :cik: 0001084750
-  :bbgid: BBG004MN1R41
-- :market: XNAS
-  :symbol: NTAP
-  :name: NETAPP INC
-  :wikipedia: http://en.wikipedia.org/wiki/NetApp
-  :cik: '0001002047'
-  :bbgid: BBG000FP1N32
-- :market: XNAS
-  :symbol: NFLX
-  :name: NETFLIX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Netflix_Inc.
-  :cik: 0001065280
-  :bbgid: BBG000CL9VN6
-- :market: XNYS
-  :symbol: NWL
-  :name: NEWELL RUBBERMAID INC
-  :wikipedia: http://en.wikipedia.org/wiki/Newell_Rubbermaid_Co.
-  :cik: 0000814453
-  :bbgid: BBG000BQC9V2
-- :market: XNYS
-  :symbol: NFX
-  :name: NEWFIELD EXPLORATION CO
-  :wikipedia: http://en.wikipedia.org/wiki/Newfield_Exploration_Co
-  :cik: 0000912750
-  :bbgid: BBG000BK6G19
-- :market: XNYS
-  :symbol: NEM
-  :name: NEWMONT MINING CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Newmont_Mining_Corp._(Hldg._Co.)
-  :cik: '0001164727'
-  :bbgid: BBG000BPWXK1
-- :market: XNAS
-  :symbol: NWSA
-  :name: NEWS CORP - CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/News_Corporation
-  :cik: 0001564708
-  :bbgid: BBG0035LY913
-- :market: XNYS
-  :symbol: NEE
-  :name: NEXTERA ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/NextEra_Energy
-  :cik: 0000753308
-  :bbgid: BBG000BJSBJ0
-- :market: XNYS
-  :symbol: NLSN
-  :name: NIELSEN NV
-  :wikipedia: http://en.wikipedia.org/wiki/Nielsen_Holdings
-  :cik: 0001492633
-  :bbgid: BBG000R06BX2
-- :market: XNYS
-  :symbol: NKE
-  :name: NIKE INC -CL B
-  :wikipedia: http://en.wikipedia.org/wiki/NIKE_Inc.
-  :cik: 0000320187
-  :bbgid: BBG000C5HS04
-- :market: XNYS
-  :symbol: NI
-  :name: NISOURCE INC
-  :wikipedia: http://en.wikipedia.org/wiki/NiSource_Inc.
-  :cik: '0001111711'
-  :bbgid: BBG000BPZBB6
-- :market: XNYS
-  :symbol: NE
-  :name: NOBLE CORP PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Noble_Corp
-  :cik: 0001458891
-  :bbgid: BBG000DTMH63
-- :market: XNYS
-  :symbol: NBL
-  :name: NOBLE ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/Noble_Energy_Inc
-  :cik: '0000072207'
-  :bbgid: BBG000BPT0C6
-- :market: XNYS
-  :symbol: JWN
-  :name: NORDSTROM INC
-  :wikipedia: http://en.wikipedia.org/wiki/Nordstrom
-  :cik: '0000072333'
-  :bbgid: BBG000G8N9C6
-- :market: XNYS
-  :symbol: NSC
-  :name: NORFOLK SOUTHERN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Norfolk_Southern_Corp.
-  :cik: '0000702165'
-  :bbgid: BBG000BQ5DS5
-- :market: XNAS
-  :symbol: NTRS
-  :name: NORTHERN TRUST CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Northern_Trust_Corp.
-  :cik: '0000073124'
-  :bbgid: BBG000BQ74K1
-- :market: XNYS
-  :symbol: NOC
-  :name: NORTHROP GRUMMAN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Northrop_Grumman_Corp.
-  :cik: '0001133421'
-  :bbgid: BBG000BQ2C28
-- :market: XNYS
-  :symbol: NU
-  :name: NORTHEAST UTILITIES
-  :wikipedia: http://en.wikipedia.org/wiki/Northeast_Utilities
-  :cik: '0000072741'
-  :bbgid: BBG000BQ87N0
-- :market: XNYS
-  :symbol: NRG
-  :name: NRG ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/NRG_Energy
-  :cik: 0001013871
-  :bbgid: BBG000D8RG11
-- :market: XNYS
-  :symbol: NUE
-  :name: NUCOR CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Nucor_Corp.
-  :cik: 0000073309
-  :bbgid: BBG000BQ8KV2
-- :market: XNAS
-  :symbol: NVDA
-  :name: NVIDIA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Nvidia_Corporation
-  :cik: 0001045810
-  :bbgid: BBG000BBJQV0
-- :market: XNYS
-  :symbol: KORS
-  :name: MICHAEL KORS HOLDINGS LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Michael_Kors
-  :cik: '0001530721'
-  :bbgid: BBG0029SNR63
-- :market: XNAS
-  :symbol: ORLY
-  :name: O'REILLY AUTOMOTIVE INC
-  :wikipedia: http://en.wikipedia.org/wiki/O%27Reilly_Automotive
-  :cik: 0000898173
-  :bbgid: BBG000BGYWY6
-- :market: XNYS
-  :symbol: OXY
-  :name: OCCIDENTAL PETROLEUM CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Occidental_Petroleum
-  :cik: 0000797468
-  :bbgid: BBG000BQQ2S6
-- :market: XNYS
-  :symbol: OMC
-  :name: OMNICOM GROUP
-  :wikipedia: http://en.wikipedia.org/wiki/Omnicom_Group
-  :cik: 0000029989
-  :bbgid: BBG000BS9489
-- :market: XNYS
-  :symbol: OKE
-  :name: ONEOK INC
-  :wikipedia: http://en.wikipedia.org/wiki/ONEOK
-  :cik: 0001039684
-  :bbgid: BBG000BQHGR6
-- :market: XNYS
-  :symbol: ORCL
-  :name: ORACLE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Oracle_Corp.
-  :cik: 0001341439
-  :bbgid: BBG000BQLTW7
-- :market: XNYS
-  :symbol: OI
-  :name: OWENS-ILLINOIS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Owens-Illinois_Inc
-  :cik: 0000812074
-  :bbgid: BBG000CNWNL6
-- :market: XNYS
-  :symbol: PCG
-  :name: P G & E CORP
-  :wikipedia: http://en.wikipedia.org/wiki/P_G_%26_E_Corp.
-  :cik: 0001004980
-  :bbgid: BBG000BQWPC5
-- :market: XNAS
-  :symbol: PCAR
-  :name: PACCAR INC
-  :wikipedia: http://en.wikipedia.org/wiki/PACCAR_Inc.
-  :cik: '0000075362'
-  :bbgid: BBG000BQVTF5
-- :market: XNYS
-  :symbol: PLL
-  :name: PALL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Pall_Corp.
-  :cik: 0000075829
-  :bbgid: BBG000BRB2F4
-- :market: XNYS
-  :symbol: PH
-  :name: PARKER HANNIFIN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Parker-Hannifin
-  :cik: '0000076334'
-  :bbgid: BBG000BR3KL6
-- :market: XNAS
-  :symbol: PDCO
-  :name: PATTERSON COS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Patterson_Companies
-  :cik: 0000891024
-  :bbgid: BBG000BQY289
-- :market: XNAS
-  :symbol: PAYX
-  :name: PAYCHEX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Paychex_Inc.
-  :cik: '0000723531'
-  :bbgid: BBG000BQSQ38
-- :market: XNYS
-  :symbol: PNR
-  :name: PENTAIR PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Pentair
-  :cik: '0000077360'
-  :bbgid: BBG000C221G9
-- :market: XNAS
-  :symbol: PBCT
-  :name: PEOPLE'S UNITED FINANCIAL
-  :wikipedia: http://en.wikipedia.org/wiki/People%27s_United_Bank
-  :cik: 0001378946
-  :bbgid: BBG000BQT4L6
-- :market: XNYS
-  :symbol: POM
-  :name: PEPCO HOLDINGS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Pepco_Holdings_Inc.
-  :cik: 0001135971
-  :bbgid: BBG000DQX1D4
-- :market: XNYS
-  :symbol: PEP
-  :name: PEPSICO INC
-  :wikipedia: http://en.wikipedia.org/wiki/PepsiCo_Inc.
-  :cik: '0000077476'
-  :bbgid: BBG000DH7JK6
-- :market: XNYS
-  :symbol: PKI
-  :name: PERKINELMER INC
-  :wikipedia: http://en.wikipedia.org/wiki/PerkinElmer
-  :cik: 0000031791
-  :bbgid: BBG000FXW512
-- :market: XNYS
-  :symbol: PRGO
-  :name: PERRIGO CO PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Perrigo
-  :cik: 0001585364
-  :bbgid: BBG000CNFQW6
-- :market: XNAS
-  :symbol: PETM
-  :name: PETSMART INC
-  :wikipedia: http://en.wikipedia.org/wiki/PetSmart
-  :cik: 0000863157
-  :bbgid: BBG000BHC2S1
-- :market: XNYS
-  :symbol: PFE
-  :name: PFIZER INC
-  :wikipedia: http://en.wikipedia.org/wiki/Pfizer_Inc.
-  :cik: 0000078003
-  :bbgid: BBG000BR2B91
-- :market: XNYS
-  :symbol: PM
-  :name: PHILIP MORRIS INTERNATIONAL
-  :wikipedia: http://en.wikipedia.org/wiki/Philip_Morris_International
-  :cik: 0001413329
-  :bbgid: BBG000J2XL74
-- :market: XNYS
-  :symbol: PSX
-  :name: PHILLIPS 66
-  :wikipedia: http://en.wikipedia.org/wiki/Phillips_66
-  :cik: '0001534701'
-  :bbgid: BBG00286S4N9
-- :market: XNYS
-  :symbol: PNW
-  :name: PINNACLE WEST CAPITAL
-  :wikipedia: http://en.wikipedia.org/wiki/Pinnacle_West_Capital
-  :cik: '0000764622'
-  :bbgid: BBG000BRDSX5
-- :market: XNYS
-  :symbol: PXD
-  :name: PIONEER NATURAL RESOURCES CO
-  :wikipedia: http://en.wikipedia.org/wiki/Pioneer_Natural_Resources
-  :cik: 0001038357
-  :bbgid: BBG000BXRPH1
-- :market: XNYS
-  :symbol: PBI
-  :name: PITNEY BOWES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Pitney-Bowes
-  :cik: 0000078814
-  :bbgid: BBG000BQTMJ9
-- :market: XNYS
-  :symbol: PCL
-  :name: PLUM CREEK TIMBER CO
-  :wikipedia: http://en.wikipedia.org/wiki/Plum_Creek_Timber_Co.
-  :cik: 0000849213
-  :bbgid: BBG000C1J0Q4
-- :market: XNYS
-  :symbol: PNC
-  :name: PNC FINANCIAL SERVICES GROUP
-  :wikipedia: http://en.wikipedia.org/wiki/PNC_Financial_Services
-  :cik: '0000713676'
-  :bbgid: BBG000BRD0D8
-- :market: XNYS
-  :symbol: RL
-  :name: RALPH LAUREN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Polo_Ralph_Lauren_Corp.
-  :cik: 0001037038
-  :bbgid: BBG000BS0ZF1
-- :market: XNYS
-  :symbol: PPG
-  :name: PPG INDUSTRIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/PPG_Industries
-  :cik: 0000079879
-  :bbgid: BBG000BRJ809
-- :market: XNYS
-  :symbol: PPL
-  :name: PPL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/PPL_Corp.
-  :cik: 0000922224
-  :bbgid: BBG000BRJL00
-- :market: XNYS
-  :symbol: PX
-  :name: PRAXAIR INC
-  :wikipedia: http://en.wikipedia.org/wiki/Praxair_Inc.
-  :cik: 0000884905
-  :bbgid: BBG000CGQ6M4
-- :market: XNYS
-  :symbol: PCP
-  :name: PRECISION CASTPARTS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Precision_Castparts
-  :cik: 0000079958
-  :bbgid: BBG000C0MF34
-- :market: XNAS
-  :symbol: PCLN
-  :name: PRICELINE GROUP INC/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Priceline.com_Inc
-  :cik: '0001075531'
-  :bbgid: BBG000BLBVN4
-- :market: XNYS
-  :symbol: PFG
-  :name: PRINCIPAL FINANCIAL GROUP
-  :wikipedia: http://en.wikipedia.org/wiki/Principal_Financial_Group
-  :cik: 0001126328
-  :bbgid: BBG000NSCNT7
-- :market: XNYS
-  :symbol: PG
-  :name: PROCTER & GAMBLE CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Procter_%26_Gamble
-  :cik: 0000080424
-  :bbgid: BBG000BR2TH3
-- :market: XNYS
-  :symbol: PGR
-  :name: PROGRESSIVE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Progressive_Corp.
-  :cik: 0000080661
-  :bbgid: BBG000BR37X2
-- :market: XNYS
-  :symbol: PLD
-  :name: PROLOGIS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Prologis
-  :cik: 0001045609
-  :bbgid: BBG000B9Z0J8
-- :market: XNYS
-  :symbol: PRU
-  :name: PRUDENTIAL FINANCIAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Prudential_Financial
-  :cik: '0001137774'
-  :bbgid: BBG000HCJMF9
-- :market: XNYS
-  :symbol: PEG
-  :name: PUBLIC SERVICE ENTERPRISE GP
-  :wikipedia: http://en.wikipedia.org/wiki/Public_Serv._Enterprise_Inc.
-  :cik: 0000788784
-  :bbgid: BBG000BQZMH4
-- :market: XNYS
-  :symbol: PSA
-  :name: PUBLIC STORAGE
-  :wikipedia: http://en.wikipedia.org/wiki/Public_Storage
-  :cik: 0001393311
-  :bbgid: BBG000BPPN67
-- :market: XNYS
-  :symbol: PHM
-  :name: PULTEGROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Pulte_Homes_Inc.
-  :cik: 0000822416
-  :bbgid: BBG000BR54L0
-- :market: XNYS
-  :symbol: PVH
-  :name: PVH CORP
-  :wikipedia: http://en.wikipedia.org/wiki/PVH_Corp.
-  :cik: 0000078239
-  :bbgid: BBG000BRRG02
-- :market: XNYS
-  :symbol: QEP
-  :name: QEP RESOURCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Questar_Corporation_(gas_company)
-  :cik: 0001108827
-  :bbgid: BBG000BLCL55
-- :market: XNYS
-  :symbol: PWR
-  :name: QUANTA SERVICES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Quanta_Services_Inc.
-  :cik: 0001050915
-  :bbgid: BBG000BBL8V7
-- :market: XNAS
-  :symbol: QCOM
-  :name: QUALCOMM INC
-  :wikipedia: http://en.wikipedia.org/wiki/QUALCOMM_Inc.
-  :cik: 0000804328
-  :bbgid: BBG000CGC1X8
-- :market: XNYS
-  :symbol: DGX
-  :name: QUEST DIAGNOSTICS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Quest_Diagnostics
-  :cik: 0001022079
-  :bbgid: BBG000BN84F3
-- :market: XNYS
-  :symbol: RRC
-  :name: RANGE RESOURCES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Range_Resources
-  :cik: 0000315852
-  :bbgid: BBG000FVXD63
-- :market: XNYS
-  :symbol: RTN
-  :name: RAYTHEON COMPANY
-  :wikipedia: http://en.wikipedia.org/wiki/Raytheon_Co.
-  :cik: '0001047122'
-  :bbgid: BBG000BSD7C2
-- :market: XNYS
-  :symbol: RHT
-  :name: RED HAT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Red_Hat_Inc.
-  :cik: 0001087423
-  :bbgid: BBG000BWXL85
-- :market: XNAS
-  :symbol: REGN
-  :name: REGENERON PHARMACEUTICALS
-  :wikipedia: http://en.wikipedia.org/wiki/Regeneron
-  :cik: 0000872589
-  :bbgid: BBG000C734W3
-- :market: XNYS
-  :symbol: RF
-  :name: REGIONS FINANCIAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Regions_Financial_Corp.
-  :cik: 0001281761
-  :bbgid: BBG000Q3JN03
-- :market: XNYS
-  :symbol: RSG
-  :name: REPUBLIC SERVICES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Republic_Services_Inc
-  :cik: 0001060391
-  :bbgid: BBG000BPXVJ6
-- :market: XNYS
-  :symbol: RAI
-  :name: REYNOLDS AMERICAN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Reynolds_American_Inc.
-  :cik: 0001275283
-  :bbgid: BBG000BBB3K1
-- :market: XNYS
-  :symbol: RHI
-  :name: ROBERT HALF INTL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Robert_Half_International
-  :cik: '0000315213'
-  :bbgid: BBG000BS5DR2
-- :market: XNYS
-  :symbol: ROK
-  :name: ROCKWELL AUTOMATION INC
-  :wikipedia: http://en.wikipedia.org/wiki/Rockwell_Automation_Inc.
-  :cik: 0001024478
-  :bbgid: BBG000BBCDZ2
-- :market: XNYS
-  :symbol: COL
-  :name: ROCKWELL COLLINS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Rockwell_Collins
-  :cik: '0001137411'
-  :bbgid: BBG000BN1XR3
-- :market: XNYS
-  :symbol: ROP
-  :name: ROPER INDUSTRIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Roper_Industries
-  :cik: 0000882835
-  :bbgid: BBG000F1ZSN5
-- :market: XNAS
-  :symbol: ROST
-  :name: ROSS STORES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Ross_Stores
-  :cik: '0000745732'
-  :bbgid: BBG000BSBZH7
-- :market: XNYS
-  :symbol: R
-  :name: RYDER SYSTEM INC
-  :wikipedia: http://en.wikipedia.org/wiki/Ryder_System
-  :cik: 0000085961
-  :bbgid: BBG000BRVP70
-- :market: XNYS
-  :symbol: SWY
-  :name: SAFEWAY INC
-  :wikipedia: http://en.wikipedia.org/wiki/Safeway_Inc.
-  :cik: 0000086144
-  :bbgid: BBG000BV7LP7
-- :market: XNYS
-  :symbol: CRM
-  :name: SALESFORCE.COM INC
-  :wikipedia: http://en.wikipedia.org/wiki/Salesforce.com
-  :cik: 0001108524
-  :bbgid: BBG000BN2DC2
-- :market: XNAS
-  :symbol: SNDK
-  :name: SANDISK CORP
-  :wikipedia: http://en.wikipedia.org/wiki/SanDisk_Corporation
-  :cik: 0001000180
-  :bbgid: BBG000FG3C43
-- :market: XNYS
-  :symbol: SCG
-  :name: SCANA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/SCANA_Corp
-  :cik: '0000754737'
-  :bbgid: BBG000BSLLB3
-- :market: XNYS
-  :symbol: SLB
-  :name: SCHLUMBERGER LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Schlumberger_Ltd.
-  :cik: 0000087347
-  :bbgid: BBG000BT41Q8
-- :market: XNYS
-  :symbol: SNI
-  :name: SCRIPPS NETWORKS INTER-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Scripps_Networks_Interactive_Inc.
-  :cik: '0001430602'
-  :bbgid: BBG000RQW961
-- :market: XNAS
-  :symbol: STX
-  :name: SEAGATE TECHNOLOGY
-  :wikipedia: http://en.wikipedia.org/wiki/Seagate_Technology
-  :cik: 0001137789
-  :bbgid: BBG000F0KF42
-- :market: XNYS
-  :symbol: SEE
-  :name: SEALED AIR CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Sealed_Air_Corp.(New)
-  :cik: '0001012100'
-  :bbgid: BBG000C22QV7
-- :market: XNYS
-  :symbol: SRE
-  :name: SEMPRA ENERGY
-  :wikipedia: http://en.wikipedia.org/wiki/Sempra_Energy
-  :cik: 0001032208
-  :bbgid: BBG000C2ZCH8
-- :market: XNYS
-  :symbol: SHW
-  :name: SHERWIN-WILLIAMS CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Sherwin-Williams
-  :cik: 0000089800
-  :bbgid: BBG000BSXQV7
-- :market: XNAS
-  :symbol: SIAL
-  :name: SIGMA-ALDRICH
-  :wikipedia: http://en.wikipedia.org/wiki/Sigma-Aldrich
-  :cik: 0000090185
-  :bbgid: BBG000BSY3K9
-- :market: XNYS
-  :symbol: SPG
-  :name: SIMON PROPERTY GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Simon_Property_Group_Inc
-  :cik: '0001063761'
-  :bbgid: BBG000BJ2D31
-- :market: XNYS
-  :symbol: SJM
-  :name: JM SMUCKER CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Smucker_(J.M.)
-  :cik: 0000091419
-  :bbgid: BBG000BT1715
-- :market: XNYS
-  :symbol: SNA
-  :name: SNAP-ON INC
-  :wikipedia: http://en.wikipedia.org/wiki/Snap-On_Inc.
-  :cik: 0000091440
-  :bbgid: BBG000BT7JW9
-- :market: XNYS
-  :symbol: SO
-  :name: SOUTHERN CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Southern_Co.
-  :cik: 0000092122
-  :bbgid: BBG000BT9DW0
-- :market: XNYS
-  :symbol: LUV
-  :name: SOUTHWEST AIRLINES CO
-  :wikipedia: http://en.wikipedia.org/wiki/Southwest_Airlines
-  :cik: 0000092380
-  :bbgid: BBG000BNJHS8
-- :market: XNYS
-  :symbol: SWN
-  :name: SOUTHWESTERN ENERGY CO
-  :wikipedia: http://en.wikipedia.org/wiki/Southwestern_Energy
-  :cik: '0000007332'
-  :bbgid: BBG000BTR593
-- :market: XNYS
-  :symbol: SE
-  :name: SPECTRA ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Spectra_Energy_Corp.
-  :cik: 0001373835
-  :bbgid: BBG000DNTSP4
-- :market: XNYS
-  :symbol: STJ
-  :name: ST JUDE MEDICAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/St_Jude_Medical
-  :cik: '0000203077'
-  :bbgid: BBG000F15NW9
-- :market: XNYS
-  :symbol: SWK
-  :name: STANLEY BLACK & DECKER INC
-  :wikipedia: http://en.wikipedia.org/wiki/Stanley_Black_%26_Decker
-  :cik: 0000093556
-  :bbgid: BBG000BTQR96
-- :market: XNAS
-  :symbol: SPLS
-  :name: STAPLES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Staples_Inc.
-  :cik: 0000791519
-  :bbgid: BBG000BCBCM7
-- :market: XNAS
-  :symbol: SBUX
-  :name: STARBUCKS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Starbucks_Corp.
-  :cik: 0000829224
-  :bbgid: BBG000CTQBF3
-- :market: XNYS
-  :symbol: HOT
-  :name: STARWOOD HOTELS & RESORTS
-  :wikipedia: http://en.wikipedia.org/wiki/Starwood_Hotels_%26_Resorts
-  :cik: '0000316206'
-  :bbgid: BBG000BLBXT4
-- :market: XNYS
-  :symbol: STT
-  :name: STATE STREET CORP
-  :wikipedia: http://en.wikipedia.org/wiki/State_Street_Corp.
-  :cik: 0000093751
-  :bbgid: BBG000BKFBD7
-- :market: XNAS
-  :symbol: SRCL
-  :name: STERICYCLE INC
-  :wikipedia: http://en.wikipedia.org/wiki/Stericycle_Inc
-  :cik: 0000861878
-  :bbgid: BBG000H3FZM6
-- :market: XNYS
-  :symbol: SYK
-  :name: STRYKER CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Stryker_Corp.
-  :cik: '0000310764'
-  :bbgid: BBG000DN7P92
-- :market: XNYS
-  :symbol: STI
-  :name: SUNTRUST BANKS INC
-  :wikipedia: http://en.wikipedia.org/wiki/SunTrust_Banks
-  :cik: '0000750556'
-  :bbgid: BBG000BTKGG8
-- :market: XNAS
-  :symbol: SYMC
-  :name: SYMANTEC CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Symantec_Corp.
-  :cik: 0000849399
-  :bbgid: BBG000BH2JM1
-- :market: XNYS
-  :symbol: SYY
-  :name: SYSCO CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Sysco_Corp.
-  :cik: 0000096021
-  :bbgid: BBG000BTVJ25
-- :market: XNAS
-  :symbol: TROW
-  :name: T ROWE PRICE GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/T._Rowe_Price_Group
-  :cik: 0001113169
-  :bbgid: BBG000BVMPN3
-- :market: XNYS
-  :symbol: TGT
-  :name: TARGET CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Target_Corp.
-  :cik: 0000027419
-  :bbgid: BBG000H8TVT2
-- :market: XNYS
-  :symbol: TEL
-  :name: TE CONNECTIVITY LTD
-  :wikipedia: http://en.wikipedia.org/wiki/TE_Connectivity
-  :cik: 0001385157
-  :bbgid: BBG000RGM5P1
-- :market: XNYS
-  :symbol: TE
-  :name: TECO ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/TECO_Energy
-  :cik: '0000350563'
-  :bbgid: BBG000BV1Y93
-- :market: XNYS
-  :symbol: THC
-  :name: TENET HEALTHCARE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Tenet_Healthcare_Corp.
-  :cik: 0000070318
-  :bbgid: BBG000CPHYL4
-- :market: XNYS
-  :symbol: TDC
-  :name: TERADATA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Teradata_Corp.
-  :cik: 0000816761
-  :bbgid: BBG000R0L5J4
-- :market: XNYS
-  :symbol: TSO
-  :name: TESORO CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Tesoro_Petroleum_Co.
-  :cik: '0000050104'
-  :bbgid: BBG000BVPPM1
-- :market: XNAS
-  :symbol: TXN
-  :name: TEXAS INSTRUMENTS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Texas_Instruments
-  :cik: 0000097476
-  :bbgid: BBG000BVV7G1
-- :market: XNYS
-  :symbol: TXT
-  :name: TEXTRON INC
-  :wikipedia: http://en.wikipedia.org/wiki/Textron_Inc.
-  :cik: '0000217346'
-  :bbgid: BBG000BVVQQ8
-- :market: XNYS
-  :symbol: HSY
-  :name: HERSHEY CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Hershey_Company
-  :cik: '0000047111'
-  :bbgid: BBG000BLHRS2
-- :market: XNYS
-  :symbol: TRV
-  :name: TRAVELERS COS INC/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Travelers_Companies_Inc.
-  :cik: 0000086312
-  :bbgid: BBG000BJ81C1
-- :market: XNYS
-  :symbol: TMO
-  :name: THERMO FISHER SCIENTIFIC INC
-  :wikipedia: http://en.wikipedia.org/wiki/Thermo_Fisher_Scientific
-  :cik: 0000097745
-  :bbgid: BBG000BVDLH9
-- :market: XNYS
-  :symbol: TIF
-  :name: TIFFANY & CO
-  :wikipedia: http://en.wikipedia.org/wiki/Tiffany_%26_Co.
-  :cik: 0000098246
-  :bbgid: BBG000BV75B7
-- :market: XNYS
-  :symbol: TWX
-  :name: TIME WARNER INC
-  :wikipedia: http://en.wikipedia.org/wiki/Time_Warner_Inc.
-  :cik: '0001105705'
-  :bbgid: BBG000F0PF65
-- :market: XNYS
-  :symbol: TWC
-  :name: TIME WARNER CABLE
-  :wikipedia: http://en.wikipedia.org/wiki/Time_Warner_Cable_Inc.
-  :cik: '0001377013'
-  :bbgid: BBG000H89QJ6
-- :market: XNYS
-  :symbol: TJX
-  :name: TJX COMPANIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/TJX_Companies_Inc.
-  :cik: 0000109198
-  :bbgid: BBG000BV8DN6
-- :market: XNYS
-  :symbol: TMK
-  :name: TORCHMARK CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Torchmark_Corp.
-  :cik: '0000320335'
-  :bbgid: BBG000BVD6X4
-- :market: XNYS
-  :symbol: TSS
-  :name: TOTAL SYSTEM SERVICES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Total_System_Services
-  :cik: 0000721683
-  :bbgid: BBG000C1JTL6
-- :market: XNAS
-  :symbol: TSCO
-  :name: TRACTOR SUPPLY COMPANY
-  :wikipedia: http://en.wikipedia.org/wiki/Tractor_Supply_Company
-  :cik: 0000916365
-  :bbgid: BBG000BLXZN1
-- :market: XNYS
-  :symbol: RIG
-  :name: TRANSOCEAN LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Transocean
-  :cik: '0001451505'
-  :bbgid: BBG000BH5LT6
-- :market: XNAS
-  :symbol: TRIP
-  :name: TRIPADVISOR INC
-  :wikipedia: http://en.wikipedia.org/wiki/TripAdvisor
-  :cik: '0001526520'
-  :bbgid: BBG001M8HHB7
-- :market: XNAS
-  :symbol: FOXA
-  :name: TWENTY-FIRST CENTURY FOX-A
-  :wikipedia: http://en.wikipedia.org/wiki/Twenty-First_Century_Fox
-  :cik: 0001308161
-  :bbgid: BBG000DWYF03
-- :market: XNYS
-  :symbol: TSN
-  :name: TYSON FOODS INC-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Tyson_Foods
-  :cik: 0000100493
-  :bbgid: BBG000DKCC19
-- :market: XNYS
-  :symbol: TYC
-  :name: TYCO INTERNATIONAL PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Tyco_International
-  :cik: 0000833444
-  :bbgid: BBG000BVWLJ6
-- :market: XNYS
-  :symbol: USB
-  :name: US BANCORP
-  :wikipedia: http://en.wikipedia.org/wiki/U.S._Bancorp
-  :cik: '0000036104'
-  :bbgid: BBG000FFDM15
-- :market: XNYS
-  :symbol: UA
-  :name: UNDER ARMOUR INC-CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/Under_Armour
-  :cik: 0001336917
-  :bbgid: BBG000BXM6V2
-- :market: XNYS
-  :symbol: UNP
-  :name: UNION PACIFIC CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Union_Pacific
-  :cik: 0000100885
-  :bbgid: BBG000BW3299
-- :market: XNYS
-  :symbol: UNH
-  :name: UNITEDHEALTH GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/United_Health_Group_Inc.
-  :cik: '0000731766'
-  :bbgid: BBG000CH5208
-- :market: XNYS
-  :symbol: UPS
-  :name: UNITED PARCEL SERVICE-CL B
-  :wikipedia: http://en.wikipedia.org/wiki/United_Parcel_Service
-  :cik: 0001090727
-  :bbgid: BBG000L9CV04
-- :market: XNYS
-  :symbol: MLM
-  :name: MARTIN MARIETTA MATERIALS
-  :wikipedia: http://en.wikipedia.org/wiki/Martin_Marietta_Materials
-  :cik: 0000916076
-  :bbgid: BBG000BGYMH7
-- :market: XNYS
-  :symbol: URI
-  :name: UNITED RENTALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/United_Rentals
-  :cik: '0001067701'
-  :bbgid: BBG000BXMFC3
-- :market: XNYS
-  :symbol: UTX
-  :name: UNITED TECHNOLOGIES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/United_Technologies
-  :cik: 0000101829
-  :bbgid: BBG000BW8S60
-- :market: XNYS
-  :symbol: UHS
-  :name: UNIVERSAL HEALTH SERVICES-B
-  :wikipedia: http://en.wikipedia.org/wiki/Universal_Health_Services
-  :cik: 0000352915
-  :bbgid: BBG000CB8Q50
-- :market: XNYS
-  :symbol: UNM
-  :name: UNUM GROUP
-  :wikipedia: http://en.wikipedia.org/wiki/Unum_Group
-  :cik: '0000005513'
-  :bbgid: BBG000BW2QX0
-- :market: XNAS
-  :symbol: URBN
-  :name: URBAN OUTFITTERS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Urban_Outfitters
-  :cik: 0000912615
-  :bbgid: BBG000BL79J3
-- :market: XNYS
-  :symbol: VFC
-  :name: VF CORP
-  :wikipedia: http://en.wikipedia.org/wiki/V.F._Corp.
-  :cik: 0000103379
-  :bbgid: BBG000BWCKB6
-- :market: XNYS
-  :symbol: VLO
-  :name: VALERO ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Valero_Energy
-  :cik: '0001035002'
-  :bbgid: BBG000BBGGQ1
-- :market: XNYS
-  :symbol: VAR
-  :name: VARIAN MEDICAL SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Varian_Medical_Systems
-  :cik: '0000203527'
-  :bbgid: BBG000BWBZN1
-- :market: XNYS
-  :symbol: VTR
-  :name: VENTAS INC
-  :wikipedia: 
-  :cik: '0000740260'
-  :bbgid: BBG000FRVHB9
-- :market: XNAS
-  :symbol: VRSN
-  :name: VERISIGN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Verisign_Inc.
-  :cik: '0001014473'
-  :bbgid: BBG000BGKHZ3
-- :market: XNYS
-  :symbol: VZ
-  :name: VERIZON COMMUNICATIONS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Verizon_Communications
-  :cik: '0000732712'
-  :bbgid: BBG000HS77T5
-- :market: XNAS
-  :symbol: VRTX
-  :name: VERTEX PHARMACEUTICALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Vertex_Pharmaceuticals
-  :cik: 0000875320
-  :bbgid: BBG000C1S2X2
-- :market: XNAS
-  :symbol: VIAB
-  :name: VIACOM INC-CLASS B
-  :wikipedia: http://en.wikipedia.org/wiki/Viacom_Inc.
-  :cik: 0001339947
-  :bbgid: BBG000DHSPT0
-- :market: XNYS
-  :symbol: V
-  :name: VISA INC-CLASS A SHARES
-  :wikipedia: http://en.wikipedia.org/wiki/Visa_Inc.
-  :cik: '0001403161'
-  :bbgid: BBG000PSKYX7
-- :market: XNYS
-  :symbol: VNO
-  :name: VORNADO REALTY TRUST
-  :wikipedia: http://en.wikipedia.org/wiki/Vornado_Realty_Trust
-  :cik: 0000899689
-  :bbgid: BBG000BWHD54
-- :market: XNYS
-  :symbol: VMC
-  :name: VULCAN MATERIALS CO
-  :wikipedia: http://en.wikipedia.org/wiki/Vulcan_Materials
-  :cik: 0001396009
-  :bbgid: BBG000BWGYF8
-- :market: XNYS
-  :symbol: WMT
-  :name: WAL-MART STORES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Wal-Mart_Stores
-  :cik: 0000104169
-  :bbgid: BBG000BWXBC2
-- :market: XNYS
-  :symbol: WAG
-  :name: WALGREEN CO
-  :wikipedia: http://en.wikipedia.org/wiki/Walgreen_Co.
-  :cik: '0000104207'
-  :bbgid: BBG000BWLMJ4
-- :market: XNYS
-  :symbol: DIS
-  :name: WALT DISNEY CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Walt_Disney_Company
-  :cik: 0001001039
-  :bbgid: BBG000BH4R78
-- :market: XNYS
-  :symbol: WM
-  :name: WASTE MANAGEMENT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Waste_Management_Inc.
-  :cik: 0000823768
-  :bbgid: BBG000BWVSR1
-- :market: XNYS
-  :symbol: WAT
-  :name: WATERS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Waters_Corporation
-  :cik: 0001000697
-  :bbgid: BBG000FQRVM3
-- :market: XNYS
-  :symbol: WLP
-  :name: WELLPOINT INC
-  :wikipedia: http://en.wikipedia.org/wiki/WellPoint_Inc.
-  :cik: 0001156039
-  :bbgid: BBG000BCG930
-- :market: XNYS
-  :symbol: WFC
-  :name: WELLS FARGO & CO
-  :wikipedia: http://en.wikipedia.org/wiki/Wells_Fargo
-  :cik: 0000072971
-  :bbgid: BBG000BWQFY7
-- :market: XNAS
-  :symbol: WDC
-  :name: WESTERN DIGITAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Western_Digital
-  :cik: '0000106040'
-  :bbgid: BBG000BWNFZ9
-- :market: XNYS
-  :symbol: WU
-  :name: WESTERN UNION CO
-  :wikipedia: http://en.wikipedia.org/wiki/Western_Union_Co
-  :cik: '0001365135'
-  :bbgid: BBG000BB5373
-- :market: XNYS
-  :symbol: WY
-  :name: WEYERHAEUSER CO
-  :wikipedia: http://en.wikipedia.org/wiki/Weyerhaeuser_Corp.
-  :cik: '0000106535'
-  :bbgid: BBG000BX3BL3
-- :market: XNYS
-  :symbol: WHR
-  :name: WHIRLPOOL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Whirlpool_Corp.
-  :cik: '0000106640'
-  :bbgid: BBG000BWSV34
-- :market: XNAS
-  :symbol: WFM
-  :name: WHOLE FOODS MARKET INC
-  :wikipedia: http://en.wikipedia.org/wiki/Whole_Foods_Market
-  :cik: 0000865436
-  :bbgid: BBG000CPQZ77
-- :market: XNYS
-  :symbol: WMB
-  :name: WILLIAMS COS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Williams_Cos.
-  :cik: '0000107263'
-  :bbgid: BBG000BWVCP8
-- :market: XNAS
-  :symbol: WIN
-  :name: WINDSTREAM HOLDINGS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Windstream_Communications
-  :cik: 0001282266
-  :bbgid: BBG000BFJ645
-- :market: XNYS
-  :symbol: WEC
-  :name: WISCONSIN ENERGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Wisconsin_Energy_Corporation
-  :cik: 0000783325
-  :bbgid: BBG000BWP7D9
-- :market: XNYS
-  :symbol: WYN
-  :name: WYNDHAM WORLDWIDE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Wyndham_Worldwide
-  :cik: 0001361658
-  :bbgid: BBG000PV2L86
-- :market: XNAS
-  :symbol: WYNN
-  :name: WYNN RESORTS LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Wynn_Resorts_Ltd
-  :cik: 0001174922
-  :bbgid: BBG000LD9JQ8
-- :market: XNYS
-  :symbol: XEL
-  :name: XCEL ENERGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/Xcel_Energy_Inc
-  :cik: 0000072903
-  :bbgid: BBG000BCTQ65
-- :market: XNYS
-  :symbol: XRX
-  :name: XEROX CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Xerox_Corp.
-  :cik: 0000108772
-  :bbgid: BBG000BX5ZF5
-- :market: XNAS
-  :symbol: XLNX
-  :name: XILINX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Xilinx_Inc
-  :cik: 0000743988
-  :bbgid: BBG000C0F570
-- :market: XNYS
-  :symbol: XL
-  :name: XL GROUP PLC
-  :wikipedia: http://en.wikipedia.org/wiki/XL_Capital
-  :cik: 0000875159
-  :bbgid: BBG000C9W1Y1
-- :market: XNYS
-  :symbol: XYL
-  :name: XYLEM INC
-  :wikipedia: http://en.wikipedia.org/wiki/Xylem_Inc.
-  :cik: '0001524472'
-  :bbgid: BBG001D8R5D0
-- :market: XNAS
-  :symbol: YHOO
-  :name: YAHOO! INC
-  :wikipedia: http://en.wikipedia.org/wiki/Yahoo_Inc.
-  :cik: '0001011006'
-  :bbgid: BBG000GFFQN9
-- :market: XNYS
-  :symbol: YUM
-  :name: YUM! BRANDS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Yum!_Brands_Inc
-  :cik: '0001041061'
-  :bbgid: BBG000BH3GZ2
-- :market: XNYS
-  :symbol: ZMH
-  :name: ZIMMER HOLDINGS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Zimmer_Holdings
-  :cik: 0001136869
-  :bbgid: BBG000BKPL53
-- :market: XNAS
-  :symbol: ZION
-  :name: ZIONS BANCORPORATION
-  :wikipedia: http://en.wikipedia.org/wiki/Zions_Bancorp
-  :cik: 0000109380
-  :bbgid: BBG000BX9WL1
-- :market: XNYS
-  :symbol: ZTS
-  :name: ZOETIS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Zoetis
-  :cik: 0001555280
-  :bbgid: BBG0039320N9
+- ABT
+- ABBV
+- ACE
+- ACN
+- ACT
+- ADBE
+- ADT
+- AES
+- AET
+- AFL
+- AMG
+- A
+- GAS
+- APD
+- ARG
+- AKAM
+- AA
+- ALXN
+- ATI
+- ALLE
+- AGN
+- ADS
+- ALL
+- ALTR
+- MO
+- AMZN
+- AEE
+- AEP
+- AXP
+- AIG
+- AMT
+- AMP
+- ABC
+- AME
+- AMGN
+- APH
+- APC
+- ADI
+- AON
+- APA
+- AIV
+- AAPL
+- AMAT
+- ADM
+- AIZ
+- T
+- ADSK
+- ADP
+- AN
+- AZO
+- AVGO
+- AVB
+- AVY
+- AVP
+- BHI
+- BLL
+- BAC
+- BK
+- BCR
+- BAX
+- BBT
+- BDX
+- BBBY
+- BMS
+- BRK/B
+- BBY
+- BIIB
+- BLK
+- HRB
+- BA
+- BWA
+- BXP
+- BSX
+- BMY
+- BRCM
+- BF/B
+- CHRW
+- CA
+- CVC
+- COG
+- CAM
+- CPB
+- COF
+- CAH
+- CFN
+- KMX
+- CCL
+- CAT
+- CBG
+- CBS
+- CELG
+- CNP
+- CTL
+- CERN
+- CF
+- SCHW
+- CHK
+- CVX
+- CMG
+- CB
+- CI
+- XEC
+- CINF
+- CTAS
+- CSCO
+- C
+- CTXS
+- CLX
+- CME
+- CMS
+- COH
+- KO
+- CCE
+- CTSH
+- CL
+- CMCSA
+- CMA
+- CSC
+- CAG
+- COP
+- CNX
+- ED
+- STZ
+- GLW
+- COST
+- COV
+- CCI
+- CSX
+- CMI
+- CVS
+- DHI
+- DHR
+- DRI
+- DVA
+- DE
+- DLPH
+- DAL
+- DNR
+- XRAY
+- DVN
+- DO
+- DTV
+- DFS
+- DISCA
+- DISCK
+- DG
+- DLTR
+- D
+- DOV
+- DOW
+- DPS
+- DTE
+- DD
+- DUK
+- DNB
+- ETFC
+- EMN
+- ETN
+- EBAY
+- ECL
+- EIX
+- EW
+- EA
+- EMC
+- EMR
+- ESV
+- ETR
+- EOG
+- EQT
+- EFX
+- EQR
+- ESS
+- EL
+- EXC
+- EXPE
+- EXPD
+- ESRX
+- XOM
+- FFIV
+- FB
+- FDO
+- FAST
+- FDX
+- FIS
+- FITB
+- FSLR
+- FE
+- FISV
+- FLIR
+- FLS
+- FLR
+- FMC
+- FTI
+- F
+- FOSL
+- BEN
+- FCX
+- FTR
+- GME
+- GCI
+- GPS
+- GRMN
+- GD
+- GE
+- GGP
+- GIS
+- GM
+- GPC
+- GNW
+- GILD
+- GS
+- GT
+- GOOGL
+- GOOG
+- GWW
+- HAL
+- HOG
+- HAR
+- HRS
+- HIG
+- HAS
+- HCP
+- HCN
+- HP
+- HES
+- HPQ
+- HD
+- HON
+- HRL
+- HSP
+- HST
+- HCBK
+- HUM
+- HBAN
+- ITW
+- IR
+- TEG
+- INTC
+- ICE
+- IBM
+- IP
+- IPG
+- IFF
+- INTU
+- ISRG
+- IVZ
+- IRM
+- JEC
+- JNJ
+- JCI
+- JOY
+- JPM
+- JNPR
+- KSU
+- K
+- KEY
+- GMCR
+- KMB
+- KIM
+- KMI
+- KLAC
+- KSS
+- KRFT
+- KR
+- LB
+- LLL
+- LH
+- LRCX
+- LM
+- LEG
+- LEN
+- LVLT
+- LUK
+- LLY
+- LNC
+- LLTC
+- LMT
+- L
+- LO
+- LOW
+- LYB
+- MTB
+- MAC
+- M
+- MMM
+- MNK
+- MRO
+- MPC
+- MAR
+- MMC
+- MAS
+- MA
+- MAT
+- MKC
+- MCD
+- MHFI
+- MCK
+- MJN
+- MWV
+- MDT
+- MRK
+- MET
+- MCHP
+- MU
+- MSFT
+- MHK
+- TAP
+- MDLZ
+- MON
+- MNST
+- MCO
+- MS
+- MOS
+- MSI
+- MUR
+- MYL
+- NBR
+- NDAQ
+- NOV
+- NAVI
+- NTAP
+- NFLX
+- NWL
+- NFX
+- NEM
+- NWSA
+- NEE
+- NLSN
+- NKE
+- NI
+- NE
+- NBL
+- JWN
+- NSC
+- NTRS
+- NOC
+- NU
+- NRG
+- NUE
+- NVDA
+- KORS
+- ORLY
+- OXY
+- OMC
+- OKE
+- ORCL
+- OI
+- PCG
+- PCAR
+- PLL
+- PH
+- PDCO
+- PAYX
+- PNR
+- PBCT
+- POM
+- PEP
+- PKI
+- PRGO
+- PETM
+- PFE
+- PM
+- PSX
+- PNW
+- PXD
+- PBI
+- PCL
+- PNC
+- RL
+- PPG
+- PPL
+- PX
+- PCP
+- PCLN
+- PFG
+- PG
+- PGR
+- PLD
+- PRU
+- PEG
+- PSA
+- PHM
+- PVH
+- QEP
+- PWR
+- QCOM
+- DGX
+- RRC
+- RTN
+- RHT
+- REGN
+- RF
+- RSG
+- RAI
+- RHI
+- ROK
+- COL
+- ROP
+- ROST
+- R
+- SWY
+- CRM
+- SNDK
+- SCG
+- SLB
+- SNI
+- STX
+- SEE
+- SRE
+- SHW
+- SIAL
+- SPG
+- SJM
+- SNA
+- SO
+- LUV
+- SWN
+- SE
+- STJ
+- SWK
+- SPLS
+- SBUX
+- HOT
+- STT
+- SRCL
+- SYK
+- STI
+- SYMC
+- SYY
+- TROW
+- TGT
+- TEL
+- TE
+- THC
+- TDC
+- TSO
+- TXN
+- TXT
+- HSY
+- TRV
+- TMO
+- TIF
+- TWX
+- TWC
+- TJX
+- TMK
+- TSS
+- TSCO
+- RIG
+- TRIP
+- FOXA
+- TSN
+- TYC
+- USB
+- UA
+- UNP
+- UNH
+- UPS
+- MLM
+- URI
+- UTX
+- UHS
+- UNM
+- URBN
+- VFC
+- VLO
+- VAR
+- VTR
+- VRSN
+- VZ
+- VRTX
+- VIAB
+- V
+- VNO
+- VMC
+- WMT
+- WAG
+- DIS
+- WM
+- WAT
+- WLP
+- WFC
+- WDC
+- WU
+- WY
+- WHR
+- WFM
+- WMB
+- WIN
+- WEC
+- WYN
+- WYNN
+- XEL
+- XRX
+- XLNX
+- XL
+- XYL
+- YHOO
+- YUM
+- ZMH
+- ZION
+- ZTS

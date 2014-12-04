@@ -1,625 +1,105 @@
 ---
-- :market: XNAS
-  :symbol: FOXA
-  :name: TWENTY-FIRST CENTURY FOX-A
-  :wikipedia: http://en.wikipedia.org/wiki/Twenty-First_Century_Fox
-  :cik: 0001308161
-  :bbgid: BBG000DWYF03
-- :market: XNAS
-  :symbol: ATVI
-  :name: ACTIVISION BLIZZARD INC
-  :wikipedia: http://en.wikipedia.org/wiki/Activision_Blizzard
-  :cik: 0000718877
-  :bbgid: BBG000CVWGS6
-- :market: XNAS
-  :symbol: ADBE
-  :name: ADOBE SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Adobe_Systems_Inc
-  :cik: 0000796343
-  :bbgid: BBG000BB5006
-- :market: XNAS
-  :symbol: AKAM
-  :name: AKAMAI TECHNOLOGIES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Akamai_Technologies_Inc
-  :cik: 0001086222
-  :bbgid: BBG000BJQWD2
-- :market: XNAS
-  :symbol: ALXN
-  :name: ALEXION PHARMACEUTICALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Alexion_Pharmaceuticals
-  :cik: 0000899866
-  :bbgid: BBG000G30YX4
-- :market: XNAS
-  :symbol: ALTR
-  :name: ALTERA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Altera_Corp
-  :cik: 0000768251
-  :bbgid: BBG000BBMSJ6
-- :market: XNAS
-  :symbol: AMZN
-  :name: AMAZON.COM INC
-  :wikipedia: http://en.wikipedia.org/wiki/Amazon.com_Inc
-  :cik: 0001018724
-  :bbgid: BBG000BVPV84
-- :market: XNAS
-  :symbol: AMGN
-  :name: AMGEN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Amgen_Inc
-  :cik: 0000318154
-  :bbgid: BBG000BBS2Y0
-- :market: XNAS
-  :symbol: ADI
-  :name: ANALOG DEVICES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Analog_Devices
-  :cik: 0000006281
-  :bbgid: BBG000BB6G37
-- :market: XNAS
-  :symbol: AAPL
-  :name: APPLE INC
-  :wikipedia: http://en.wikipedia.org/wiki/Apple_Inc.
-  :cik: 0000320193
-  :bbgid: BBG000B9XRY4
-- :market: XNAS
-  :symbol: AMAT
-  :name: APPLIED MATERIALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Applied_Materials_Inc
-  :cik: 0000006951
-  :bbgid: BBG000BBPFB9
-- :market: XNAS
-  :symbol: ADSK
-  :name: AUTODESK INC
-  :wikipedia: http://en.wikipedia.org/wiki/Autodesk_Inc
-  :cik: 0000769397
-  :bbgid: BBG000BM7HL0
-- :market: XNAS
-  :symbol: ADP
-  :name: AUTOMATIC DATA PROCESSING
-  :wikipedia: http://en.wikipedia.org/wiki/Automatic_Data_Processing
-  :cik: 0000008670
-  :bbgid: BBG000JG0547
-- :market: XNAS
-  :symbol: AVGO
-  :name: AVAGO TECHNOLOGIES LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Avago_Technologies
-  :cik: '0001441634'
-  :bbgid: BBG000C4DPX1
-- :market: XNAS
-  :symbol: BIDU
-  :name: BAIDU INC
-  :wikipedia: http://en.wikipedia.org/wiki/Baidu
-  :cik: 0001329099
-  :bbgid: BBG000QXWHD1
-- :market: XNAS
-  :symbol: BBBY
-  :name: BED BATH & BEYOND INC
-  :wikipedia: http://en.wikipedia.org/wiki/Bed_Bath_%26_Beyond
-  :cik: 0000886158
-  :bbgid: BBG000CSY9H9
-- :market: XNAS
-  :symbol: BIIB
-  :name: BIOGEN IDEC INC
-  :wikipedia: http://en.wikipedia.org/wiki/BIOGEN_IDEC_Inc.
-  :cik: 0000875045
-  :bbgid: BBG000C17X76
-- :market: XNAS
-  :symbol: BRCM
-  :name: BROADCOM CORP-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Broadcom_Corporation
-  :cik: '0001054374'
-  :bbgid: BBG000BFDXW1
-- :market: XNAS
-  :symbol: CHRW
-  :name: C.H. ROBINSON WORLDWIDE INC
-  :wikipedia: http://en.wikipedia.org/wiki/C._H._Robinson_Worldwide
-  :cik: '0001043277'
-  :bbgid: BBG000BTCH57
-- :market: XNAS
-  :symbol: CA
-  :name: CA INC
-  :wikipedia: http://en.wikipedia.org/wiki/CA,_Inc.
-  :cik: 0000356028
-  :bbgid: BBG000BDWKC5
-- :market: XNAS
-  :symbol: CTRX
-  :name: CATAMARAN CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Catamaran_Corporation
-  :cik: 0001363851
-  :bbgid: BBG000KBQZ88
-- :market: XNAS
-  :symbol: CELG
-  :name: CELGENE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Celgene_Corp.
-  :cik: 0000816284
-  :bbgid: BBG000BFC8J2
-- :market: XNAS
-  :symbol: CERN
-  :name: CERNER CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Cerner
-  :cik: 0000804753
-  :bbgid: BBG000BFDLV8
-- :market: XNAS
-  :symbol: CHTR
-  :name: CHARTER COMMUNICATION-A
-  :wikipedia: http://en.wikipedia.org/wiki/Charter_Communications
-  :cik: 0001091667
-  :bbgid: BBG000PYZSR8
-- :market: XNAS
-  :symbol: CHKP
-  :name: CHECK POINT SOFTWARE TECH
-  :wikipedia: http://en.wikipedia.org/wiki/Check_Point
-  :cik: 0001015922
-  :bbgid: BBG000K82ZT8
-- :market: XNAS
-  :symbol: CSCO
-  :name: CISCO SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Cisco_Systems
-  :cik: 0000858877
-  :bbgid: BBG000C3J3C9
-- :market: XNAS
-  :symbol: CTXS
-  :name: CITRIX SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Citrix_Systems
-  :cik: 0000877890
-  :bbgid: BBG000FQ6PY6
-- :market: XNAS
-  :symbol: CTSH
-  :name: COGNIZANT TECH SOLUTIONS-A
-  :wikipedia: http://en.wikipedia.org/wiki/Cognizant_Technology_Solutions
-  :cik: 0001058290
-  :bbgid: BBG000BBDV81
-- :market: XNAS
-  :symbol: CMCSA
-  :name: COMCAST CORP-CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/Comcast_Corp.
-  :cik: 0001166691
-  :bbgid: BBG000BFT2L4
-- :market: XNAS
-  :symbol: COST
-  :name: COSTCO WHOLESALE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Costco_Co.
-  :cik: 0000909832
-  :bbgid: BBG000F6H8W8
-- :market: XNAS
-  :symbol: DTV
-  :name: DIRECTV
-  :wikipedia: http://en.wikipedia.org/wiki/DirecTV
-  :cik: '0001465112'
-  :bbgid: BBG000FL1TC8
-- :market: XNAS
-  :symbol: DISCA
-  :name: DISCOVERY COMMUNICATIONS-A
-  :wikipedia: http://en.wikipedia.org/wiki/Discovery_Communications-A
-  :cik: '0001437107'
-  :bbgid: BBG000CHWP52
-- :market: XNAS
-  :symbol: DISCK
-  :name: DISCOVERY COMMUNICATIONS-C
-  :wikipedia: http://en.wikipedia.org/wiki/Discovery_Communications-C
-  :cik: '0001437107'
-  :bbgid: BBG000VMWHH5
-- :market: XNAS
-  :symbol: DISH
-  :name: DISH NETWORK CORP-A
-  :wikipedia: http://en.wikipedia.org/wiki/Dish_Network
-  :cik: 0001001082
-  :bbgid: BBG000C2YHG9
-- :market: XNAS
-  :symbol: DLTR
-  :name: DOLLAR TREE INC
-  :wikipedia: http://en.wikipedia.org/wiki/Dollar_Tree
-  :cik: 0000935703
-  :bbgid: BBG000BSC0K9
-- :market: XNAS
-  :symbol: EBAY
-  :name: EBAY INC
-  :wikipedia: http://en.wikipedia.org/wiki/EBay_Inc.
-  :cik: 0001065088
-  :bbgid: BBG000C43RR5
-- :market: XNAS
-  :symbol: EQIX
-  :name: EQUINIX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Equinix
-  :cik: 0001101239
-  :bbgid: BBG000MBDGM6
-- :market: XNAS
-  :symbol: EXPE
-  :name: EXPEDIA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Expedia_Inc.
-  :cik: '0001324424'
-  :bbgid: BBG000QY3XZ2
-- :market: XNAS
-  :symbol: EXPD
-  :name: EXPEDITORS INTL WASH INC
-  :wikipedia: http://en.wikipedia.org/wiki/Expeditors_Int%27l
-  :cik: '0000746515'
-  :bbgid: BBG000BJ5GK2
-- :market: XNAS
-  :symbol: ESRX
-  :name: EXPRESS SCRIPTS HOLDING CO
-  :wikipedia: http://en.wikipedia.org/wiki/Express_Scripts
-  :cik: '0001532063'
-  :bbgid: BBG000C15T95
-- :market: XNAS
-  :symbol: FFIV
-  :name: F5 NETWORKS INC
-  :wikipedia: http://en.wikipedia.org/wiki/F5_Networks
-  :cik: 0001048695
-  :bbgid: BBG000CXYSZ6
-- :market: XNAS
-  :symbol: FB
-  :name: FACEBOOK INC-A
-  :wikipedia: http://en.wikipedia.org/wiki/Facebook
-  :cik: 0001326801
-  :bbgid: BBG000MM2P62
-- :market: XNAS
-  :symbol: FAST
-  :name: FASTENAL CO
-  :wikipedia: http://en.wikipedia.org/wiki/Fastenal_Co
-  :cik: 0000815556
-  :bbgid: BBG000BJ8YN7
-- :market: XNAS
-  :symbol: FISV
-  :name: FISERV INC
-  :wikipedia: http://en.wikipedia.org/wiki/Fiserv_Inc
-  :cik: 0000798354
-  :bbgid: BBG000BJKPG0
-- :market: XNAS
-  :symbol: GRMN
-  :name: GARMIN LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Garmin_Ltd.
-  :cik: 0001121788
-  :bbgid: BBG000C4LN67
-- :market: XNAS
-  :symbol: GILD
-  :name: GILEAD SCIENCES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Gilead_Sciences
-  :cik: 0000882095
-  :bbgid: BBG000CKGBP2
-- :market: XNAS
-  :symbol: GOOGL
-  :name: GOOGLE INC-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Google_Inc_Class_A
-  :cik: 0001288776
-  :bbgid: BBG000BHSKN9
-- :market: XNAS
-  :symbol: GOOG
-  :name: GOOGLE INC-CL C
-  :wikipedia: http://en.wikipedia.org/wiki/Google_Inc_Class_C
-  :cik: 0001288776
-  :bbgid: BBG002W96FT9
-- :market: XNAS
-  :symbol: HSIC
-  :name: HENRY SCHEIN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Henry_Schein
-  :cik: 0001000228
-  :bbgid: BBG000BNMMJ3
-- :market: XNAS
-  :symbol: ILMN
-  :name: ILLUMINA INC
-  :wikipedia: http://en.wikipedia.org/wiki/Illumina_(company)
-  :cik: 0001110803
-  :bbgid: BBG000DSMS70
-- :market: XNAS
-  :symbol: INTC
-  :name: INTEL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Intel
-  :cik: 0000050863
-  :bbgid: BBG000C0G1D1
-- :market: XNAS
-  :symbol: INTU
-  :name: INTUIT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Intuit_Inc.
-  :cik: 0000896878
-  :bbgid: BBG000BH5DV1
-- :market: XNAS
-  :symbol: ISRG
-  :name: INTUITIVE SURGICAL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Intuitive_Surgical_Inc.
-  :cik: '0001035267'
-  :bbgid: BBG000BJPDZ1
-- :market: XNAS
-  :symbol: GMCR
-  :name: KEURIG GREEN MOUNTAIN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Keurig_Green_Mountain
-  :cik: 0000909954
-  :bbgid: BBG000BJ98Z0
-- :market: XNAS
-  :symbol: KLAC
-  :name: KLA-TENCOR CORP
-  :wikipedia: http://en.wikipedia.org/wiki/KLA-Tencor_Corp.
-  :cik: 0000319201
-  :bbgid: BBG000BMTFR4
-- :market: XNAS
-  :symbol: KRFT
-  :name: KRAFT FOODS GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Kraft_Foods
-  :cik: 0001545158
-  :bbgid: BBG001YMS0B8
-- :market: XNAS
-  :symbol: LBTYA
-  :name: LIBERTY GLOBAL PLC-A
-  :wikipedia: http://en.wikipedia.org/wiki/Liberty_Global
-  :cik: 0001570585
-  :bbgid: BBG000H0QBS7
-- :market: XNAS
-  :symbol: QVCA
-  :name: LIBERTY INTERACTIVE CORP-A
-  :wikipedia: http://en.wikipedia.org/wiki/Liberty_Interactive
-  :cik: 0001355096
-  :bbgid: BBG000PCQQL6
-- :market: XNAS
-  :symbol: LMCK
-  :name: LIBERTY MEDIA CORP - C
-  :wikipedia: http://en.wikipedia.org/wiki/Liberty_Media
-  :cik: 0001560385
-  :bbgid: BBG005SW6TK5
-- :market: XNAS
-  :symbol: LMCA
-  :name: LIBERTY MEDIA CORP - A
-  :wikipedia: http://en.wikipedia.org/wiki/Liberty_Media
-  :cik: 0001560385
-  :bbgid: BBG003P9ZSL3
-- :market: XNAS
-  :symbol: LVNTA
-  :name: LIBERTY VENTURES
-  :wikipedia: 
-  :cik: 0001355096
-  :bbgid: BBG0038K9G41
-- :market: XNAS
-  :symbol: LLTC
-  :name: LINEAR TECHNOLOGY CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Linear_Technology_Corp.
-  :cik: 0000791907
-  :bbgid: BBG000BN9WT5
-- :market: XNAS
-  :symbol: MAR
-  :name: MARRIOTT INTERNATIONAL -CL A
-  :wikipedia: http://en.wikipedia.org/wiki/Marriott_Int%27l.
-  :cik: 0001048286
-  :bbgid: BBG000BGD7W6
-- :market: XNAS
-  :symbol: MAT
-  :name: MATTEL INC
-  :wikipedia: http://en.wikipedia.org/wiki/Mattel_Inc.
-  :cik: '0000063276'
-  :bbgid: BBG000BNNYW1
-- :market: XNAS
-  :symbol: MXIM
-  :name: MAXIM INTEGRATED PRODUCTS
-  :wikipedia: http://en.wikipedia.org/wiki/Maxim_Integrated_Products
-  :cik: '0000743316'
-  :bbgid: BBG000BPNP00
-- :market: XNAS
-  :symbol: MU
-  :name: MICRON TECHNOLOGY INC
-  :wikipedia: http://en.wikipedia.org/wiki/Micron_Technology
-  :cik: '0000723125'
-  :bbgid: BBG000C5Z1S3
-- :market: XNAS
-  :symbol: MSFT
-  :name: MICROSOFT CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Microsoft
-  :cik: 0000789019
-  :bbgid: BBG000BPH459
-- :market: XNAS
-  :symbol: MDLZ
-  :name: MONDELEZ INTERNATIONAL INC-A
-  :wikipedia: http://en.wikipedia.org/wiki/Mondelez
-  :cik: 0001103982
-  :bbgid: BBG000D4LWF6
-- :market: XNAS
-  :symbol: MNST
-  :name: MONSTER BEVERAGE CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Monster_Beverage
-  :cik: 0000865752
-  :bbgid: BBG000CXD6X9
-- :market: XNAS
-  :symbol: MYL
-  :name: MYLAN INC
-  :wikipedia: http://en.wikipedia.org/wiki/Mylan_Inc.
-  :cik: 0000069499
-  :bbgid: BBG000BPQD31
-- :market: XNAS
-  :symbol: NTAP
-  :name: NETAPP INC
-  :wikipedia: http://en.wikipedia.org/wiki/NetApp
-  :cik: '0001002047'
-  :bbgid: BBG000FP1N32
-- :market: XNAS
-  :symbol: NFLX
-  :name: NETFLIX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Netflix_Inc.
-  :cik: 0001065280
-  :bbgid: BBG000CL9VN6
-- :market: XNAS
-  :symbol: NVDA
-  :name: NVIDIA CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Nvidia_Corporation
-  :cik: 0001045810
-  :bbgid: BBG000BBJQV0
-- :market: XNAS
-  :symbol: NXPI
-  :name: NXP SEMICONDUCTORS NV
-  :wikipedia: http://en.wikipedia.org/wiki/NXP_Semiconductors
-  :cik: '0001413447'
-  :bbgid: BBG000BND699
-- :market: XNAS
-  :symbol: ORLY
-  :name: O'REILLY AUTOMOTIVE INC
-  :wikipedia: http://en.wikipedia.org/wiki/O%27Reilly_Automotive
-  :cik: 0000898173
-  :bbgid: BBG000BGYWY6
-- :market: XNAS
-  :symbol: PCAR
-  :name: PACCAR INC
-  :wikipedia: http://en.wikipedia.org/wiki/PACCAR_Inc.
-  :cik: '0000075362'
-  :bbgid: BBG000BQVTF5
-- :market: XNAS
-  :symbol: PAYX
-  :name: PAYCHEX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Paychex_Inc.
-  :cik: '0000723531'
-  :bbgid: BBG000BQSQ38
-- :market: XNAS
-  :symbol: QCOM
-  :name: QUALCOMM INC
-  :wikipedia: http://en.wikipedia.org/wiki/QUALCOMM_Inc.
-  :cik: 0000804328
-  :bbgid: BBG000CGC1X8
-- :market: XNAS
-  :symbol: REGN
-  :name: REGENERON PHARMACEUTICALS
-  :wikipedia: http://en.wikipedia.org/wiki/Regeneron
-  :cik: 0000872589
-  :bbgid: BBG000C734W3
-- :market: XNAS
-  :symbol: ROST
-  :name: ROSS STORES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Ross_Stores
-  :cik: '0000745732'
-  :bbgid: BBG000BSBZH7
-- :market: XNAS
-  :symbol: SNDK
-  :name: SANDISK CORP
-  :wikipedia: http://en.wikipedia.org/wiki/SanDisk_Corporation
-  :cik: 0001000180
-  :bbgid: BBG000FG3C43
-- :market: XNAS
-  :symbol: SBAC
-  :name: SBA COMMUNICATIONS CORP-CL A
-  :wikipedia: http://en.wikipedia.org/wiki/SBA_Communications
-  :cik: '0001034054'
-  :bbgid: BBG000D2M0Z7
-- :market: XNAS
-  :symbol: STX
-  :name: SEAGATE TECHNOLOGY
-  :wikipedia: http://en.wikipedia.org/wiki/Seagate_Technology
-  :cik: 0001137789
-  :bbgid: BBG000F0KF42
-- :market: XNAS
-  :symbol: SIAL
-  :name: SIGMA-ALDRICH
-  :wikipedia: http://en.wikipedia.org/wiki/Sigma-Aldrich
-  :cik: 0000090185
-  :bbgid: BBG000BSY3K9
-- :market: XNAS
-  :symbol: SIRI
-  :name: SIRIUS XM HOLDINGS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Sirius_XM_Radio
-  :cik: 0000908937
-  :bbgid: BBG000BT0093
-- :market: XNAS
-  :symbol: SPLS
-  :name: STAPLES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Staples_Inc.
-  :cik: 0000791519
-  :bbgid: BBG000BCBCM7
-- :market: XNAS
-  :symbol: SBUX
-  :name: STARBUCKS CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Starbucks_Corp.
-  :cik: 0000829224
-  :bbgid: BBG000CTQBF3
-- :market: XNAS
-  :symbol: SRCL
-  :name: STERICYCLE INC
-  :wikipedia: http://en.wikipedia.org/wiki/Stericycle_Inc
-  :cik: 0000861878
-  :bbgid: BBG000H3FZM6
-- :market: XNAS
-  :symbol: SYMC
-  :name: SYMANTEC CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Symantec_Corp.
-  :cik: 0000849399
-  :bbgid: BBG000BH2JM1
-- :market: XNAS
-  :symbol: TSLA
-  :name: TESLA MOTORS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Tesla_Motors,_Inc.
-  :cik: 0001318605
-  :bbgid: BBG000N9MNX3
-- :market: XNAS
-  :symbol: TXN
-  :name: TEXAS INSTRUMENTS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Texas_Instruments
-  :cik: 0000097476
-  :bbgid: BBG000BVV7G1
-- :market: XNAS
-  :symbol: PCLN
-  :name: PRICELINE GROUP INC/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Priceline.com_Inc
-  :cik: '0001075531'
-  :bbgid: BBG000BLBVN4
-- :market: XNAS
-  :symbol: TSCO
-  :name: TRACTOR SUPPLY COMPANY
-  :wikipedia: http://en.wikipedia.org/wiki/Tractor_Supply_Company
-  :cik: 0000916365
-  :bbgid: BBG000BLXZN1
-- :market: XNAS
-  :symbol: TRIP
-  :name: TRIPADVISOR INC
-  :wikipedia: http://en.wikipedia.org/wiki/TripAdvisor
-  :cik: '0001526520'
-  :bbgid: BBG001M8HHB7
-- :market: XNAS
-  :symbol: VRSK
-  :name: VERISK ANALYTICS INC-CLASS A
-  :wikipedia: http://en.wikipedia.org/wiki/Verisk_Analytics
-  :cik: '0001442145'
-  :bbgid: BBG000BCZL41
-- :market: XNAS
-  :symbol: VRTX
-  :name: VERTEX PHARMACEUTICALS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Vertex_Pharmaceuticals
-  :cik: 0000875320
-  :bbgid: BBG000C1S2X2
-- :market: XNAS
-  :symbol: VIAB
-  :name: VIACOM INC-CLASS B
-  :wikipedia: http://en.wikipedia.org/wiki/Viacom_Inc.
-  :cik: 0001339947
-  :bbgid: BBG000DHSPT0
-- :market: XNAS
-  :symbol: VIP
-  :name: VIMPELCOM LTD
-  :wikipedia: http://en.wikipedia.org/wiki/VimpelCom_Ltd.
-  :cik: 0001468091
-  :bbgid: BBG000QCW561
-- :market: XNAS
-  :symbol: VOD
-  :name: VODAFONE GROUP PLC
-  :wikipedia: http://en.wikipedia.org/wiki/Vodafone
-  :cik: 0000839923
-  :bbgid: BBG000C4R6H6
-- :market: XNAS
-  :symbol: WDC
-  :name: WESTERN DIGITAL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Western_Digital
-  :cik: '0000106040'
-  :bbgid: BBG000BWNFZ9
-- :market: XNAS
-  :symbol: WFM
-  :name: WHOLE FOODS MARKET INC
-  :wikipedia: http://en.wikipedia.org/wiki/Whole_Foods_Market
-  :cik: 0000865436
-  :bbgid: BBG000CPQZ77
-- :market: XNAS
-  :symbol: WYNN
-  :name: WYNN RESORTS LTD
-  :wikipedia: http://en.wikipedia.org/wiki/Wynn_Resorts_Ltd
-  :cik: 0001174922
-  :bbgid: BBG000LD9JQ8
-- :market: XNAS
-  :symbol: XLNX
-  :name: XILINX INC
-  :wikipedia: http://en.wikipedia.org/wiki/Xilinx_Inc
-  :cik: 0000743988
-  :bbgid: BBG000C0F570
-- :market: XNAS
-  :symbol: YHOO
-  :name: YAHOO! INC
-  :wikipedia: http://en.wikipedia.org/wiki/Yahoo_Inc.
-  :cik: '0001011006'
-  :bbgid: BBG000GFFQN9
+- FOXA
+- ATVI
+- ADBE
+- AKAM
+- ALXN
+- ALTR
+- AMZN
+- AMGN
+- ADI
+- AAPL
+- AMAT
+- ADSK
+- ADP
+- AVGO
+- BIDU
+- BBBY
+- BIIB
+- BRCM
+- CHRW
+- CA
+- CTRX
+- CELG
+- CERN
+- CHTR
+- CHKP
+- CSCO
+- CTXS
+- CTSH
+- CMCSA
+- COST
+- DTV
+- DISCA
+- DISCK
+- DISH
+- DLTR
+- EBAY
+- EQIX
+- EXPE
+- EXPD
+- ESRX
+- FFIV
+- FB
+- FAST
+- FISV
+- GRMN
+- GILD
+- GOOGL
+- GOOG
+- HSIC
+- ILMN
+- INTC
+- INTU
+- ISRG
+- GMCR
+- KLAC
+- KRFT
+- LBTYA
+- QVCA
+- LMCK
+- LMCA
+- LVNTA
+- LLTC
+- MAR
+- MAT
+- MXIM
+- MU
+- MSFT
+- MDLZ
+- MNST
+- MYL
+- NTAP
+- NFLX
+- NVDA
+- NXPI
+- ORLY
+- PCAR
+- PAYX
+- QCOM
+- REGN
+- ROST
+- SNDK
+- SBAC
+- STX
+- SIAL
+- SIRI
+- SPLS
+- SBUX
+- SRCL
+- SYMC
+- TSLA
+- TXN
+- PCLN
+- TSCO
+- TRIP
+- VRSK
+- VRTX
+- VIAB
+- VIP
+- VOD
+- WDC
+- WFM
+- WYNN
+- XLNX
+- YHOO

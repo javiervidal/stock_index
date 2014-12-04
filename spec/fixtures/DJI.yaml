@@ -1,181 +1,31 @@
 ---
-- :market: XNYS
-  :symbol: MMM
-  :name: 3M CO
-  :wikipedia: http://en.wikipedia.org/wiki/3M
-  :cik: '0000066740'
-  :bbgid: BBG000BP52R2
-- :market: XNYS
-  :symbol: AXP
-  :name: AMERICAN EXPRESS CO
-  :wikipedia: http://en.wikipedia.org/wiki/American_Express_Co
-  :cik: 0000004962
-  :bbgid: BBG000BCQZS4
-- :market: XNYS
-  :symbol: T
-  :name: AT&T INC
-  :wikipedia: http://en.wikipedia.org/wiki/AT%26T_Inc
-  :cik: '0000732717'
-  :bbgid: BBG000BSJK37
-- :market: XNYS
-  :symbol: BA
-  :name: BOEING CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Boeing_Company
-  :cik: 0000012927
-  :bbgid: BBG000BCSST7
-- :market: XNYS
-  :symbol: CAT
-  :name: CATERPILLAR INC
-  :wikipedia: http://en.wikipedia.org/wiki/Caterpillar_Inc.
-  :cik: 0000018230
-  :bbgid: BBG000BF0K17
-- :market: XNYS
-  :symbol: CVX
-  :name: CHEVRON CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Chevron_Corp.
-  :cik: 0000093410
-  :bbgid: BBG000K4ND22
-- :market: XNAS
-  :symbol: CSCO
-  :name: CISCO SYSTEMS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Cisco_Systems
-  :cik: 0000858877
-  :bbgid: BBG000C3J3C9
-- :market: XNYS
-  :symbol: KO
-  :name: COCA-COLA CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Coca_Cola_Company
-  :cik: '0000021344'
-  :bbgid: BBG000BMX289
-- :market: XNYS
-  :symbol: DD
-  :name: DU PONT (E.I.) DE NEMOURS
-  :wikipedia: http://en.wikipedia.org/wiki/Du_Pont_(E.I.)
-  :cik: '0000030554'
-  :bbgid: BBG000BH13K9
-- :market: XNYS
-  :symbol: XOM
-  :name: EXXON MOBIL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Exxon_Mobil_Corp.
-  :cik: 0000034088
-  :bbgid: BBG000GZQ728
-- :market: XNYS
-  :symbol: GE
-  :name: GENERAL ELECTRIC CO
-  :wikipedia: http://en.wikipedia.org/wiki/General_Electric
-  :cik: '0000040545'
-  :bbgid: BBG000BK6MB5
-- :market: XNYS
-  :symbol: GS
-  :name: GOLDMAN SACHS GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/Goldman_Sachs_Group
-  :cik: 0000886982
-  :bbgid: BBG000C6CFJ5
-- :market: XNYS
-  :symbol: HD
-  :name: HOME DEPOT INC
-  :wikipedia: http://en.wikipedia.org/wiki/Home_Depot
-  :cik: 0000354950
-  :bbgid: BBG000BKZB36
-- :market: XNAS
-  :symbol: INTC
-  :name: INTEL CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Intel_Corp.
-  :cik: 0000050863
-  :bbgid: BBG000C0G1D1
-- :market: XNYS
-  :symbol: IBM
-  :name: INTL BUSINESS MACHINES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/International_Bus._Machines
-  :cik: '0000051143'
-  :bbgid: BBG000BLNNH6
-- :market: XNYS
-  :symbol: JNJ
-  :name: JOHNSON & JOHNSON
-  :wikipedia: http://en.wikipedia.org/wiki/Johnson_%26_Johnson
-  :cik: '0000200406'
-  :bbgid: BBG000BMHYD1
-- :market: XNYS
-  :symbol: JPM
-  :name: JPMORGAN CHASE & CO
-  :wikipedia: http://en.wikipedia.org/wiki/JPMorgan_Chase_%26_Co.
-  :cik: 0000019617
-  :bbgid: BBG000DMBXR2
-- :market: XNYS
-  :symbol: MCD
-  :name: MCDONALD'S CORP
-  :wikipedia: http://en.wikipedia.org/wiki/McDonald%27s_Corp.
-  :cik: 0000063908
-  :bbgid: BBG000BNSZP1
-- :market: XNYS
-  :symbol: MRK
-  :name: MERCK & CO. INC.
-  :wikipedia: http://en.wikipedia.org/wiki/Merck_%26_Co.
-  :cik: 0000310158
-  :bbgid: BBG000BPD168
-- :market: XNAS
-  :symbol: MSFT
-  :name: MICROSOFT CORP
-  :wikipedia: http://en.wikipedia.org/wiki/Microsoft_Corp.
-  :cik: 0000789019
-  :bbgid: BBG000BPH459
-- :market: XNYS
-  :symbol: NKE
-  :name: NIKE INC -CL B
-  :wikipedia: http://en.wikipedia.org/wiki/NIKE_Inc.
-  :cik: 0000320187
-  :bbgid: BBG000C5HS04
-- :market: XNYS
-  :symbol: PFE
-  :name: PFIZER INC
-  :wikipedia: http://en.wikipedia.org/wiki/Pfizer_Inc.
-  :cik: 0000078003
-  :bbgid: BBG000BR2B91
-- :market: XNYS
-  :symbol: PG
-  :name: PROCTER & GAMBLE CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/Procter_%26_Gamble
-  :cik: 0000080424
-  :bbgid: BBG000BR2TH3
-- :market: XNYS
-  :symbol: TRV
-  :name: TRAVELERS COS INC/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Travelers_Companies_Inc.
-  :cik: 0000086312
-  :bbgid: BBG000BJ81C1
-- :market: XNYS
-  :symbol: UNH
-  :name: UNITEDHEALTH GROUP INC
-  :wikipedia: http://en.wikipedia.org/wiki/United_Health_Group_Inc.
-  :cik: '0000731766'
-  :bbgid: BBG000CH5208
-- :market: XNYS
-  :symbol: UTX
-  :name: UNITED TECHNOLOGIES CORP
-  :wikipedia: http://en.wikipedia.org/wiki/United_Technologies
-  :cik: 0000101829
-  :bbgid: BBG000BW8S60
-- :market: XNYS
-  :symbol: VZ
-  :name: VERIZON COMMUNICATIONS INC
-  :wikipedia: http://en.wikipedia.org/wiki/Verizon_Communications
-  :cik: '0000732712'
-  :bbgid: BBG000HS77T5
-- :market: XNYS
-  :symbol: V
-  :name: VISA INC-CLASS A SHARES
-  :wikipedia: http://en.wikipedia.org/wiki/Visa_Inc.
-  :cik: '0001403161'
-  :bbgid: BBG000PSKYX7
-- :market: XNYS
-  :symbol: WMT
-  :name: WAL-MART STORES INC
-  :wikipedia: http://en.wikipedia.org/wiki/Wal-Mart_Stores
-  :cik: 0000104169
-  :bbgid: BBG000BWXBC2
-- :market: XNYS
-  :symbol: DIS
-  :name: WALT DISNEY CO/THE
-  :wikipedia: http://en.wikipedia.org/wiki/The_Walt_Disney_Company
-  :cik: 0001001039
-  :bbgid: BBG000BH4R78
+- MMM
+- AXP
+- T
+- BA
+- CAT
+- CVX
+- CSCO
+- KO
+- DD
+- XOM
+- GE
+- GS
+- HD
+- INTC
+- IBM
+- JNJ
+- JPM
+- MCD
+- MRK
+- MSFT
+- NKE
+- PFE
+- PG
+- TRV
+- UNH
+- UTX
+- VZ
+- V
+- WMT
+- DIS
