@@ -4,10 +4,11 @@ class StockIndex
 
     require 'cik'
 
-    def initialize(symbol, market, wikipedia)
+    def initialize(symbol, market, wikipedia, pricing_source = :us)
       @symbol = symbol
       @market = market
       @wikipedia = wikipedia
+      @pricing_source = pricing_source
     end
 
     def attributes
@@ -28,22 +29,46 @@ class StockIndex
       store.transaction do
         store[@symbol] = a
       end
-      a
     end
 
     def attributes_lookup
-      bsym = StockIndex::BsymSearch.find(@symbol)
-      if bsym.nil?
-        puts "bsym --> #{@symbol}"
-        return
+      bsym = lookup_bsym
+      cik = lookup_cik
+      return nil unless bsym
+      a = {market: @market, symbol: @symbol, name: bsym[:name], wikipedia: @wikipedia, cik: cik, bbgid: bsym[:bbgid]}
+      cache_write(a)
+      a
+    end
+
+    def us?
+      @pricing_source == :us
+    end
+
+    def lookup_bsym
+      bsym = StockIndex::BsymSearch.find(@symbol, @pricing_source)
+      if bsym
+        bsym
       else
-        edgar = Cik.lookup(SymbolParser.new(@symbol).bsym_to_cik)
-        if edgar.nil?
-          puts "cik --> #{@symbol}"
-        else
-          a = {market: @market, symbol: @symbol, name: bsym[:name], wikipedia: @wikipedia, cik: edgar[:cik], bbgid: bsym[:bbgid]}
-          cache_write(a)
-        end
+        puts "bsym --> #{@symbol}"
+        return nil
+      end
+    end
+
+    def lookup_cik
+      if us?
+        lookup_cik_us
+      else
+        nil
+      end
+    end
+
+    def lookup_cik_us
+      edgar = Cik.lookup(SymbolParser.new(@symbol).bsym_to_cik)
+      if edgar
+        edgar[:cik]
+      else
+        puts "cik --> #{@symbol}"
+        return nil
       end
     end
 

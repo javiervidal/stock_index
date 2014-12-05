@@ -5,7 +5,8 @@ class StockIndex
     require 'csv'
 
     FILES = {
-      us: 'bsym/US.csv'
+      us: 'bsym/US.csv',
+      jp: 'bsym/JP.csv',
     }
 
     EXCEPTIONS = {
@@ -17,7 +18,7 @@ class StockIndex
 
     class << self
 
-      def find(symbol, pricing_source = :us)
+      def find(symbol, pricing_source)
         return {name: EXCEPTIONS[symbol][:name], bbgid: EXCEPTIONS[symbol][:bbgid]} if EXCEPTIONS.keys.include? symbol
         CSV.foreach(FILES[pricing_source]) do |row|
           return {name: row[1], bbgid: row[2]} if row[0] == symbol

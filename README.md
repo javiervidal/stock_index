@@ -54,7 +54,7 @@ This method returns an array of components. Each component is a Hash with this f
 | symbol    | Component symbol |
 | name      | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
 | wikipedia | Link to the wikipedia page of the component |
-| cik       | Component CIK (Central Index Key) assigned to the company by the SEC |
+| cik       | Component CIK (Central Index Key) assigned to the company by the SEC. Only for US components. |
 | bbgid     | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
 
 The name and cik are obtained querying the [EDGAR database](http://www.sec.gov/edgar/searchedgar/companysearch.html).

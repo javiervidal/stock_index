@@ -12,6 +12,8 @@ class StockIndex
         SP500Scraper.new.scrape
       when '^NDX'
         NasdaqScraper.new.scrape
+      when '^N225'
+        NikkeiScraper.new.scrape
       else
         []
     end
