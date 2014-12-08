@@ -14,7 +14,8 @@ class StockIndex
     },
     '^N225' => {
       name: 'NIKKEI 225',
-      url: 'http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225'
+      url: 'http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225',
+      wikipedia_url: 'http://en.wikipedia.org/wiki/Nikkei_225'
     },
     '^STOXX50E' => {
       name: 'EURO STOXX 50',

@@ -62,7 +62,6 @@
 - BBT
 - BDX
 - BBBY
-- BMS
 - BRK/B
 - BBY
 - BIIB
@@ -398,6 +397,7 @@
 - COL
 - ROP
 - ROST
+- RCL
 - R
 - SWY
 - CRM
@@ -479,7 +479,7 @@
 - DIS
 - WM
 - WAT
-- WLP
+- ANTM
 - WFC
 - WDC
 - WU
