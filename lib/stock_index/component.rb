@@ -20,15 +20,19 @@ class StockIndex
     end
 
     def cache_lookup
-      store = PStore.new('cache/data.pstore')
+      store = PStore.new(cache_file)
       store.transaction { store[@symbol] }
     end
 
     def cache_write(a)
-      store = PStore.new('cache/data.pstore')
+      store = PStore.new(cache_file)
       store.transaction do
         store[@symbol] = a
       end
+    end
+
+    def cache_file
+      "cache/#{@market}.pstore"
     end
 
     def attributes_lookup
