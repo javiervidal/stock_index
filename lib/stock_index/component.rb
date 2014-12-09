@@ -53,7 +53,7 @@ class StockIndex
       if bsym
         bsym
       else
-        puts "bsym --> #{@symbol}"
+        puts "bsym --> #{@symbol}" unless testing?
         return nil
       end
     end
@@ -71,9 +71,13 @@ class StockIndex
       if edgar
         edgar[:cik]
       else
-        puts "cik --> #{@symbol}"
+        puts "cik --> #{@symbol}" unless testing?
         return nil
       end
+    end
+
+    def testing?
+      @symbol == 'ZZZZ'
     end
 
   end

@@ -33,6 +33,14 @@ RSpec.configure do |config|
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('n225_wikipedia'), :headers => {})
 
+    stub_request(:get, "http://www.sec.gov/cgi-bin/browse-edgar?CIK=CSCO&action=getcompany").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => edgar_html, :headers => {})
+
+    stub_request(:get, "http://www.sec.gov/cgi-bin/browse-edgar?CIK=ZZZZ&action=getcompany").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => "", :headers => {})
+
   end
 end
 
@@ -55,4 +63,8 @@ end
 
 def components_from_fixture(symbol)
   YAML::load_file(fixture_yaml(symbol))
+end
+
+def edgar_html
+  File.new(File.join(fixture_path, 'html', "edgar.html"))
 end
