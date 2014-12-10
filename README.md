@@ -73,7 +73,7 @@ The name, cik, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.
 
 ## Code Status
 
-[![Gem Version](http://img.shields.io/badge/gem-v1.0.1-blue.svg)](https://rubygems.org/gems/stock_index)
+[![Gem Version](http://img.shields.io/badge/gem-v0.7.0-blue.svg)](https://rubygems.org/gems/stock_index)
 [![Build Status](https://travis-ci.org/javiervidal/stock_index.svg?branch=master)](https://travis-ci.org/javiervidal/stock_index)
 [![Coverage Status](https://coveralls.io/repos/javiervidal/stock_index/badge.png?branch=master)](https://coveralls.io/r/javiervidal/stock_index?branch=master)
 
