@@ -23,7 +23,8 @@ class StockIndex
     },
     '^FTSE' => {
       name: 'FTSE 100',
-      url: 'http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX'
+      url: 'http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX',
+      wikipedia_url: 'http://en.wikipedia.org/wiki/FTSE_100_Index#Current_constituents'
     }
   }
 end

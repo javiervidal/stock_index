@@ -28,7 +28,7 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 | ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX<br/>http://en.wikipedia.org/wiki/NASDAQ-100 |
 | ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225<br/>http://en.wikipedia.org/wiki/Nikkei_225 |
 | ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
-| ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX |
+| ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX<br/>http://en.wikipedia.org/wiki/FTSE_100_Index#Current_constituents |
 
 ## Usage
 

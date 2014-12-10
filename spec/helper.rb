@@ -41,6 +41,30 @@ RSpec.configure do |config|
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => "", :headers => {})
 
+    stub_request(:get, "http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX&page=1").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html_ftse(1), :headers => {})
+
+    stub_request(:get, "http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX&page=2").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html_ftse(2), :headers => {})
+
+    stub_request(:get, "http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX&page=3").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html_ftse(3), :headers => {})
+
+    stub_request(:get, "http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX&page=4").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html_ftse(4), :headers => {})
+
+    stub_request(:get, "http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX&page=5").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html_ftse(5), :headers => {})
+
+    stub_request(:get, "http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX&page=6").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html_ftse(6), :headers => {})
+
   end
 end
 
@@ -67,4 +91,8 @@ end
 
 def edgar_html
   File.new(File.join(fixture_path, 'html', "edgar.html"))
+end
+
+def fixture_html_ftse(page)
+  File.new(File.join(fixture_path, 'html', "ftse_#{page}.html"))
 end

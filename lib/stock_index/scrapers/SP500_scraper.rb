@@ -10,7 +10,7 @@ class SP500Scraper < StockIndex::BaseScraper
   def symbol(tr)
     symbol_td = td(tr, 0)
     s = symbol_td ? symbol_td.css('a').first.text : nil
-    SymbolParser.new(s).sp500_to_bsym
+    SymbolParser.new(s).symbol_to_bsym
   end
 
   def market(tr)

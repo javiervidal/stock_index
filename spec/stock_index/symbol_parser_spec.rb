@@ -5,7 +5,7 @@ describe SymbolParser do
   describe '#sp500_to_bsym' do
 
     it "returns 'BRK/B' when 'BRK.B'" do
-      expect(SymbolParser.new('BRK.B').sp500_to_bsym).to eq('BRK/B')
+      expect(SymbolParser.new('BRK.B').symbol_to_bsym).to eq('BRK/B')
     end
 
   end

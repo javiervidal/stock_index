@@ -4,14 +4,11 @@ class SymbolParser
     @symbol = symbol
   end
 
-  def sp500_to_bsym
-    case @symbol
-      # BRK.B => BRK/B (Berkshire Hathaway Inc)
-      # BF.B  => BF/B  (Brown-Forman Corp)
-      when /(\w+)\.B/
-        "#{$1}/B"
-      else
-        @symbol
+  def symbol_to_bsym
+    if @symbol
+      @symbol.sub('.', '/')
+    else
+      nil
     end
   end
 
