@@ -25,8 +25,10 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 | ------ | ---------- | -------------- |
 | ^DJI | DOW JONES INDUSTRIAL AVERAGE | http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average |
 | ^GSPC | S&P 500 | http://en.wikipedia.org/wiki/List_of_S%26P_500_companies |
-| ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX http://en.wikipedia.org/wiki/NASDAQ-100 |
-| ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225 http://en.wikipedia.org/wiki/Nikkei_225 |
+| ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX
+http://en.wikipedia.org/wiki/NASDAQ-100 |
+| ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225
+http://en.wikipedia.org/wiki/Nikkei_225 |
 | ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
 | ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX |
 
@@ -70,6 +72,12 @@ The name, cik, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Code Status
+
+[![Gem Version](http://img.shields.io/badge/gem-v1.0.1-blue.svg)](https://rubygems.org/gems/stock_index)
+[![Build Status](https://travis-ci.org/javiervidal/stock_index.svg?branch=master)](https://travis-ci.org/javiervidal/stock_index)
+[![Coverage Status](https://coveralls.io/repos/javiervidal/stock_index/badge.png?branch=master)](https://coveralls.io/r/javiervidal/stock_index?branch=master)
 
 ## Copyright
 
