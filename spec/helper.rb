@@ -65,6 +65,10 @@ RSpec.configure do |config|
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html_ftse(6), :headers => {})
 
+    stub_request(:get, "http://en.wikipedia.org/wiki/FTSE_100_Index").
+      with(:headers => {'Accept' => '*/*'}).
+      to_return(:status => 200, :body => fixture_html('ftse_wikipedia'), :headers => {})
+
   end
 end
 

@@ -1,6 +1,7 @@
 class FtseScraper < StockIndex::BaseScraper
 
   def scrape
+    @wikipedia_hash = parse_wikipedia_page(Nokogiri::HTML(open(StockIndex::INDICES['^FTSE'][:wikipedia_url])))
     (1..6).inject([]) do |array, page|
       doc = Nokogiri::HTML(open(url(page)))
       array += parse_rows(doc.css('table.table_dati tr'))
@@ -15,7 +16,7 @@ class FtseScraper < StockIndex::BaseScraper
       symbol = symbol(tr)
       market = 'XLON'
       if symbol && market
-        component = StockIndex::Component.new(symbol, market, nil, :ln)
+        component = StockIndex::Component.new(symbol, market, @wikipedia_hash[symbol], :ln)
         array << component.attributes if component.valid?
       end
       array
@@ -30,6 +31,17 @@ class FtseScraper < StockIndex::BaseScraper
 
   def url(page)
     "#{StockIndex::INDICES['^FTSE'][:url]}&page=#{page}"
+  end
+
+  def parse_wikipedia_page(wikipedia_doc)
+    wikipedia_doc.css('#constituents tr').inject({}) do |hash, tr|
+      link_td = tr.css('td')[0]
+      symbol_td = tr.css('td')
+      if link_td
+        hash[symbol_td[1].text] = build_wikipedia_link(link_td.css('a').first.attributes['href'].value)
+      end
+      hash
+    end
   end
 
 end
