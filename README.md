@@ -21,14 +21,26 @@ Or install it yourself as:
 
 There is no a standard for indices symbols, so this gem uses Yahoo Finance symbols.
 
-| Symbol | Index Name | Reference page |
+| Symbol | Index Name | Reference pages |
 | ------ | ---------- | -------------- |
 | ^DJI | DOW JONES INDUSTRIAL AVERAGE | http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average |
 | ^GSPC | S&P 500 | http://en.wikipedia.org/wiki/List_of_S%26P_500_companies |
 | ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX<br/>http://en.wikipedia.org/wiki/NASDAQ-100 |
 | ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225<br/>http://en.wikipedia.org/wiki/Nikkei_225 |
-| ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
 | ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX<br/>http://en.wikipedia.org/wiki/FTSE_100_Index#Current_constituents |
+
+## Roadmap
+
+This indices will be supported in the future:
+
+| Symbol | Index Name | Reference pages |
+| ------ | ---------- | -------------- |
+| ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
+| ^GDAXI | DAX | http://en.wikipedia.org/wiki/DAX |
+| ^FCHI | CAC 40 | http://en.wikipedia.org/wiki/CAC_40 |
+| FTSEMIB.MI | FTSE MIB | http://en.wikipedia.org/wiki/FTSE_MIB |
+| ^IBEX | IBEX 35 | http://en.wikipedia.org/wiki/IBEX_35 |
+| ^AEX | AEX | http://en.wikipedia.org/wiki/AEX_index |
 
 ## Usage
 
@@ -53,7 +65,7 @@ This method returns an array of components. Each component is a Hash with this f
 | market    | Market symbol according to [ISO 10383](https://github.com/javiervidal/mic) |
 | symbol    | Component symbol |
 | name      | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
-| wikipedia | Link to the wikipedia page of the component |
+| wikipedia | Link to the wikipedia page of the component, when possible. |
 | cik       | Component CIK (Central Index Key) assigned to the company by the SEC. Only for US components. |
 | bbgid     | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
 
