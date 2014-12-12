@@ -31,7 +31,7 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 
 ## Roadmap
 
-This indices will be supported in the future:
+These indices will be supported in the future:
 
 | Symbol | Index Name | Reference pages |
 | ------ | ---------- | -------------- |
