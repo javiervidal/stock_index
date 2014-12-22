@@ -32,7 +32,7 @@ class StockIndex
     end
 
     def cache_file
-      "cache/#{@market}.pstore"
+      File.expand_path("../../cache/#{@market}.pstore", File.dirname(__FILE__))
     end
 
     def attributes_lookup
