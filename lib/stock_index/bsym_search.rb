@@ -21,7 +21,7 @@ class StockIndex
       end
 
       def files(pricing_source)
-        "bsym/#{pricing_source.upcase}.csv"
+        File.expand_path("../../bsym/#{pricing_source.upcase}.csv", File.dirname(__FILE__))
       end
 
     end
