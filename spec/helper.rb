@@ -13,15 +13,15 @@ WebMock.disable_net_connect!(allow: 'coveralls.io')
 RSpec.configure do |config|
   config.before(:each) do
 
-    stub_request(:get, "http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average").
+    stub_request(:get, "https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average").
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('dji'), :headers => {})
 
-    stub_request(:get, "http://en.wikipedia.org/wiki/List_of_S&P_500_companies").
+    stub_request(:get, "https://en.wikipedia.org/wiki/List_of_S&P_500_companies").
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('gspc'), :headers => {})
 
-    stub_request(:get, "http://en.wikipedia.org/wiki/NASDAQ-100").
+    stub_request(:get, "https://en.wikipedia.org/wiki/NASDAQ-100").
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('ndx'), :headers => {})
 
@@ -29,7 +29,7 @@ RSpec.configure do |config|
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('n225'), :headers => {})
 
-    stub_request(:get, "http://en.wikipedia.org/wiki/Nikkei_225").
+    stub_request(:get, "https://en.wikipedia.org/wiki/Nikkei_225").
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('n225_wikipedia'), :headers => {})
 
@@ -65,7 +65,7 @@ RSpec.configure do |config|
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html_ftse(6), :headers => {})
 
-    stub_request(:get, "http://en.wikipedia.org/wiki/FTSE_100_Index").
+    stub_request(:get, "https://en.wikipedia.org/wiki/FTSE_100_Index").
       with(:headers => {'Accept' => '*/*'}).
       to_return(:status => 200, :body => fixture_html('ftse_wikipedia'), :headers => {})
 

@@ -75,6 +75,18 @@ The bbgid is obtained from [Bloomberg Open Symbology predefined files](http://bs
 
 The name, cik, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.9.2/libdoc/pstore/rdoc/PStore.html).
 
+## How to Launch the Console
+
+    $ rake console
+
+## How to Run the Test Suite
+
+    $ rspec
+
+## Changelog
+
+[Changelog](https://github.com/javiervidal/stock_index/blob/master/CHANGELOG.md)
+
 ## Contributing
 
 1. Fork it ( http://github.com/javiervidal/stock_index/fork )
@@ -85,7 +97,7 @@ The name, cik, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.
 
 ## Code Status
 
-[![Gem Version](http://img.shields.io/badge/gem-v0.8.0-blue.svg)](https://rubygems.org/gems/stock_index)
+[![Gem Version](http://img.shields.io/badge/gem-v0.8.3-blue.svg)](https://rubygems.org/gems/stock_index)
 [![Build Status](https://travis-ci.org/javiervidal/stock_index.svg?branch=master)](https://travis-ci.org/javiervidal/stock_index)
 [![Coverage Status](https://coveralls.io/repos/javiervidal/stock_index/badge.png?branch=master)](https://coveralls.io/r/javiervidal/stock_index?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiervidal/stock_index/badges/gpa.svg)](https://codeclimate.com/github/javiervidal/stock_index)
