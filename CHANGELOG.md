@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.8.4] - not released
+
+### Fixed
+- [Improve information messages shown when scraping](https://github.com/javiervidal/stock_index/issues/2)
+
 ## [0.8.3] - 2015-07-27
 
 ### Added
