@@ -14,7 +14,7 @@ class NikkeiScraper < StockIndex::BaseScraper
       market = 'XJPX'
       if symbol && market
         component = StockIndex::Component.new(symbol, market, @wikipedia_hash[symbol], :jp)
-        array << component.attributes if component.valid?
+        array << component.attributes
       end
       array
     end

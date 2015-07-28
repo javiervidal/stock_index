@@ -12,11 +12,11 @@ class StockIndex
     end
 
     def attributes
-      cache_lookup || attributes_lookup
-    end
-
-    def valid?
-      @market && @symbol
+      attrs = cache_lookup || attributes_lookup
+      unless valid_testing?
+        puts "---- ERROR #{attrs}" unless valid?(attrs)
+      end
+      attrs
     end
 
     def cache_lookup
@@ -53,7 +53,6 @@ class StockIndex
       if bsym
         bsym
       else
-        puts "bsym --> #{@symbol}" unless testing?
         return nil
       end
     end
@@ -71,13 +70,20 @@ class StockIndex
       if edgar
         edgar[:cik]
       else
-        puts "cik --> #{@symbol}" unless testing?
         return nil
       end
     end
 
     def testing?
       @symbol == 'ZZZZ'
+    end
+
+    def valid?(attributes)
+      !attributes[:market].nil? && !attributes[:symbol].nil? && !attributes[:name].nil? && !attributes[:wikipedia].nil? && !attributes[:cik].nil? && !attributes[:bbgid].nil?
+    end
+
+    def valid_testing?
+      @market && @symbol
     end
 
   end

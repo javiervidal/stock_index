@@ -11,7 +11,7 @@ class NasdaqScraper < StockIndex::BaseScraper
       market = 'XNAS'
       if symbol && market
         component = StockIndex::Component.new(symbol, market, wikipedia(li))
-        array << component.attributes if component.valid?
+        array << component.attributes
       end
       array
     end

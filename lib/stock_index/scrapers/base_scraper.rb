@@ -10,7 +10,7 @@ class StockIndex
         market = market(tr)
         if symbol && market
           component = StockIndex::Component.new(symbol, market, wikipedia_link(tr))
-          array << component.attributes if component.valid?
+          array << component.attributes
         end
         array
       end

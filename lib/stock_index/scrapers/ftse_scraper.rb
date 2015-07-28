@@ -17,7 +17,7 @@ class FtseScraper < StockIndex::BaseScraper
       market = 'XLON'
       if symbol && market
         component = StockIndex::Component.new(symbol, market, @wikipedia_hash[symbol], :ln)
-        array << component.attributes if component.valid?
+        array << component.attributes
       end
       array
     end
