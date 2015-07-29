@@ -2,6 +2,10 @@
 
 ## [0.8.4] - not released
 
+### Changed
+- Remove checking if testing when missing info
+- Update links in README.md
+
 ### Fixed
 - [Improve information messages shown when scraping](https://github.com/javiervidal/stock_index/issues/2)
 

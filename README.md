@@ -23,11 +23,11 @@ There is no a standard for indices symbols, so this gem uses Yahoo Finance symbo
 
 | Symbol | Index Name | Reference pages |
 | ------ | ---------- | -------------- |
-| ^DJI | DOW JONES INDUSTRIAL AVERAGE | http://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average |
-| ^GSPC | S&P 500 | http://en.wikipedia.org/wiki/List_of_S%26P_500_companies |
-| ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX<br/>http://en.wikipedia.org/wiki/NASDAQ-100 |
-| ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225<br/>http://en.wikipedia.org/wiki/Nikkei_225 |
-| ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX<br/>http://en.wikipedia.org/wiki/FTSE_100_Index#Current_constituents |
+| ^DJI | DOW JONES INDUSTRIAL AVERAGE | https://en.wikipedia.org/wiki/Dow_Jones_Industrial_Average |
+| ^GSPC | S&P 500 | https://en.wikipedia.org/wiki/List_of_S%26P_500_companies |
+| ^NDX | NASDAQ 100 | https://indexes.nasdaqomx.com/Index/Weighting/NDX<br/>https://en.wikipedia.org/wiki/NASDAQ-100 |
+| ^N225 | NIKKEI 225 | http://indexes.nikkei.co.jp/en/nkave/index/component?idx=nk225<br/>https://en.wikipedia.org/wiki/Nikkei_225 |
+| ^FTSE | FTSE 100 | http://www.londonstockexchange.com/exchange/prices-and-markets/stocks/indices/summary/summary-indices-constituents.html?index=UKX<br/>https://en.wikipedia.org/wiki/FTSE_100_Index#Current_constituents |
 
 ## Roadmap
 
@@ -35,12 +35,12 @@ These indices will be supported in the future:
 
 | Symbol | Index Name | Reference pages |
 | ------ | ---------- | -------------- |
-| ^STOXX50E | EURO STOXX 50 | http://www.stoxx.com/indices/index_information.html?symbol=SX5E |
-| ^GDAXI | DAX | http://en.wikipedia.org/wiki/DAX |
-| ^FCHI | CAC 40 | http://en.wikipedia.org/wiki/CAC_40 |
-| FTSEMIB.MI | FTSE MIB | http://en.wikipedia.org/wiki/FTSE_MIB |
-| ^IBEX | IBEX 35 | http://en.wikipedia.org/wiki/IBEX_35 |
-| ^AEX | AEX | http://en.wikipedia.org/wiki/AEX_index |
+| ^STOXX50E | EURO STOXX 50 | https://www.stoxx.com/indices/index_information.html?symbol=SX5E |
+| ^GDAXI | DAX | https://en.wikipedia.org/wiki/DAX |
+| ^FCHI | CAC 40 | https://en.wikipedia.org/wiki/CAC_40 |
+| FTSEMIB.MI | FTSE MIB | https://en.wikipedia.org/wiki/FTSE_MIB |
+| ^IBEX | IBEX 35 | https://en.wikipedia.org/wiki/IBEX_35 |
+| ^AEX | AEX | https://en.wikipedia.org/wiki/AEX_index |
 
 ## Usage
 
