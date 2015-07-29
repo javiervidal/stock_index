@@ -13,9 +13,7 @@ class StockIndex
 
     def attributes
       attrs = cache_lookup || attributes_lookup
-      unless valid_testing?
-        puts "---- ERROR #{attrs}" unless valid?(attrs)
-      end
+      puts "---- ERROR #{attrs}" unless valid?(attrs)
       attrs
     end
 
@@ -74,16 +72,8 @@ class StockIndex
       end
     end
 
-    def testing?
-      @symbol == 'ZZZZ'
-    end
-
     def valid?(attributes)
       !attributes[:market].nil? && !attributes[:symbol].nil? && !attributes[:name].nil? && !attributes[:wikipedia].nil? && !attributes[:cik].nil? && !attributes[:bbgid].nil?
-    end
-
-    def valid_testing?
-      @market && @symbol
     end
 
   end
