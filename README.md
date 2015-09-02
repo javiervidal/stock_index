@@ -52,28 +52,34 @@ This method returns an array of components. Each component is a Hash with this f
 ```ruby
 {
   :market => 'XNYS',
-  :symbol => 'MMM',
-  :name => '3M CO',
-  :wikipedia => 'http://en.wikipedia.org/wiki/3M',
-  :cik => '0000066740',
-  :bbgid => 'BBG000BP52R2'
+  :share => {
+    :symbol => 'MMM',
+    :name => '3M CO',
+    :bbgid => 'BBG000BP52R2'
+  },
+  :company => {
+    :name => '',
+    :wikipedia => 'http://en.wikipedia.org/wiki/3M',
+    :cik => '0000066740',
+  }
 }
 ```
 
-| Key       | Description |
-| ----------| ----------- |
-| market    | Market symbol according to [ISO 10383](https://github.com/javiervidal/mic) |
-| symbol    | Component symbol |
-| name      | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
-| wikipedia | Link to the wikipedia page of the component, when possible. |
-| cik       | Component CIK (Central Index Key) assigned to the company by the SEC. Only for US components. |
-| bbgid     | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
+| Key                  | Description |
+| ---------------------| ----------- |
+| market               | Market symbol according to [ISO 10383](https://github.com/javiervidal/mic) |
+| share => symbol      | Component symbol |
+| share => name        | Component name according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/) |
+| share => bbgid       | BBGID (Bloomberg Security Identifier) according to [Bloomberg Open Symbology](http://bsym.bloomberg.com/sym/)|
+| company => name      | Company name according to  |
+| company => wikipedia | Link to the wikipedia page of the component, when possible. |
+| company => cik       | Component CIK (Central Index Key) assigned to the company by the SEC. Only for US components. |
 
-The name and cik are obtained querying the [EDGAR database](http://www.sec.gov/edgar/searchedgar/companysearch.html).
+Share's bbgid is obtained from [Bloomberg Open Symbology predefined files](http://bsym.bloomberg.com/sym/).
 
-The bbgid is obtained from [Bloomberg Open Symbology predefined files](http://bsym.bloomberg.com/sym/).
+Company's name, cik, and sic are obtained querying the [EDGAR database](http://www.sec.gov/edgar/searchedgar/companysearch.html). These data is available only for US indices.
 
-The name, cik, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.9.2/libdoc/pstore/rdoc/PStore.html).
+Share's name, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.9.2/libdoc/pstore/rdoc/PStore.html).
 
 ## How to Launch the Console
 

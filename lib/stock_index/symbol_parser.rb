@@ -6,7 +6,7 @@ class SymbolParser
 
   def symbol_to_bsym
     if @symbol
-      @symbol.sub('.', '/')
+      @symbol.sub('-', '/')
     else
       nil
     end
@@ -20,12 +20,15 @@ class SymbolParser
       # BF/B (Brown-Forman Corp)
       when 'BF/B'
         '0000014693'
+      # QRVO (Qorvo, Inc.)
+      # when 'QRVO'
+      #   '0001604778'
       # QVCA (Liberty Interactive Corp)
-      when 'QVCA'
-        '0001355096'
+      # when 'QVCA'
+      #   '0001355096'
       # LMCK (Liberty Media Corp)
-      when 'LMCK'
-        '0001560385'
+      # when 'LMCK'
+      #   '0001560385'
       else
         @symbol
     end

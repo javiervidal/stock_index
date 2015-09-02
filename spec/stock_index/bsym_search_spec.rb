@@ -2,14 +2,6 @@ require 'helper'
 
 describe StockIndex::BsymSearch do
 
-  context 'searching a symbol in EXCEPTIONS' do
-
-    it 'returns the component' do
-      expect(StockIndex::BsymSearch.find('BIDU', :us)).to eq({name: 'BAIDU INC', bbgid: 'BBG000QXWHD1'})
-    end
-
-  end
-
   context 'searching a symbol in the CSV file' do
 
     it 'returns the component' do

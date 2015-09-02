@@ -1,8 +1,10 @@
 # Change Log
 
-## [0.8.4] - not released
+## [0.8.4] - 2015-09-02
 
 ### Changed
+- Component format
+- Updated cached files
 - Remove checking if testing when missing info
 - Update links in README.md
 
@@ -13,6 +15,8 @@
 
 ### Added
 - This CHANGELOG.md file
+- .ruby-version
+- .ruby-gemset
 
 ### Changed
 - Improve README.md

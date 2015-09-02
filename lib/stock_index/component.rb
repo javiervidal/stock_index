@@ -34,25 +34,26 @@ class StockIndex
     end
 
     def attributes_lookup
-      bsym = lookup_bsym
+      bsym = StockIndex::BsymSearch.find(@symbol, @pricing_source)
       cik = lookup_cik
+      puts "   --- #{@symbol} bsym: #{bsym}"
+      puts "   --- #{@symbol} cik: #{cik}"
       return nil unless bsym
-      a = {market: @market, symbol: @symbol, name: bsym[:name], wikipedia: @wikipedia, cik: cik, bbgid: bsym[:bbgid]}
+      a = {
+        market: @market,
+        share: {
+          symbol: @symbol,
+          name: bsym[:name],
+          bbgid: bsym[:bbgid]
+        },
+        company: {wikipedia: @wikipedia}.merge( cik || {} )
+      }
       cache_write(a)
       a
     end
 
     def us?
       @pricing_source == :us
-    end
-
-    def lookup_bsym
-      bsym = StockIndex::BsymSearch.find(@symbol, @pricing_source)
-      if bsym
-        bsym
-      else
-        return nil
-      end
     end
 
     def lookup_cik
@@ -66,14 +67,22 @@ class StockIndex
     def lookup_cik_us
       edgar = Cik.lookup(SymbolParser.new(@symbol).bsym_to_cik)
       if edgar
-        edgar[:cik]
+        {
+          cik: edgar[:cik],
+          name: edgar[:name],
+          sic: edgar[:sic]
+        }
       else
         return nil
       end
     end
 
     def valid?(attributes)
-      !attributes[:market].nil? && !attributes[:symbol].nil? && !attributes[:name].nil? && !attributes[:wikipedia].nil? && !attributes[:cik].nil? && !attributes[:bbgid].nil?
+      !attributes[:market].nil? &&
+      !attributes[:share][:symbol].nil? &&
+      !attributes[:share][:name].nil? &&
+      !attributes[:share][:bbgid].nil? &&
+      !attributes[:company][:wikipedia].nil?
     end
 
   end

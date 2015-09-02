@@ -10,7 +10,7 @@ describe StockIndex::Component do
 
   it 'returns the correct attributes with a valid symbol' do
     component = StockIndex::Component.new('CSCO', 'XNAS', nil)
-    expect(component.attributes_lookup).to eq({:market=>"XNAS", :symbol=>"CSCO", :name=>"CISCO SYSTEMS INC", :wikipedia=>nil, :cik=>"0000858877", :bbgid=>"BBG000C3J3C9"})
+    expect(component.attributes_lookup).to eq({:market=>"XNAS", :share=>{:symbol=>"CSCO", :name=>"CISCO SYSTEMS INC", :bbgid=>"BBG000C3J3C9"}, :company=>{:wikipedia=>nil, :cik=>"0000858877", :name=>"CISCO SYSTEMS, INC.", :sic=>"3576"}})
   end
 
   it 'returns nil with an invalid symbol' do

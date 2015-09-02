@@ -8,6 +8,7 @@ class NasdaqScraper < StockIndex::BaseScraper
   def parse_rows(rows)
     rows.inject([]) do |array, li|
       symbol = /.+\((\w+)\)/.match(li)[1]
+      symbol = 'SWKS' if symbol == 'SKWS' # wikipedia erratum
       market = 'XNAS'
       if symbol && market
         component = StockIndex::Component.new(symbol, market, wikipedia(li))

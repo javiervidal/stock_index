@@ -27,7 +27,7 @@ class StockIndex
     end
 
     def build_wikipedia_link(wikipedia_path)
-      URI::HTTP.build({:host => 'en.wikipedia.org', :path => wikipedia_path}).to_s rescue nil
+      URI::Generic.new('https', nil, 'en.wikipedia.org', nil, nil, wikipedia_path, nil, nil, nil).to_s rescue nil
     end
 
   end

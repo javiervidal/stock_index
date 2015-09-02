@@ -21,11 +21,11 @@ class NikkeiScraper < StockIndex::BaseScraper
   end
 
   def parse_wikipedia_page(wikipedia_doc)
-    wikipedia_doc.css('li').inject({}) do |hash, li|
-      md = li.text.match(/.+\(TYO:\s+(\d{4})/)
+    wikipedia_doc.css('#constituents tr').inject({}) do |hash, tr|
+      md = tr.text.match(/\n(\d{4})\n/)
       if md
         symbol = md[1]
-        link = build_wikipedia_link(li.css('a').first.attributes['href'].value)
+        link = build_wikipedia_link(tr.css('a').first.attributes['href'].value)
         hash[symbol] = link
       end
       hash
