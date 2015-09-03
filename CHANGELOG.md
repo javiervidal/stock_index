@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.8.5] - 2015-09-03
+
+### Changed
+- Tests fixed
+
 ## [0.8.4] - 2015-09-02
 
 ### Changed
