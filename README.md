@@ -103,7 +103,7 @@ Share's name, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.9
 
 ## Code Status
 
-[![Gem Version](http://img.shields.io/badge/gem-v0.8.5-blue.svg)](https://rubygems.org/gems/stock_index)
+[![Gem Version](http://img.shields.io/badge/gem-v0.8.6-blue.svg)](https://rubygems.org/gems/stock_index)
 [![Build Status](https://travis-ci.org/javiervidal/stock_index.svg?branch=master)](https://travis-ci.org/javiervidal/stock_index)
 [![Coverage Status](https://coveralls.io/repos/javiervidal/stock_index/badge.png?branch=master)](https://coveralls.io/r/javiervidal/stock_index?branch=master)
 [![Code Climate](https://codeclimate.com/github/javiervidal/stock_index/badges/gpa.svg)](https://codeclimate.com/github/javiervidal/stock_index)

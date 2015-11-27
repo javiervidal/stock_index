@@ -1,5 +1,11 @@
 # Change Log
 
+## [0.8.6] - 2015-11-27
+
+### Fixed
+- [StockIndex::Component#valid? fails when StockIndex::BsymSearch#find returns nil](https://github.com/javiervidal/stock_index/issues/3)
+- Updated cached files
+
 ## [0.8.5] - 2015-09-03
 
 ### Changed
