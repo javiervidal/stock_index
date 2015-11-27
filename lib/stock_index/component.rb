@@ -36,15 +36,15 @@ class StockIndex
     def attributes_lookup
       bsym = StockIndex::BsymSearch.find(@symbol, @pricing_source)
       cik = lookup_cik
+      puts "   --- #{@symbol} #{@market} #{@wikipedia} #{@pricing_source}"
       puts "   --- #{@symbol} bsym: #{bsym}"
       puts "   --- #{@symbol} cik: #{cik}"
-      return nil unless bsym
       a = {
         market: @market,
         share: {
           symbol: @symbol,
-          name: bsym[:name],
-          bbgid: bsym[:bbgid]
+          name: bsym ? bsym[:name] : nil,
+          bbgid: bsym ? bsym[:bbgid] : nil
         },
         company: {wikipedia: @wikipedia}.merge( cik || {} )
       }
@@ -78,6 +78,7 @@ class StockIndex
     end
 
     def valid?(attributes)
+      return false if attributes.nil?
       !attributes[:market].nil? &&
       !attributes[:share][:symbol].nil? &&
       !attributes[:share][:name].nil? &&
