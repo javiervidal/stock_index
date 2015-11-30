@@ -1,5 +1,10 @@
 # Change Log
 
+## [0.8.7] - 2015-11-39
+
+### Fixed
+- [NIKKEI 225 scraper has stopped working](https://github.com/javiervidal/stock_index/issues/4)
+
 ## [0.8.6] - 2015-11-27
 
 ### Fixed
