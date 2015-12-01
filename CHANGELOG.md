@@ -1,6 +1,11 @@
 # Change Log
 
-## [0.8.7] - 2015-11-39
+## [0.8.8] - 2015-12-01
+
+### Fixed
+- [HPE not found in bsym files](https://github.com/javiervidal/stock_index/issues/5)
+
+## [0.8.7] - 2015-11-30
 
 ### Fixed
 - [NIKKEI 225 scraper has stopped working](https://github.com/javiervidal/stock_index/issues/4)
