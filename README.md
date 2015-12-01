@@ -88,6 +88,14 @@ Share's name, and bbgid are cached using [PStore](http://ruby-doc.org/stdlib-1.9
 ## How to Run the Test Suite
 
     $ rspec
+## How to recreate the cache files
+
+1. Delete the current cache files
+2. From the console:
+
+```ruby
+['^DJI','^GSPC','^NDX','^N225','^FTSE'].each { |index_symbol| StockIndex.new(index_symbol).components }
+```
 
 ## Changelog
 
