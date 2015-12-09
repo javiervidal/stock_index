@@ -52,6 +52,7 @@ class FtseScraper < StockIndex::BaseScraper
       'BA/' => 'https://en.wikipedia.org/wiki/BAE_Systems',
       'BDEV' => 'https://en.wikipedia.org/wiki/Barratt_Developments',
       'BG/' => 'https://en.wikipedia.org/wiki/BG_Group',
+      'BKG' => 'https://en.wikipedia.org/wiki/Berkeley_Group_Holdings',
       'BP/' => 'https://en.wikipedia.org/wiki/BP',
       'BATS' => 'https://en.wikipedia.org/wiki/British_American_Tobacco',
       'BT/A' => 'https://en.wikipedia.org/wiki/BT_Group',
